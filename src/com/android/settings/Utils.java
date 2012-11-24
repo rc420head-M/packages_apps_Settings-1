@@ -84,6 +84,9 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
+import android.util.DisplayMetrics;
+import android.view.DisplayInfo;
+import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.TabWidget;
 
@@ -154,6 +157,15 @@ public final class Utils {
     public static final String OS_PKG = "os";
 
     private static SparseArray<Bitmap> sDarkDefaultUserBitmapCache = new SparseArray<Bitmap>();
+
+    // Device types
+    private static final int DEVICE_PHONE = 0;
+    private static final int DEVICE_HYBRID = 1;
+    private static final int DEVICE_TABLET = 2;
+
+    // Device type reference
+    private static int mDeviceType = -1;
+
 
     /**
      * Finds a matching activity for a preference's intent. If a matching
@@ -461,7 +473,7 @@ public final class Utils {
 
         view.setPaddingRelative(paddingStart, 0, paddingEnd, paddingBottom);
     }
-    
+
     /**
      * Return string resource that best describes combination of tethering
      * options available on this device.
@@ -910,7 +922,7 @@ public final class Utils {
                 context.getSystemService(Context.PERSISTENT_DATA_BLOCK_SERVICE);
         manager.setOemUnlockEnabled(enabled);
     }
-    
+
     /**
      * Returns a circular icon for a user.
      */
@@ -930,8 +942,7 @@ public final class Utils {
         return CircleFramedDrawable.getInstance(context, UserIcons.convertToBitmap(
                 UserIcons.getDefaultUserIcon(user.id, /* light= */ false)));
     }
-    
-    
+
     /**
      * Returns a label for the user, in the form of "User: user name" or "Work profile".
      */
@@ -950,8 +961,6 @@ public final class Utils {
         }
         return context.getResources().getString(R.string.running_process_item_user_label, name);
     }
-
-
 
     /**
      * Return whether or not the user should have a SIM Cards option in Settings.
@@ -1156,7 +1165,6 @@ public final class Utils {
         boolean hasPreferred = hasPreferredActivities(pm, packageName)
                 || hasUsbDefaults(usbManager, packageName);
         int status = pm.getIntentVerificationStatus(packageName, UserHandle.myUserId());
-        // consider a visible current link-handling state to be any explicitly designated behavior
         boolean hasDomainURLsPreference =
                 status != PackageManager.INTENT_FILTER_DOMAIN_VERIFICATION_STATUS_UNDEFINED;
         return context.getString(hasPreferred || hasDomainURLsPreference
@@ -1254,6 +1262,58 @@ public final class Utils {
             Log.e(TAG, "Unable to acquire UserManager");
             return UserHandle.myUserId();
         }
+    }
+
+    private static int getScreenType(Context con) {
+        if (mDeviceType == -1) {
+            WindowManager wm = (WindowManager)con.getSystemService(Context.WINDOW_SERVICE);
+            DisplayInfo outDisplayInfo = new DisplayInfo();
+            wm.getDefaultDisplay().getDisplayInfo(outDisplayInfo);
+            int shortSize = Math.min(outDisplayInfo.logicalHeight, outDisplayInfo.logicalWidth);
+            int shortSizeDp = shortSize * DisplayMetrics.DENSITY_DEFAULT / outDisplayInfo.logicalDensityDpi;
+            if (shortSizeDp < 600) {
+                // 0-599dp: "phone" UI with a separate status & navigation bar
+                mDeviceType =  DEVICE_PHONE;
+            } else if (shortSizeDp < 720) {
+                // 600-719dp: "phone" UI with modifications for larger screens
+                mDeviceType = DEVICE_HYBRID;
+            } else {
+                // 720dp: "tablet" UI with a single combined status & navigation bar
+                mDeviceType = DEVICE_TABLET;
+            }
+        }
+        return mDeviceType;
+    }
+
+    public static boolean isPhone(Context con) {
+        return getScreenType(con) == DEVICE_PHONE;
+    }
+
+    public static boolean isHybrid(Context con) {
+        return getScreenType(con) == DEVICE_HYBRID;
+    }
+
+    public static boolean isTablet(Context con) {
+        return getScreenType(con) == DEVICE_TABLET;
+    }
+
+    public static boolean isPackageInstalled(Context context, String pkg, boolean ignoreState) {
+        if (pkg != null) {
+            try {
+                PackageInfo pi = context.getPackageManager().getPackageInfo(pkg, 0);
+                if (!pi.applicationInfo.enabled && !ignoreState) {
+                    return false;
+                }
+            } catch (NameNotFoundException e) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean isPackageInstalled(Context context, String pkg) {
+        return isPackageInstalled(context, pkg, true);
     }
 
     public static String getServiceStateString(int state, Resources res) {

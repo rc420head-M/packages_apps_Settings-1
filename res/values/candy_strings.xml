@@ -1127,4 +1127,9 @@
     <string name="battery_fully_charged_notif_title">Battery fully charged notification</string>
     <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
 
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Show CPU info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+
 </resources>

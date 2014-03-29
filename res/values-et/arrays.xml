@@ -123,24 +123,13 @@
     <!-- no translation found for wifi_security_no_eap:2 (1968820975358150484) -->
     <!-- no translation found for wifi_ap_security:0 (5251664683198623324) -->
     <!-- no translation found for wifi_ap_security:1 (7989073072260294673) -->
+    <!-- no translation found for wifi_ap_security:2 (3112452131886885338) -->
   <string-array name="wifi_eap_method">
     <item msgid="1160193392455075561">"PEAP"</item>
     <item msgid="7981731051382306293">"TLS"</item>
     <item msgid="2892994535305020162">"TTLS"</item>
     <item msgid="435667726254379514">"PWD"</item>
-    <item msgid="8549485714107012129">"SIM"</item>
-    <item msgid="1023893786681286517">"AKA"</item>
-    <item msgid="3030483188676375009">"AKA\'"</item>
   </string-array>
-  <string-array name="eap_method_without_sim_auth">
-    <item msgid="4047867891913819797">"PEAP"</item>
-    <item msgid="641030570679578504">"TLS"</item>
-    <item msgid="3079489731769553856">"TTLS"</item>
-    <item msgid="35269224158638258">"PWD"</item>
-  </string-array>
-    <!-- no translation found for wifi_ap_band_config_full:0 (1085243288162893079) -->
-    <!-- no translation found for wifi_ap_band_config_full:1 (5531376834915607202) -->
-    <!-- no translation found for wifi_ap_band_config_2G_only:0 (7006771583217001015) -->
   <string-array name="wifi_p2p_wps_setup">
     <item msgid="5085064298144493867">"Vajutusnupp"</item>
     <item msgid="1624323946324499595">"PIN-kood partnerseadmest"</item>
@@ -168,25 +157,21 @@
   <string-array name="wifi_sleep_policy_entries">
     <item msgid="3269131034472904310">"Alati"</item>
     <item msgid="844721238536786870">"Ainult siis, kui on ühendatud"</item>
-    <item msgid="1986753720941888596">"Mitte kunagi"</item>
+    <item msgid="2990218920631468642">"Mitte kunagi (suurendab andmekasutust)"</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries_wifi_only">
     <item msgid="2124319326282651391">"Alati"</item>
     <item msgid="7433294150916905997">"Ainult siis, kui on ühendatud"</item>
     <item msgid="1390404486722375028">"Mitte kunagi"</item>
   </string-array>
-  <string-array name="data_usage_data_range">
-    <item msgid="5013973108901348144">"Viimased 30 päeva"</item>
-    <item msgid="6600989128423965319">"Kas. tsükli määramine ..."</item>
-  </string-array>
   <string-array name="wifi_frequency_band_entries">
-    <item msgid="1013988753804838790">"Automaatne"</item>
+    <item msgid="624340809384223320">"Automaatne"</item>
     <item msgid="6670588712989942178">"Ainult 5 GHz"</item>
     <item msgid="2715516524973207876">"Ainult 2,4 GHz"</item>
   </string-array>
   <string-array name="usage_stats_display_order_types">
     <item msgid="2100172576767439288">"Kasutusaeg"</item>
-    <item msgid="4796160515314745154">"Viimane kasutamine"</item>
+    <item msgid="3703676222230317933">"Käivita loendus"</item>
     <item msgid="2502754479975776899">"Rakenduse nimi"</item>
   </string-array>
   <string-array name="wifi_eap_entries">
@@ -214,7 +199,11 @@
   <string-array name="wifi_proxy_settings">
     <item msgid="4473276491748503377">"Puudub"</item>
     <item msgid="8673874894887358090">"Käsitsi"</item>
-    <item msgid="168893341855953140">"Puhvers. autom. seadistus"</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item msgid="5165439859689033665">"Väljas"</item>
+    <item msgid="3165868966179561687">"Märguanne"</item>
+    <item msgid="6038758039030476855">"Vibreeri"</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item msgid="3856896061242872146">"Puudub"</item>
@@ -228,22 +217,9 @@
     <item msgid="8084938354605535381">"IPv4/IPv6"</item>
   </string-array>
   <string-array name="bearer_entries">
-    <item msgid="1697455674244601285">"Määramata"</item>
-    <item msgid="1317061551798123908">"LTE"</item>
-    <item msgid="5005435684511894770">"HSPAP"</item>
-    <item msgid="7700603056475539235">"HSPA"</item>
-    <item msgid="245973007602397887">"HSUPA"</item>
-    <item msgid="6291566767651194016">"HSDPA"</item>
-    <item msgid="2005841400859926251">"UMTS"</item>
-    <item msgid="3757385691174882861">"EDGE"</item>
-    <item msgid="2979115073474306864">"GPRS"</item>
-    <item msgid="2271750502778879106">"eHRPD"</item>
-    <item msgid="4173379084783381337">"EVDO_B"</item>
-    <item msgid="2033682802005776093">"EVDO_A"</item>
-    <item msgid="5753917125831466719">"EVDO_0"</item>
-    <item msgid="4713807936577071142">"1xRTT"</item>
-    <item msgid="1142355797022021906">"IS95B"</item>
-    <item msgid="7471182818083460781">"IS95A"</item>
+    <item msgid="1770285336669531300">"LTE"</item>
+    <item msgid="3044323519470167625">"eHRPD"</item>
+    <item msgid="6848428671997893147">"Määramata"</item>
   </string-array>
   <string-array name="mvno_type_entries">
     <item msgid="4367119357633573465">"Puudub"</item>
@@ -307,13 +283,6 @@
     <item msgid="2029227495214047094">"hoia ärkvel"</item>
     <item msgid="26109888160231211">"monitori asukoht"</item>
     <item msgid="5753382310468855812">"suure võimsusega asukoha jälgimine"</item>
-    <item msgid="3356591542543137332">"kasutusstatistika hankimine"</item>
-    <item msgid="3073734345226842233">"mikrofoni vaigistamine või vaigistuse tühistamine"</item>
-    <item msgid="1148142988678569310">"meediumi projitseerimine"</item>
-    <item msgid="9130014005474445273">"VPN-i aktiveerimine"</item>
-    <item msgid="1165192162975045562">"taustapilt kirjutamiseks"</item>
-    <item msgid="7129487923652967258">"abistruktuur"</item>
-    <item msgid="1069023208100114540">"abistav ekraanipilt"</item>
   </string-array>
   <string-array name="app_ops_labels">
     <item msgid="6602854600289714121">"Asukoht"</item>
@@ -330,15 +299,15 @@
     <item msgid="2154671955760380322">"Märguande postitamine"</item>
     <item msgid="4282477730595931828">"Asukoht"</item>
     <item msgid="4891423912898525905">"Helistamine telefonile"</item>
-    <item msgid="2623604824935968113">"SMS-i/MMS-i lugemine"</item>
-    <item msgid="4420177125221176306">"SMS-i/MMS-i kirjutamine"</item>
+    <item msgid="626463821668200388">"SMS-i/MMS-i vastuvõtmine"</item>
+    <item msgid="1237538540368797101">"SMS-i/MMS-i saatmine"</item>
     <item msgid="3986142739951490025">"SMS-i/MMS-i vastuvõtmine"</item>
     <item msgid="3984213795861739778">"SMS-i/MMS-i vastuvõtmine"</item>
     <item msgid="3656243523752472788">"SMS-i/MMS-i vastuvõtmine"</item>
     <item msgid="8105802370238551510">"SMS-i/MMS-i vastuvõtmine"</item>
     <item msgid="1407766984645388488">"SMS-i/MMS-i saatmine"</item>
-    <item msgid="3527273606643794973">"SMS-i/MMS-i lugemine"</item>
-    <item msgid="4370895547001583812">"SMS-i/MMS-i kirjutamine"</item>
+    <item msgid="1530132603376027248">"SMS-i/MMS-i vastuvõtmine"</item>
+    <item msgid="1188256962149204607">"SMS-i/MMS-i saatmine"</item>
     <item msgid="4218544235221631789">"Seadete muutmine"</item>
     <item msgid="736541391767350377">"Peale joonistamine"</item>
     <item msgid="5530815681721654194">"Juurdepääsumärguanded"</item>
@@ -359,13 +328,6 @@
     <item msgid="4665183401128289653">"Hoia ärkvel"</item>
     <item msgid="8584357129746649222">"Asukoht"</item>
     <item msgid="7669257279311110599">"Asukoht"</item>
-    <item msgid="3459320345690097795">"Kasutusstatistika hankimine"</item>
-    <item msgid="1312534577834048535">"Mikrofoni vaigistamine või vaigistuse tühistamine"</item>
-    <item msgid="5906017727368097853">"Meediumi projitseerimine"</item>
-    <item msgid="2486614710846178542">"VPN-i aktiveerimine"</item>
-    <item msgid="5586547561693629602">"Taustapilt kirjutamiseks"</item>
-    <item msgid="32794179825485062">"Abistruktuur"</item>
-    <item msgid="7872852746938272552">"Abistav ekraanipilt"</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item msgid="3511504869290423954">"Lühike"</item>
@@ -376,12 +338,8 @@
     <item msgid="1319652728542138112">"Vaikimisi"</item>
     <item msgid="1016452621833735880">"Sans-serif"</item>
     <item msgid="2496277987934654454">"Sans-serif, tihendatud"</item>
-    <item msgid="7247838127505318669">"Seriifideta püsisammkiri"</item>
-    <item msgid="4478414822462359763">"Seriifidega"</item>
-    <item msgid="7502451783483660829">"Seriifidega püsisammkiri"</item>
-    <item msgid="639503332147461010">"Lihtne"</item>
-    <item msgid="7967169925231332424">"Kursiiv"</item>
-    <item msgid="561832997193039673">"Kapiteelkiri"</item>
+    <item msgid="4406003087391086325">"Serif"</item>
+    <item msgid="1558362802170124073">"Püsisammkiri"</item>
   </string-array>
   <string-array name="captioning_font_size_selector_titles">
     <item msgid="4800919809575254054">"Väga väike"</item>
@@ -391,12 +349,9 @@
     <item msgid="9044232017390975191">"Väga suur"</item>
   </string-array>
   <string-array name="captioning_edge_type_selector_titles">
-    <item msgid="4733815704128258753">"Vaikeseade"</item>
-    <item msgid="3217099060748617005">"Puudub"</item>
-    <item msgid="7467615139904599420">"Piirjoon"</item>
-    <item msgid="5623165557468608975">"Langev vari"</item>
-    <item msgid="8088451174058214588">"Tõstetud"</item>
-    <item msgid="3821418743395480313">"Lohkus"</item>
+    <item msgid="6022616153255438487">"Puudub"</item>
+    <item msgid="1352974708028506778">"Piirjoon"</item>
+    <item msgid="5850876295428722675">"Langev vari"</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item msgid="7622491218136667566">"25%"</item>
@@ -404,32 +359,17 @@
     <item msgid="5395560410107149298">"75%"</item>
     <item msgid="8342334626783983353">"100%"</item>
   </string-array>
-  <string-array name="captioning_preset_selector_titles">
-    <item msgid="7009918361545506251">"Kasuta vaikeseadeid"</item>
-    <item msgid="1770533843436933500">"Valge mustal"</item>
-    <item msgid="758587126802411846">"Must valgel"</item>
-    <item msgid="1495307195241623402">"Kollane mustal"</item>
-    <item msgid="6039700130994371612">"Kollane sinisel"</item>
-    <item msgid="7169235156349580064">"Kohandatud"</item>
+    <!-- no translation found for captioning_preset_selector_titles:0 (1630625150404038035) -->
+    <!-- no translation found for captioning_preset_selector_titles:1 (4589278788192525675) -->
+  <string-array name="select_runtime_titles">
+    <item msgid="3574453009229338122">"Dalvik"</item>
+    <item msgid="8978402910750533864">"ART"</item>
+    <item msgid="7839859333977894115">"ART (silumine)"</item>
   </string-array>
-  <string-array name="select_logd_size_titles">
-    <item msgid="3100534874529240291">"64 000"</item>
-    <item msgid="505611754508988476">"256 000"</item>
-    <item msgid="6361286924268716397">"1 000 000"</item>
-    <item msgid="6405203239560695266">"4 000 000"</item>
-    <item msgid="3025431211013424097">"16 000 000"</item>
-  </string-array>
-  <string-array name="select_logd_size_lowram_titles">
-    <item msgid="524799395770610154">"64 000"</item>
-    <item msgid="3534782711045262344">"256 000"</item>
-    <item msgid="8085867209202153403">"1 000 000"</item>
-  </string-array>
-  <string-array name="select_logd_size_summaries">
-    <item msgid="7346595473588765019">"64 k / logipuhver"</item>
-    <item msgid="2822309747675758628">"256 k / logipuhver"</item>
-    <item msgid="6699306198357496731">"1 mln / logipuhver"</item>
-    <item msgid="5748528643937500349">"4 mln / logipuhver"</item>
-    <item msgid="1978629051085111592">"16 mln / logipuhver"</item>
+  <string-array name="select_runtime_summaries">
+    <item msgid="6412880178297884701">"Kasuta tarkvara Dalvik"</item>
+    <item msgid="5131846588686178907">"Kasuta valikut ART"</item>
+    <item msgid="4530003713865319928">"Kasuta valiku ART silumisjärku"</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item msgid="441827799230089869">"Ära kunagi kontrolli"</item>
@@ -470,17 +410,13 @@
   </string-array>
   <string-array name="overlay_display_devices_entries">
     <item msgid="1606809880904982133">"Puudub"</item>
-    <item msgid="9033194758688161545">"480p"</item>
-    <item msgid="1025306206556583600">"480p (turvaline)"</item>
-    <item msgid="1853913333042744661">"720p"</item>
-    <item msgid="3414540279805870511">"720p (turvaline)"</item>
-    <item msgid="9039818062847141551">"1080p"</item>
-    <item msgid="4939496949750174834">"1080p (turvaline)"</item>
-    <item msgid="1833612718524903568">"4K"</item>
-    <item msgid="238303513127879234">"4K (turvaline)"</item>
-    <item msgid="3547211260846843098">"4K (üles skaleeritud)"</item>
-    <item msgid="5411365648951414254">"4K (üles skaleeritud, turvaline)"</item>
-    <item msgid="1311305077526792901">"720p, 1080p (kahel ekraanil)"</item>
+    <item msgid="688482401508173818">"720 x 480 mdpi"</item>
+    <item msgid="6027541158956821790">"720 x 480 mdpi (turvaline)"</item>
+    <item msgid="8181151155909301030">"1280 x 720 tvdpi"</item>
+    <item msgid="2920655562462493148">"1280 x 720 tvdpi (turvaline)"</item>
+    <item msgid="8910371271391940941">"1920 x 1080 xhdpi"</item>
+    <item msgid="4171600481380800455">"1920 x 1080 xhdpi (turvaline)"</item>
+    <item msgid="1937752114395156918">"1280 x 720 tvdpi, 1920 x 1080 xhdpi"</item>
   </string-array>
   <string-array name="enable_opengl_traces_entries">
     <item msgid="3191973083884253830">"Puudub"</item>
@@ -496,12 +432,13 @@
   <string-array name="track_frame_time_entries">
     <item msgid="2193584639058893150">"Väljas"</item>
     <item msgid="2751513398307949636">"Ekraanil ribadena"</item>
-    <item msgid="1851438178120770973">"Adb-kestas dumpsys gfxinfo"</item>
+    <item msgid="8272260411216018353">"Ekraanil joontena"</item>
+    <item msgid="120512413928262547">"Adb-kestas dumpsys gfxinfo"</item>
   </string-array>
   <string-array name="debug_hw_overdraw_entries">
     <item msgid="8190572633763871652">"Väljas"</item>
     <item msgid="7688197031296835369">"Kuva ülejoonistatud alad"</item>
-    <item msgid="2290859360633824369">"Deuteranomaly jaoks alade kuvamine"</item>
+    <item msgid="8332661909019981149">"Kuva ülejoonistuse loendur"</item>
   </string-array>
   <string-array name="app_process_limit_entries">
     <item msgid="3401625457385943795">"Standardpiir"</item>
@@ -533,41 +470,9 @@
     <item msgid="1417929597727989746">"Luba alati"</item>
   </string-array>
   <string-array name="ram_states">
-    <item msgid="3944681673818150669">"Tavaline"</item>
-    <item msgid="3256987280393708586">"Keskmine"</item>
-    <item msgid="4662917179231875995">"Madal"</item>
-    <item msgid="5264929699714647509">"Kriitiline"</item>
-    <item msgid="5606155978847838966">"?"</item>
+    <item msgid="7088762389498381203">"tavaline"</item>
+    <item msgid="4517779899383204000">"mõõdukas"</item>
+    <item msgid="406385694840950802">"madal"</item>
+    <item msgid="4212263919458209842">"kriitiline"</item>
   </string-array>
-  <string-array name="proc_stats_memory_states">
-    <item msgid="8845855295876909468">"Tavaline"</item>
-    <item msgid="866544120205026771">"Mõõdukas"</item>
-    <item msgid="7851902244436886890">"Väike"</item>
-    <item msgid="3022922196817563960">"Kriitiline"</item>
-  </string-array>
-  <string-array name="proc_stats_process_states">
-    <item msgid="5069825997142785829">"Püsiv"</item>
-    <item msgid="5779398140277006695">"Sagedasim tegevus"</item>
-    <item msgid="1439598363694578255">"Oluline (esiplaanil)"</item>
-    <item msgid="3396458970745718652">"Oluline (taustal)"</item>
-    <item msgid="5214825238247511992">"Varundamine"</item>
-    <item msgid="311372689168254967">"Mahukas"</item>
-    <item msgid="7438189122367820362">"Teenus (töötamine)"</item>
-    <item msgid="918687422516982498">"Teenus (taaskäivitamine)"</item>
-    <item msgid="6807727069641853029">"Vastuvõtja"</item>
-    <item msgid="6782857406100845127">"Avakuva"</item>
-    <item msgid="2860945127596974299">"Viimane tegevus"</item>
-    <item msgid="8610560843693675830">"Vahemälus (tegevus)"</item>
-    <item msgid="4338089220026248848">"Vahemälus (tegevuse klient)"</item>
-    <item msgid="6652164677254579050">"Vahemälus (tühi)"</item>
-  </string-array>
-  <string-array name="color_picker">
-    <item msgid="7631642672260600032">"Sinakasroheline"</item>
-    <item msgid="8332294763632946560">"Sinine"</item>
-    <item msgid="2023216417616991392">"Indigosinine"</item>
-    <item msgid="3170497246594232819">"Lilla"</item>
-    <item msgid="4608643045752965568">"Roosa"</item>
-    <item msgid="6131821495505931173">"Punane"</item>
-  </string-array>
-    <!-- no translation found for usb_configuration_titles:0 (292902998500371970) -->
 </resources>

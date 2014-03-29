@@ -66,7 +66,7 @@
     <item msgid="8166647333858618801">"Փոքր"</item>
     <item msgid="1932071435506638315">"Սովորական"</item>
     <item msgid="38373998008112077">"Մեծ"</item>
-    <item msgid="7786168277516233536">"Հսկայական"</item>
+    <item msgid="7786168277516233536">"Վիթխարի"</item>
   </string-array>
   <string-array name="tts_rate_entries">
     <item msgid="6041212618892492920">"Շատ դանդաղ"</item>
@@ -123,24 +123,13 @@
     <!-- no translation found for wifi_security_no_eap:2 (1968820975358150484) -->
     <!-- no translation found for wifi_ap_security:0 (5251664683198623324) -->
     <!-- no translation found for wifi_ap_security:1 (7989073072260294673) -->
+    <!-- no translation found for wifi_ap_security:2 (3112452131886885338) -->
   <string-array name="wifi_eap_method">
     <item msgid="1160193392455075561">"PEAP"</item>
     <item msgid="7981731051382306293">"TLS"</item>
     <item msgid="2892994535305020162">"TTLS"</item>
     <item msgid="435667726254379514">"PWD"</item>
-    <item msgid="8549485714107012129">"SIM"</item>
-    <item msgid="1023893786681286517">"AKA"</item>
-    <item msgid="3030483188676375009">"AKA\'"</item>
   </string-array>
-  <string-array name="eap_method_without_sim_auth">
-    <item msgid="4047867891913819797">"PEAP"</item>
-    <item msgid="641030570679578504">"TLS"</item>
-    <item msgid="3079489731769553856">"TTLS"</item>
-    <item msgid="35269224158638258">"PWD"</item>
-  </string-array>
-    <!-- no translation found for wifi_ap_band_config_full:0 (1085243288162893079) -->
-    <!-- no translation found for wifi_ap_band_config_full:1 (5531376834915607202) -->
-    <!-- no translation found for wifi_ap_band_config_2G_only:0 (7006771583217001015) -->
   <string-array name="wifi_p2p_wps_setup">
     <item msgid="5085064298144493867">"Սեղմման կոճակ"</item>
     <item msgid="1624323946324499595">"Հավասարազոր սարքի PIN-ը"</item>
@@ -168,25 +157,21 @@
   <string-array name="wifi_sleep_policy_entries">
     <item msgid="3269131034472904310">"Միշտ"</item>
     <item msgid="844721238536786870">"Միայն երբ միացված է"</item>
-    <item msgid="1986753720941888596">"Երբեք"</item>
+    <item msgid="2990218920631468642">"Երբեք (մեծացնում է տվյալների օգտագործումը)"</item>
   </string-array>
   <string-array name="wifi_sleep_policy_entries_wifi_only">
     <item msgid="2124319326282651391">"Միշտ"</item>
     <item msgid="7433294150916905997">"Միայն երբ միացված է"</item>
     <item msgid="1390404486722375028">"Երբեք"</item>
   </string-array>
-  <string-array name="data_usage_data_range">
-    <item msgid="5013973108901348144">"Վերջին 30 օրում"</item>
-    <item msgid="6600989128423965319">"Սահմանել օգտագործման ցիկլը..."</item>
-  </string-array>
   <string-array name="wifi_frequency_band_entries">
-    <item msgid="1013988753804838790">"Ինքնուրույն"</item>
+    <item msgid="624340809384223320">"Ինքնաշխատ"</item>
     <item msgid="6670588712989942178">"Միայն 5 ԳՀց"</item>
     <item msgid="2715516524973207876">"միայն 2.4 ԳՀց"</item>
   </string-array>
   <string-array name="usage_stats_display_order_types">
     <item msgid="2100172576767439288">"Օգտագործման ժամանակը"</item>
-    <item msgid="4796160515314745154">"Վերջին օգտագործումը"</item>
+    <item msgid="3703676222230317933">"Գործարկումների թիվը"</item>
     <item msgid="2502754479975776899">"Ծրագրի անունը"</item>
   </string-array>
   <string-array name="wifi_eap_entries">
@@ -214,7 +199,11 @@
   <string-array name="wifi_proxy_settings">
     <item msgid="4473276491748503377">"Ոչ մեկը"</item>
     <item msgid="8673874894887358090">"Ձեռքով"</item>
-    <item msgid="168893341855953140">"Պրոքսիի ինքնակարգավորում"</item>
+  </string-array>
+  <string-array name="emergency_tone_entries">
+    <item msgid="5165439859689033665">"Անջատել"</item>
+    <item msgid="3165868966179561687">"Ահազանգ"</item>
+    <item msgid="6038758039030476855">"Թրթռալ"</item>
   </string-array>
   <string-array name="apn_auth_entries">
     <item msgid="3856896061242872146">"Ոչ մեկը"</item>
@@ -228,22 +217,9 @@
     <item msgid="8084938354605535381">"IPv4/IPv6"</item>
   </string-array>
   <string-array name="bearer_entries">
-    <item msgid="1697455674244601285">"Նշված չէ"</item>
-    <item msgid="1317061551798123908">"LTE"</item>
-    <item msgid="5005435684511894770">"HSPAP"</item>
-    <item msgid="7700603056475539235">"HSPA"</item>
-    <item msgid="245973007602397887">"HSUPA"</item>
-    <item msgid="6291566767651194016">"HSDPA"</item>
-    <item msgid="2005841400859926251">"UMTS"</item>
-    <item msgid="3757385691174882861">"EDGE"</item>
-    <item msgid="2979115073474306864">"GPRS"</item>
-    <item msgid="2271750502778879106">"eHRPD"</item>
-    <item msgid="4173379084783381337">"EVDO_B"</item>
-    <item msgid="2033682802005776093">"EVDO_A"</item>
-    <item msgid="5753917125831466719">"EVDO_0"</item>
-    <item msgid="4713807936577071142">"1xRTT"</item>
-    <item msgid="1142355797022021906">"IS95B"</item>
-    <item msgid="7471182818083460781">"IS95A"</item>
+    <item msgid="1770285336669531300">"LTE"</item>
+    <item msgid="3044323519470167625">"eHRPD"</item>
+    <item msgid="6848428671997893147">"Տարբերակված չէ"</item>
   </string-array>
   <string-array name="mvno_type_entries">
     <item msgid="4367119357633573465">"Ոչ մեկը"</item>
@@ -307,13 +283,6 @@
     <item msgid="2029227495214047094">"արթուն պահել"</item>
     <item msgid="26109888160231211">"վերահսկել տեղադրությունը"</item>
     <item msgid="5753382310468855812">"մշտադիտարկել էներգատար տեղանքները"</item>
-    <item msgid="3356591542543137332">"ստանալ օգտագործման վիճակագրությունը"</item>
-    <item msgid="3073734345226842233">"խոսափողն անջատել/միացնել"</item>
-    <item msgid="1148142988678569310">"տեսարձակել մեդիան"</item>
-    <item msgid="9130014005474445273">"ակտիվացնել VPN-ը"</item>
-    <item msgid="1165192162975045562">"պաստառների պահում"</item>
-    <item msgid="7129487923652967258">"օժանդակ կառույց"</item>
-    <item msgid="1069023208100114540">"օժանդակ էկրանի պատկեր"</item>
   </string-array>
   <string-array name="app_ops_labels">
     <item msgid="6602854600289714121">"Տեղակայում"</item>
@@ -330,15 +299,15 @@
     <item msgid="2154671955760380322">"Փակցնել ծանուցում"</item>
     <item msgid="4282477730595931828">"Տեղադրություն"</item>
     <item msgid="4891423912898525905">"Հեռախոս"</item>
-    <item msgid="2623604824935968113">"Կարդալ SMS/MMS"</item>
-    <item msgid="4420177125221176306">"Գրել SMS/MMS"</item>
+    <item msgid="626463821668200388">"Ստանալ SMS/MMS"</item>
+    <item msgid="1237538540368797101">"Ուղարկել SMS/MMS"</item>
     <item msgid="3986142739951490025">"Ստանալ SMS/MMS"</item>
     <item msgid="3984213795861739778">"Ստանալ SMS/MMS"</item>
     <item msgid="3656243523752472788">"Ստանալ SMS/MMS"</item>
     <item msgid="8105802370238551510">"Ստանալ SMS/MMS"</item>
     <item msgid="1407766984645388488">"Ուղարկել SMS/MMS"</item>
-    <item msgid="3527273606643794973">"Կարդալ SMS/MMS"</item>
-    <item msgid="4370895547001583812">"Գրել SMS/MMS"</item>
+    <item msgid="1530132603376027248">"Ստանալ SMS/MMS"</item>
+    <item msgid="1188256962149204607">"Ուղարկել SMS/MMS"</item>
     <item msgid="4218544235221631789">"Փոփոխել կարգավորումները"</item>
     <item msgid="736541391767350377">"Պատկերել վերևի մասում"</item>
     <item msgid="5530815681721654194">"Մուտք գործել ծանուցումներ"</item>
@@ -359,13 +328,6 @@
     <item msgid="4665183401128289653">"Արթուն պահել"</item>
     <item msgid="8584357129746649222">"Տեղադրություն"</item>
     <item msgid="7669257279311110599">"Տեղադրություն"</item>
-    <item msgid="3459320345690097795">"Ստանալ օգտագործման վիճակագրությունը"</item>
-    <item msgid="1312534577834048535">"Խոսափողն անջատել/միացնել"</item>
-    <item msgid="5906017727368097853">"Տեսարձակել մեդիան"</item>
-    <item msgid="2486614710846178542">"Ակտիվացնել VPN-ը"</item>
-    <item msgid="5586547561693629602">"Պաստառների պահում"</item>
-    <item msgid="32794179825485062">"Օժանդակ կառույց"</item>
-    <item msgid="7872852746938272552">"Օժանդակ էկրանի պատկեր"</item>
   </string-array>
   <string-array name="long_press_timeout_selector_titles">
     <item msgid="3511504869290423954">"Կարճաժամկետ"</item>
@@ -376,12 +338,8 @@
     <item msgid="1319652728542138112">"Լռելյայն"</item>
     <item msgid="1016452621833735880">"Sans-serif"</item>
     <item msgid="2496277987934654454">"Sans-serif խտացրած"</item>
-    <item msgid="7247838127505318669">"Sans-serif միալայնք"</item>
-    <item msgid="4478414822462359763">"Serif"</item>
-    <item msgid="7502451783483660829">"Serif միալայնք"</item>
-    <item msgid="639503332147461010">"Առօրյա"</item>
-    <item msgid="7967169925231332424">"Ձեռագիր"</item>
-    <item msgid="561832997193039673">"Փոքր մեծատառեր"</item>
+    <item msgid="4406003087391086325">"Serif"</item>
+    <item msgid="1558362802170124073">"Monospace"</item>
   </string-array>
   <string-array name="captioning_font_size_selector_titles">
     <item msgid="4800919809575254054">"Շատ փոքր"</item>
@@ -391,12 +349,9 @@
     <item msgid="9044232017390975191">"Շատ մեծ"</item>
   </string-array>
   <string-array name="captioning_edge_type_selector_titles">
-    <item msgid="4733815704128258753">"Կանխադրված"</item>
-    <item msgid="3217099060748617005">"Ոչ մեկը"</item>
-    <item msgid="7467615139904599420">"Ուրվագիծ"</item>
-    <item msgid="5623165557468608975">"Ստվեր"</item>
-    <item msgid="8088451174058214588">"Ուռուցիկ"</item>
-    <item msgid="3821418743395480313">"Ճնշված"</item>
+    <item msgid="6022616153255438487">"Ոչինչ"</item>
+    <item msgid="1352974708028506778">"Ուրվագիծ"</item>
+    <item msgid="5850876295428722675">"Ստվեր"</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item msgid="7622491218136667566">"25%"</item>
@@ -405,31 +360,21 @@
     <item msgid="8342334626783983353">"100%"</item>
   </string-array>
   <string-array name="captioning_preset_selector_titles">
-    <item msgid="7009918361545506251">"Օգտագործել ծրագրի կանխադրվածները"</item>
-    <item msgid="1770533843436933500">"Սպիտակը սևի վրա"</item>
-    <item msgid="758587126802411846">"Սևը սպիտակի վրա"</item>
-    <item msgid="1495307195241623402">"Դեղինը սևի վրա"</item>
-    <item msgid="6039700130994371612">"Դեղինը կապույտի վրա"</item>
-    <item msgid="7169235156349580064">"Հատուկ"</item>
+    <item msgid="1630625150404038035">"Սպիտակը սևի վրա"</item>
+    <item msgid="4589278788192525675">"Սևը սպիտակի վրա"</item>
+    <item msgid="1309255027325660115">"Դեղինը սևի վրա"</item>
+    <item msgid="2985943780939258562">"Դեղինը կապույտի վրա"</item>
+    <item msgid="7520438652121629055">"Հատուկ"</item>
   </string-array>
-  <string-array name="select_logd_size_titles">
-    <item msgid="3100534874529240291">"64ԿԲ"</item>
-    <item msgid="505611754508988476">"256ԿԲ"</item>
-    <item msgid="6361286924268716397">"1ՄԲ"</item>
-    <item msgid="6405203239560695266">"4ՄԲ"</item>
-    <item msgid="3025431211013424097">"16ՄԲ"</item>
+  <string-array name="select_runtime_titles">
+    <item msgid="3574453009229338122">"Dalvik"</item>
+    <item msgid="8978402910750533864">"ART"</item>
+    <item msgid="7839859333977894115">"ART (վրիպազերծում)"</item>
   </string-array>
-  <string-array name="select_logd_size_lowram_titles">
-    <item msgid="524799395770610154">"64ԿԲ"</item>
-    <item msgid="3534782711045262344">"256ԿԲ"</item>
-    <item msgid="8085867209202153403">"1ՄԲ"</item>
-  </string-array>
-  <string-array name="select_logd_size_summaries">
-    <item msgid="7346595473588765019">"Պահնակ՝ առավ. 64ԿԲ"</item>
-    <item msgid="2822309747675758628">"Պահնակ՝ առավ. 256ԿԲ"</item>
-    <item msgid="6699306198357496731">"Պահնակ՝ առավ. 1ՄԲ"</item>
-    <item msgid="5748528643937500349">"Պահնակ՝ առավ. 4ՄԲ"</item>
-    <item msgid="1978629051085111592">"Պահնակ՝ առավ. 16ՄԲ"</item>
+  <string-array name="select_runtime_summaries">
+    <item msgid="6412880178297884701">"Օգտագործել Dalvik"</item>
+    <item msgid="5131846588686178907">"Օգտագործել ART"</item>
+    <item msgid="4530003713865319928">"Օգտագործել ART վրիպազերծման ծրագրատարբերակը"</item>
   </string-array>
   <string-array name="hdcp_checking_titles">
     <item msgid="441827799230089869">"Երբեք չստուգել"</item>
@@ -470,17 +415,13 @@
   </string-array>
   <string-array name="overlay_display_devices_entries">
     <item msgid="1606809880904982133">"Ոչ մեկը"</item>
-    <item msgid="9033194758688161545">"480p"</item>
-    <item msgid="1025306206556583600">"480p (ապահով)"</item>
-    <item msgid="1853913333042744661">"720p"</item>
-    <item msgid="3414540279805870511">"720p (ապահով)"</item>
-    <item msgid="9039818062847141551">"1080p"</item>
-    <item msgid="4939496949750174834">"1080p (ապահով)"</item>
-    <item msgid="1833612718524903568">"4K"</item>
-    <item msgid="238303513127879234">"4K (ապահով)"</item>
-    <item msgid="3547211260846843098">"4K (մասշտաբավորված)"</item>
-    <item msgid="5411365648951414254">"4K (մասշտաբավորված, ապահով)"</item>
-    <item msgid="1311305077526792901">"720p, 1080p (երկէկրան)"</item>
+    <item msgid="688482401508173818">"720x480 mdpi"</item>
+    <item msgid="6027541158956821790">"720x480 mdpi (անվտանգ)"</item>
+    <item msgid="8181151155909301030">"1280x720 tvdpi"</item>
+    <item msgid="2920655562462493148">"1280x720 tvdpi (անվտանգ)"</item>
+    <item msgid="8910371271391940941">"1920x1080 xhdpi"</item>
+    <item msgid="4171600481380800455">"1920x1080 xhdpi (անվտանգ)"</item>
+    <item msgid="1937752114395156918">"1280x720 tvdpi և 1920x1080 xhdpi"</item>
   </string-array>
   <string-array name="enable_opengl_traces_entries">
     <item msgid="3191973083884253830">"Ոչ մեկը"</item>
@@ -496,12 +437,13 @@
   <string-array name="track_frame_time_entries">
     <item msgid="2193584639058893150">"Անջատել"</item>
     <item msgid="2751513398307949636">"Էկրանի վրա որպես գոտիներ"</item>
-    <item msgid="1851438178120770973">"adb shell dumpsys gfxinfo-ում"</item>
+    <item msgid="8272260411216018353">"Էկրանի վրա որպես գծեր"</item>
+    <item msgid="120512413928262547">"adb shell dumpsys gfxinfo-ում"</item>
   </string-array>
   <string-array name="debug_hw_overdraw_entries">
     <item msgid="8190572633763871652">"Անջատված է"</item>
     <item msgid="7688197031296835369">"Ցույց տալ գերազանցված հատվածները"</item>
-    <item msgid="2290859360633824369">"Ցույց տալ դալտոնիզմի ոլորտները"</item>
+    <item msgid="8332661909019981149">"Ցույց տալ գերազանցման հաշվիչը"</item>
   </string-array>
   <string-array name="app_process_limit_entries">
     <item msgid="3401625457385943795">"Սովորական սահման"</item>
@@ -533,41 +475,9 @@
     <item msgid="1417929597727989746">"Միշտ թույլատրել"</item>
   </string-array>
   <string-array name="ram_states">
-    <item msgid="3944681673818150669">"Սովորական"</item>
-    <item msgid="3256987280393708586">"Չափավոր"</item>
-    <item msgid="4662917179231875995">"Ցածր"</item>
-    <item msgid="5264929699714647509">"Կրիտիկական"</item>
-    <item msgid="5606155978847838966">"?"</item>
+    <item msgid="7088762389498381203">"նորմալ"</item>
+    <item msgid="4517779899383204000">"չափավոր"</item>
+    <item msgid="406385694840950802">"ցածր"</item>
+    <item msgid="4212263919458209842">"կրիտիկական"</item>
   </string-array>
-  <string-array name="proc_stats_memory_states">
-    <item msgid="8845855295876909468">"Սովորական"</item>
-    <item msgid="866544120205026771">"Չափավոր"</item>
-    <item msgid="7851902244436886890">"Ցածր"</item>
-    <item msgid="3022922196817563960">"Կրիտիկական"</item>
-  </string-array>
-  <string-array name="proc_stats_process_states">
-    <item msgid="5069825997142785829">"Կայուն"</item>
-    <item msgid="5779398140277006695">"Առավել հաճախակի կատարվող գործողությունը"</item>
-    <item msgid="1439598363694578255">"Կարևոր (ակտիվ ռեժիմ)"</item>
-    <item msgid="3396458970745718652">"Կարևոր (ֆոնային ռեժիմ)"</item>
-    <item msgid="5214825238247511992">"Պահուստավորում"</item>
-    <item msgid="311372689168254967">"Խիստ ծանրաբեռնվածություն"</item>
-    <item msgid="7438189122367820362">"Ծառայություն (ակտիվ է)"</item>
-    <item msgid="918687422516982498">"Ծառայություն (վերագործարկվում է)"</item>
-    <item msgid="6807727069641853029">"Ստացող"</item>
-    <item msgid="6782857406100845127">"Հիմնական"</item>
-    <item msgid="2860945127596974299">"Վերջին գործողությունը"</item>
-    <item msgid="8610560843693675830">"Քեշավորված (գործողությունը)"</item>
-    <item msgid="4338089220026248848">"Քեշավորված (սպասառուի գործողությունը)"</item>
-    <item msgid="6652164677254579050">"Քեշավորված (դատարկ)"</item>
-  </string-array>
-  <string-array name="color_picker">
-    <item msgid="7631642672260600032">"Փիրուզագույն"</item>
-    <item msgid="8332294763632946560">"Կապույտ"</item>
-    <item msgid="2023216417616991392">"Ինդիգո"</item>
-    <item msgid="3170497246594232819">"Մանուշակագույն"</item>
-    <item msgid="4608643045752965568">"Վարդագույն"</item>
-    <item msgid="6131821495505931173">"Կարմիր"</item>
-  </string-array>
-    <!-- no translation found for usb_configuration_titles:0 (292902998500371970) -->
 </resources>

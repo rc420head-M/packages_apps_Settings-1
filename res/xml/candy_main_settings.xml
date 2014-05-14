@@ -23,6 +23,12 @@
         android:title="@string/animation_title"
         android:fragment="com.android.settings.candy.animation.AnimationSettings" />
 
+     <!-- App Circle -->
+     <PreferenceScreen
+        android:id="@+id/app_circle_sidebar"
+        android:title="@string/app_circle_bar_title"
+        android:fragment="com.android.settings.candy.AppCircleSidebar" />
+
      <!-- Button -->
      <PreferenceScreen
         android:id="@+id/button_settings"

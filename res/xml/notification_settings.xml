@@ -80,6 +80,14 @@
                 settings:keywords="@string/keywords_sounds_and_notifications_interruptions"
                 android:fragment="com.android.settings.notification.ZenModeSettings" />
 
+        <!-- Default notification ringtone -->
+        <com.android.settings.DefaultRingtonePreference
+                android:key="notification_ringtone"
+                android:title="@string/notification_ringtone_title"
+                android:dialogTitle="@string/notification_ringtone_title"
+                android:persistent="false"
+                android:ringtoneType="notification" />
+
         <!-- Phone ringtone -->
         <com.android.settings.DefaultRingtonePreference
                 android:key="ringtone"
@@ -88,13 +96,16 @@
                 android:persistent="false"
                 android:ringtoneType="ringtone" />
 
-        <!-- Default notification ringtone -->
-        <com.android.settings.DefaultRingtonePreference
-                android:key="notification_ringtone"
-                android:title="@string/notification_ringtone_title"
-                android:dialogTitle="@string/notification_ringtone_title"
-                android:persistent="false"
-                android:ringtoneType="notification" />
+        <!-- Increasing ring -->
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="increasing_ring"
+                android:title="@string/increasing_ring_volume_option_title" />
+
+        <!-- Increasing ring volume -->
+        <com.android.settings.notification.IncreasingRingVolumePreference
+                android:key="increasing_ring_volume"
+                android:icon="@drawable/ring_notif_increasing"
+                android:dependency="increasing_ring"/>
 
         <!-- Other sounds -->
         <Preference

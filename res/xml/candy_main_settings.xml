@@ -17,6 +17,12 @@
              xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
              android:title="@string/candy_settings_title" >
 
+    <!-- Button -->
+    <dashboard-tile
+	 android:id="@+id/button_settings"
+	 android:title="@string/button_pref_title"
+	 android:fragment="com.android.settings.candy.ButtonSettings"
+         />
 
     <!-- Display -->
     <PreferenceScreen

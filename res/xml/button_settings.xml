@@ -59,6 +59,10 @@
             android:entryValues="@array/hardware_keys_action_values"
             android:persistent="false" />
 
+        <PreferenceScreen
+         android:key="volume_rocker"
+         android:title="@string/volume_rocker_title"
+         android:fragment="com.android.settings.candy.VolumeRocker" />
     </PreferenceCategory>
 
 </PreferenceScreen>

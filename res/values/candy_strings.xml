@@ -465,4 +465,22 @@
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
     <string name="attention">Attention</string>
 
+    <!-- Volume rocker music seek -->
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+    <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
+
+    <!-- Volume rocker -->
+    <string name="volume_rocker_title">Volume rocker</string>
+    <string name="volume_rocker_summary">Use volume to wake or control music</string>
+    
+    <!-- Volume rocker wake -->
+    <string name="wakeup_options_title">Wakeup options</string>
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Volume Key Rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+
 </resources>

@@ -88,6 +88,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_CAMERA_DOUBLE_TAP_POWER_GESTURE
             = "camera_double_tap_power_gesture";
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
+    private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
+
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private FontDialogPreference mFontSizePref;
@@ -236,6 +239,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mWakeWhenPluggedOrUnplugged =
                 (SwitchPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
+        }
+
+        boolean proximityCheckOnWait = getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWait) {
+            mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
+            Settings.System.putInt(getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1);
         }
     }
 

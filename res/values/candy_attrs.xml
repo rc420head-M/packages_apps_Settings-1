@@ -23,13 +23,6 @@
         <attr name="interval" format="integer" />
     </declare-styleable>
 
-    <declare-styleable name="IntervalSeekBar">
-        <attr name="min" format="float" />
-        <attr name="max" format="float" />
-        <attr name="defaultValue" format="float" />
-        <attr name="digits" format="integer" />
-    </declare-styleable>
-
     <!-- notification light pulse -->
     <string-array name="notification_pulse_length_entries" translatable="false">
         <item>@string/pulse_length_always_on</item>

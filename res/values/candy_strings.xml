@@ -362,4 +362,8 @@
     <string name="network_traffic_color_reset">Reset color</string>
     <string name="network_traffic_color_reset_message">Reset network traffic color to default?</string>
 
+    <!-- Unaccounted and overcounted battery stats -->
+    <string name="show_unac_and_overcounted_stats_title">Show unaccounted and over-counted stats</string>
+    <string name="show_unac_and_overcounted_stats_summary">Show unaccounted and over-counted usage in battery statistics.</string>
+
 </resources>

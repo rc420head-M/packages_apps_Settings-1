@@ -907,6 +907,119 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+<<<<<<< HEAD
 >>>>>>> 4c5a46f... Configurable dashboard columns [1/2]
+=======
+
+    <!-- Values for the notification light pulse spinners -->
+    <string-array name="notification_pulse_length_entries" translatable="false">
+        <item>@string/pulse_length_always_on</item>
+        <item>@string/pulse_length_very_short</item>
+        <item>@string/pulse_length_short</item>
+        <item>@string/pulse_length_normal</item>
+        <item>@string/pulse_length_long</item>
+        <item>@string/pulse_length_very_long</item>
+    </string-array>
+
+    <string-array name="notification_pulse_length_values" translatable="false">
+        <item>1</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="notification_pulse_speed_entries" translatable="false">
+        <item>@string/pulse_speed_very_fast</item>
+        <item>@string/pulse_speed_fast</item>
+        <item>@string/pulse_speed_normal</item>
+        <item>@string/pulse_speed_slow</item>
+        <item>@string/pulse_speed_very_slow</item>
+    </string-array>
+
+    <string-array name="notification_pulse_speed_values" translatable="false">
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2500</item>
+        <item>5000</item>
+    </string-array>
+     
+     <!-- CANDY PIE -->
+     <string-array name="entries_candy_pie_size">
+         <item>@string/candy_pie_size_small</item>
+         <item>@string/candy_pie_size_default</item>
+         <item>@string/candy_pie_size_large</item>
+         <item>@string/candy_pie_size_gigantic</item>
+         <item>@string/candy_pie_size_monster</item>
+         <item>@string/candy_pie_size_enormous</item>
+     </string-array>
+ 
+     <string-array name="values_candy_pie_size" translatable="false">
+         <item>0.9</item>
+         <item>1.0</item>
+         <item>1.1</item>
+         <item>1.2</item>
+         <item>1.3</item>
+         <item>1.4</item>
+     </string-array>
+ 
+     <string-array name="entries_candy_pie_gravity">
+         <item>@string/candy_pie_gravity_left</item>
+         <item>@string/candy_pie_gravity_right</item>
+         <item>@string/candy_pie_gravity_bottom</item>
+     </string-array>
+ 
+     <string-array name="values_candy_pie_gravity" translatable="false">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+     </string-array>
+ 
+     <string-array name="entries_candy_pie_mode">
+         <item>@string/candy_pie_mode_bare</item>
+         <item>@string/candy_pie_mode_quick</item>
+         <item>@string/candy_pie_mode_default</item>
+         <item>@string/candy_pie_mode_slow</item>
+     </string-array>
+ 
+     <string-array name="values_candy_pie_mode" translatable="false">
+         <item>-1</item>
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+     </string-array>
+ 
+     <string-array name="entries_candy_pie_angle">
+         <item>@string/candy_pie_angle_none</item>
+         <item>@string/candy_pie_angle_small</item>
+         <item>@string/candy_pie_angle_big</item>
+         <item>@string/candy_pie_angle_huge</item>
+         <item>@string/candy_pie_angle_super</item>
+     </string-array>
+ 
+     <string-array name="values_candy_pie_angle" translatable="false">
+         <item>0</item>
+         <item>6</item>
+         <item>12</item>
+         <item>18</item>
+         <item>24</item>
+     </string-array>
+ 
+     <string-array name="entries_candy_pie_gap">
+         <item>@string/candy_pie_gap_none</item>
+         <item>@string/candy_pie_gap_small</item>
+         <item>@string/candy_pie_gap_big</item>
+         <item>@string/candy_pie_gap_huge</item>
+     </string-array>
+ 
+     <string-array name="values_candy_pie_gap" translatable="false">
+         <item>0</item>
+         <item>1</item>
+         <item>2</item>
+         <item>3</item>
+     </string-array>
+>>>>>>> 74ca79c... PIE 3.0 (2/2)
     
 </resources>

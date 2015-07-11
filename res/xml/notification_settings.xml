@@ -73,6 +73,12 @@
                 android:summary="@string/interruptions_ignore_while_media_summary"
                 android:defaultValue="false" />
 
+        <!-- Volume Steps -->
+        <PreferenceScreen
+                android:key="volume_steps"
+                android:title="@string/volume_steps_title"
+                android:fragment="com.android.settings.candy.VolumeSteps" />
+
         <!-- Interruptions -->
         <PreferenceScreen
                 android:key="zen_mode"

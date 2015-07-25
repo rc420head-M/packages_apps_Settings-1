@@ -138,6 +138,22 @@ public class QSTileHolder {
                 resourceName = "ic_qs_screenshot";
                 stringId = R.string.qs_screenshot_tile;
                 break;
+            case QSConstants.TILE_KERNEL_ADIUTOR:
+                resourceName = "ic_qs_kernel_adiutor";
+                stringId = R.string.qs_tile_kernel_adiutor;
+                break;
+            case QSConstants.TILE_HEADS_UP:
+                resourceName = "ic_qs_heads_up_on";
+                stringId = R.string.qs_tile_heads_up;
+                break;
+            case QSConstants.TILE_CANDY:
+		resourceName = "ic_qs_candy_on";
+		stringId = R.string.qs_tile_candy;
+		break;
+            case QSConstants.TILE_THEMES:
+                resourceName = "ic_qs_themes";
+                stringId = R.string.qs_tile_themes;
+                break;
             default:
                 return null;
         }

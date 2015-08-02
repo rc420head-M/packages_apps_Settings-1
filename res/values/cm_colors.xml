@@ -81,4 +81,25 @@ limitations under the License.
     <color name="eject_icon_tint_color">#8a000000</color>
 
     <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
+
+    <!-- Theme -->
+    <color name="theme_primary">@*android:color/material_blue_grey_900</color>
+    <color name="theme_primary_dark">@*android:color/material_blue_grey_950</color>
+    <color name="theme_accent">@*android:color/material_deep_teal_500</color>
+    <color name="icon_disabled">?android:attr/colorControlHighlight</color>
+
+    <!-- BlackList colors -->
+    <color name="blacklist_enabled">#DD2C00</color>
+    <color name="blacklist_disabled">#D7D7D7</color>
+
+    <!-- Filter Spinner Text Color -->
+    <color name="filter_spinner_text_color">@color/text_color_white</color>
+
+    <!-- App Name Text Color -->
+    <color name="app_name_text_color">@color/text_color_white</color>
+
+    <!-- Dashboard Category Title Background Color -->
+    <color name="dashboard_category_title_bg_color">@android:color/transparent</color>
+
+>>>>>>> 7fc58a9... Expose values for themes.
 </resources>

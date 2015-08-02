@@ -272,4 +272,7 @@
     <dimen name="fab_elevation_normal">8dp</dimen>
     <dimen name="fab_elevation_pressed">6dp</dimen>
 
+    <!-- Dashboard Category Margin Bottom -->
+    <dimen name="dashboard_category_margin_bottom">8dip</dimen>
+
 </resources>

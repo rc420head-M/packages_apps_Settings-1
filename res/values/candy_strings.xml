@@ -250,7 +250,154 @@
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
 
-    
+    <!-- Volume rocker wake -->
+    <string name="wakeup_options_title">Wakeup options</string>
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Volume rocker music seek -->
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+    <string name="volume_button_toggle_info">Volume rocker wake must be disabled</string>
+
+    <!-- Wakeup on charge -->
+    <string name="wakeup_when_plugged_unplugged_title">Wakeup on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wakeup device if charger is plugged/unplugged.</string>
+
+    <!-- Recent apps -->
+    <string name="recent_apps_title">Recent apps</string>
+    <string name="recent_apps_summary">Hide search bar or view memory usage</string>
+
+    <!-- Recents search bar -->
+    <string name="recents_show_searchbar">Enable search bar</string>
+    <string name="recents_show_searchbar_summary">Show the search bar in the recents menu</string>
+
+    <!-- Display rotation -->
+    <string name="display_rotation_title">Display rotation</string>
+    <string name="display_rotation_summary">Change and rotate different angles</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Ambient display</string>
+    <string name="doze_settings_title">Advanced doze options</string>
+    <string name="doze_timeout_title">Doze pulse timeout</string>
+    <string name="doze_timeout_summary">Time that the screen stays on for notification pulse</string>
+    <string name="doze_trigger_pickup_title">Pick up gesture trigger</string>
+    <string name="doze_trigger_pickup_summary_on">Doze pulse will be triggered by pick up gesture sensor events</string>
+    <string name="doze_trigger_pickup_summary_off">Pick up gesture sensor will not be utilized as a triggering mechanism</string>
+    <string name="doze_trigger_sigmotion_title">Significant motion trigger</string>
+    <string name="doze_trigger_sigmotion_summary_on">Doze pulse will be triggered by significant motion sensor events</string>
+    <string name="doze_trigger_sigmotion_summary_off">Significant motion sensor will not be utilized as a triggering mechanism</string>
+    <string name="doze_trigger_notification_title">Notification trigger</string>
+    <string name="doze_trigger_notification_summary_on">Doze pulse will be triggered by notifications</string>
+    <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
+    <string name="doze_schedule_title">Doze schedule</string>
+    <string name="doze_schedule_summary_on">Predefined doze repeat intervals (normally [1s,10s,30s,60s,120s]) will be used (default)</string>
+    <string name="doze_schedule_summary_off">Doze will only pulse once per notification</string>
+    <string name="doze_brightness_title">Doze brightness level</string>
+    <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
+
+    <!-- Recents panel -->
+    <string name="recents_panel_category">Recents panel</string>
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
+
+    <!-- Notification drawer -->
+    <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_summary">Quick settings and quick pulldown</string>
+
+    <!-- Quick pulldown -->
+    <string name="title_quick_pulldown">Quick pulldown</string>
+    <string name="summary_quick_pulldown">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
+    <!-- QuickSettings 4 columns -->
+    <string name="qs_four_columns_title">Show four tiles per row</string>
+
+    <!-- QuickSettings main tiles -->
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
+    <string name="qs_main_tiles_summary_off">Three or four tiles on each row</string>
+
+    <!-- Heads up -->
+    <string name="headsup_section_header">Heads up notifications</string>
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Expanded desktop</string>
+    <string name="expanded_hide_nothing">Hide nothing</string>
+    <string name="expanded_hide_status">Hide status bar</string>
+    <string name="expanded_hide_navigation">Hide navigation bar</string>
+    <string name="expanded_hide_both">Hide both</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
+    <string name="expanded_desktop_state">Expanded state</string>
+    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="expanded_user_configurable">User configurable</string>
+    <string name="expanded_desktop_style">Expanded desktop style</string>
+    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
+    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_summary">Hide status bar or navbar or both</string>
+
+    <!-- Membar recent apps -->
+    <string name="recents_show_membar_title">Memory bar</string>
+    <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
+    <!-- Lockscreen shortcuts -->
+    <string name="lockscreen_shortcuts_category">Shortcuts</string>
+    <string name="lockscreen_shortcuts_title">Lockscreen Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Change the shortcuts on lockscreen to whatever you want</string>
+    <string name="lockscreen_shorcuts_launch_type_title">Shortcut click type</string>
+    <string name="lockscreen_shortcuts_single_tap">Click</string>
+    <string name="lockscreen_shortcuts_double_tap">Double tap</string>
+    <string name="lockscreen_shortcuts_longpress">Longpress</string>
+
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+    <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+    <string name="camera_sound_warning_dialog_text">Disabling the camera shutter sound is illegal in some areas! Please check the applicable law in your country</string>
+
+    <!-- Volume key cursor control -->
+    <string name="hardware_keys_volume_keys_title">Volume buttons</string>
+    <string name="volbtn_cursor_control_title">Keyboard cursor control</string>
+    <string name="volbtn_cursor_control_off">Disabled</string>
+    <string name="volbtn_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volbtn_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
     <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>
     <string name="profiles_add">Add</string>
@@ -644,3 +791,4 @@
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Removing every %1$s in the list will disable the second pie layer entirely.</string>
 
 </resources>
+

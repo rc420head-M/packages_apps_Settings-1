@@ -10,4 +10,6 @@
     <color name="cardlayout_bg">#ff424242</color>
     <color name="qs_settings_background">#000000</color>
 
+    <color name="theme_accent">?android:attr/colorAccent</color>
+    <color name="dslv_float_background_color">#ff1b1f23</color>
 </resources>

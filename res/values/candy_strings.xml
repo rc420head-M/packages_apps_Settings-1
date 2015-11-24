@@ -676,4 +676,9 @@
     <string name="recents_full_screen_title">Full screen recents</string>
     <string name="recents_full_screen_summary">Makes the recents screen go into immersive mode</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
+
 </resources>

@@ -106,6 +106,14 @@
                 android:icon="@drawable/ic_settings_display"
                 />
 
+        <!-- Candy interface -->
+        <dashboard-tile
+                android:id="@+id/main_settings"
+                android:title="@string/candy_settings_title"
+                android:fragment="com.android.settings.candy.MainSettings"
+                android:icon="@drawable/ic_candy_interface"
+                />
+
         <!-- Notifications -->
         <dashboard-tile
                 android:id="@+id/notification_settings"

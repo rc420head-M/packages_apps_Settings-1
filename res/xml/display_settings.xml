@@ -84,6 +84,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> a91adc0... Revert "LCD Density scaling (Squashed)"
         <com.android.settings.FontDialogPreference
@@ -102,6 +103,8 @@
 >>>>>>> b661e17... LCD Density scaling (Squashed)
 =======
 >>>>>>> a91adc0... Revert "LCD Density scaling (Squashed)"
+=======
+>>>>>>> ff3930f... LCD Density Changer
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"
@@ -123,12 +126,17 @@
                     android:title="@string/power_menu_expanded_desktop"
                     android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
 
-        	<com.android.settings.FontDialogPreference
+                <com.android.settings.FontDialogPreference
                     android:key="font_size"
                     android:title="@string/title_font_size"
                     settings:keywords="@string/keywords_display_font_size"
                     android:summary="@string/summary_font_size"
                     android:dialogTitle="@string/dialog_title_font_size" />
+
+               <PreferenceScreen
+                    android:key="density_changer"
+                    android:title="@string/lcd_density_title"
+                    android:fragment="com.android.settings.util.Density" />
 
     </PreferenceCategory>
 
@@ -149,6 +157,5 @@
                 android:dependency="doze" />
 
     </PreferenceCategory>
-
 
 </PreferenceScreen>

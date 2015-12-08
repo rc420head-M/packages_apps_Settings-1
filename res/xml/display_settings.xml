@@ -82,13 +82,6 @@
                 android:summary="@string/tap_to_wake_summary"
                 android:persistent="false" />
 
-        <com.android.settings.FontDialogPreference
-                android:key="font_size"
-                android:title="@string/title_font_size"
-                settings:keywords="@string/keywords_display_font_size"
-                android:summary="@string/summary_font_size"
-                android:dialogTitle="@string/dialog_title_font_size" />
-
         <com.android.settings.DropDownPreference
                 android:key="auto_rotate"
                 android:title="@string/display_auto_rotate_title" />
@@ -104,6 +97,29 @@
                 android:title="@string/wake_when_plugged_or_unplugged_title"
                 android:summary="@string/wake_when_plugged_or_unplugged_summary"
                 android:defaultValue="false" />
+
+        <PreferenceCategory
+                android:key="disp"
+        	android:title="@string/display_category">
+
+        	<PreferenceScreen
+                    android:key="expanded_desktop"
+                    android:title="@string/power_menu_expanded_desktop"
+                    android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
+                <com.android.settings.FontDialogPreference
+                    android:key="font_size"
+                    android:title="@string/title_font_size"
+                    settings:keywords="@string/keywords_display_font_size"
+                    android:summary="@string/summary_font_size"
+                    android:dialogTitle="@string/dialog_title_font_size" />
+
+               <PreferenceScreen
+                    android:key="density_changer"
+                    android:title="@string/lcd_density_title"
+                    android:fragment="com.android.settings.util.Density" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
             android:key="category_doze_options"

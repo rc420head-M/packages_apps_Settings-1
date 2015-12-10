@@ -210,5 +210,8 @@
     <string name="quick_pulldown_left">Left</string>
     <string name="quick_pulldown_right">Right</string>
     <string name="qs_brightness_slider_title">Brightness slider</string>
-
+    <string name="quick_settings_title">Quick Settings</string>
+    <string name="quick_settings_summary">Configure Quick Settings tiles</string>
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on the status bar</string>
 </resources>

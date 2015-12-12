@@ -31,6 +31,12 @@
          android:fragment="com.android.settings.DisplaySettings"
          />
 
+     <!-- Miscellaneous -->
+     <PreferenceScreen
+         android:id="@+id/misc_settings"
+         android:fragment="com.android.settings.candy.MiscSettings"
+         android:title="@string/misc_settings_title" />
+
     <!-- Notification drawer -->
     <PreferenceScreen
          android:id="@+id/notification_drawer_settings"

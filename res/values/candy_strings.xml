@@ -366,4 +366,8 @@
     <string name="show_unac_and_overcounted_stats_title">Show unaccounted and over-counted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show unaccounted and over-counted usage in battery statistics.</string>
 
+    <!-- Status bar brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust the brightness by sliding across the status bar</string>
+
 </resources>

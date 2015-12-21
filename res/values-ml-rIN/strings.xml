@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"അടയ്‌ക്കുക"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"സ്വിച്ച്"</string>
     <string name="device_info_default" msgid="7847265875578739287">"അജ്ഞാതം"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">ഒരു ഡവലപ്പറാകുന്നതിൽ നിന്നും നിങ്ങൾ <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ചുവട് മാത്രം അകലെയാണ്.</item>
-      <item quantity="one">ഒരു ഡവലപ്പറാകുന്നതിൽ നിന്നും നിങ്ങൾ <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> ചുവട് മാത്രം അകലെയാണ്.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"ഒരു ഡവലപ്പറായിത്തീരുന്നതിന് നിങ്ങൾ <xliff:g id="STEP_COUNT">%1$d</xliff:g> ചുവട് മാത്രം അകലെയാണ്."</item>
+    <item quantity="other" msgid="6722953419953594148">"ഒരു ഡവലപ്പറായിത്തീരുന്നതിന് നിങ്ങൾ <xliff:g id="STEP_COUNT">%1$d</xliff:g> ചുവടുകൾ മാത്രം അകലെയാണ്."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"നിങ്ങൾ ഇപ്പോൾ ഒരു ഡവലപ്പറാണ്!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"ആവശ്യമില്ല, നിങ്ങൾ ഇതിനകം ഒരു ഡവലപ്പറാണ്."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"വയർലെസും നെറ്റ്‌വർക്കുകളും"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"ഇതിനായി വിരലടയാളം ഉപയോഗിക്കുക"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"വിരലടയാളം ചേർക്കുക"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"സ്‌ക്രീൻ ലോക്ക്"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ഫിംഗർപ്രിന്റ് സജ്ജമാക്കൽ</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ഫിംഗർപ്രിന്റ് സജ്ജമാക്കൽ</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"വിരലടയാള സജ്ജീകരണം"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"നിങ്ങളുടെ സ്‌ക്രീൻ അൺലോക്കുചെയ്യാനോ വാങ്ങലുകൾ സ്ഥിരീകരിക്കാനോ വിരലടയാളം ഉപയോഗിക്കുന്നതിന്, ഞങ്ങൾക്ക് ഇവ ചെയ്യേണ്ടതുണ്ട്:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"പാസ്‌വേഡിൽ ഒരു അക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"പാസ്‌വേഡിൽ ഒരു സംഖ്യയെങ്കിലും ഉണ്ടായിരിക്കണം."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"പാസ്‌വേഡിൽ ഒരു ചിഹ്നമെങ്കിലും ഉണ്ടായിരിക്കണം."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">പാസ്‌വേഡിൽ %d അക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ ഒരു അക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">പാസ്‌വേഡിൽ %d ചെറിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ ഒരു ചെറിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">പാസ്‌വേഡിൽ %d വലിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ ഒരു വലിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">പാസ്‌വേഡിൽ %d സംഖ്യകളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ ഒരു സംഖ്യയെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">പാസ്‌വേഡിൽ %d പ്രത്യേക ചിഹ്നങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ ഒരു പ്രത്യേക ചിഹ്നമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത %d പ്രതീകങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-      <item quantity="one">പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത ഒരു പ്രതീകമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"പാസ്‌വേഡിൽ ഒരു അക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="8186027808415585970">"പാസ്‌വേഡിൽ %d അക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"പാസ്‌വേഡിൽ ഒരു ചെറിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="2693910942679679225">"പാസ്‌വേഡിൽ %d ചെറിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"പാസ്‌വേഡിൽ ഒരു വലിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="3030801209112209245">"പാസ്‌വേഡിൽ %d വലിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"പാസ്‌വേഡിൽ ഒരു അക്കമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="4703982391407595924">"പാസ്‌വേഡിൽ %d സംഖ്യകളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"പാസ്‌വേഡിൽ ഒരു പ്രത്യേക ചിഹ്നമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="1221290525051187757">"പാസ്‌വേഡിൽ %d പ്രത്യേക ചിഹ്നങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത ഒരു പ്രതീകമെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+    <item quantity="other" msgid="3952508584649046404">"പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത %d പ്രതീകങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"ഒരു സമീപകാല പാസ്‌വേഡ് ഉപയോഗിക്കാൻ ഉപകരണ അഡ്‌മിനിസ്‌ട്രേറ്റർ അനുവദിക്കുന്നില്ല."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"സംഖ്യകളുടെ ആരോഹണമോ അവരോഹണമോ ആവർത്തിക്കുന്ന അനുക്രമമോ നിരോധിച്ചിരിക്കുന്നു"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"ശരി"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"തിരഞ്ഞെടുത്ത SIM കാർഡ് അപ്‌ഡേറ്റുചെയ്യണോ?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"നിങ്ങളുടെ ഉപകരണത്തിലെ ഒരേയൊരു SIM ആണ് <xliff:g id="NEW_SIM">%1$s</xliff:g>. സെല്ലുലാർ ഡാറ്റയ്‌ക്കും കോളുകൾക്കും SMS സന്ദേശങ്ങൾക്കും ഈ SIM ഉപയോഗിക്കണോ?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"സിം പിൻ കോഡ് തെറ്റാണ്, നിങ്ങളുടെ ഉപകരണം അൺലോക്കുചെയ്യാൻ ഇപ്പോൾ നിങ്ങളുടെ കാരിയറുമായി ബന്ധപ്പെടണം."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">SIM PIN കോഡ് തെറ്റാണ്, നിങ്ങൾക്ക് <xliff:g id="NUMBER_1">%d</xliff:g> ശ്രമങ്ങൾ കൂടി ശേഷിക്കുന്നു.</item>
-      <item quantity="one">SIM PIN കോഡ് തെറ്റാണ്, നിങ്ങളുടെ ഉപകരണം അൺലോക്കുചെയ്യാൻ കാരിയറെ ബന്ധപ്പെടേണ്ടതിന് മുമ്പായി <xliff:g id="NUMBER_0">%d</xliff:g> ശ്രമം കൂടി ശേഷിക്കുന്നു.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"തെറ്റായ സിം പിൻ കോഡ്, നിങ്ങളുടെ ഉപകരണം അൺലോക്കുചെയ്യാൻ നിങ്ങളുടെ സേവനദാതാവുമായി ബന്ധപ്പെടുന്നതിന് മുമ്പായി നിങ്ങൾക്ക് <xliff:g id="NUMBER">%d</xliff:g> ശ്രമം കൂടി ബാക്കിയുണ്ട്."</item>
+    <item quantity="other" msgid="77103619544346451">"തെറ്റായ സിം പിൻ കോഡ്, നിങ്ങൾക്ക് <xliff:g id="NUMBER">%d</xliff:g> ശ്രമങ്ങൾ കൂടി ബാക്കിയുണ്ട്."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"സിം പിൻ പ്രവർത്തനം പരാജയപ്പെട്ടു!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"ടാബ്‌ലെറ്റ് നില"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"ഫോൺ നില"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"വൈബ്രേറ്റുചെയ്യുക"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"അറിയിപ്പ് ക്രമീകരണം"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"അപ്ലിക്കേഷനുകൾക്ക് അറിയിപ്പുകൾ വായിക്കാനായില്ല"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d അപ്ലിക്കേഷനുകൾക്ക് അറിയിപ്പുകൾ വായിക്കാനാകും</item>
-      <item quantity="one">%d അപ്ലിക്കേഷന് അറിയിപ്പുകൾ വായിക്കാനാകും</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d അപ്ലിക്കേഷന് അറിയിപ്പുകൾ റീഡുചെയ്യാനാകും"</item>
+    <item quantity="other" msgid="980049191810249052">"%d അപ്ലിക്കേഷനുകൾക്ക് അറിയിപ്പുകൾ റീഡുചെയ്യാനാകും"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"ഇൻസ്റ്റാളുചെയ്തിട്ടുള്ള ആപ്സൊന്നും അറിയിപ്പ് ആക്‌സസ് അഭ്യർത്ഥിച്ചിട്ടില്ല."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g>-ന് അറിയിപ്പ് ആക്സസ് അനുവദിക്കണോ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"കോൺടാക്റ്റ് പേരുകളും നിങ്ങൾ സ്വീകരിക്കുന്ന സന്ദേശ ടെക്സ്റ്റുകളും പോലുള്ള വ്യക്തിഗത വിവരങ്ങൾ ഉൾപ്പെടെ, എല്ലാ അറിയിപ്പുകളും <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>-ന് വായിക്കാനാകും. അറിയിപ്പുകൾ നിരാകരിക്കാനോ അവയിലടങ്ങിയിരിക്കുന്ന സജീവ ബട്ടണുകൾ പ്രവർത്തനക്ഷമമാക്കാനോ ഇതിന് കഴിയും."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"അവസാനിക്കുന്ന സമയം"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g>, അടുത്ത ദിവസം"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"അനിശ്ചിതമായി \'അലാറങ്ങൾ മാത്രം\'എന്നതിലേക്ക് മാറ്റുക"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g> മിനിറ്റത്തേക്ക് (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> വരെ) \'അലാറങ്ങൾ മാത്രം\' എന്നതിലേക്ക് മാറ്റുക</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> വരെ ഒരു മിനിറ്റത്തേക്ക് \'അലാറങ്ങൾ മാത്രം\' എന്നതിലേക്ക് മാറ്റുക</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> വരെ <xliff:g id="DURATION">%1$d</xliff:g> മണിക്കൂർ നേരത്തേക്ക് \'അലാറങ്ങൾ മാത്രം\' എന്നതിലേക്ക് മാറ്റുക</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> വരെ ഒരു മണിക്കൂർ നേരത്തേക്ക് \'അലാറങ്ങൾ മാത്രം\' എന്നതിലേക്ക് മാറ്റുക</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g> വരെ മാത്രം അലാറങ്ങളിലേക്ക് മാറ്റുക"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"\'എല്ലായ്‌പ്പോഴും തടസ്സപ്പെടുത്തുക\' എന്നതിലേക്ക് മാറ്റുക"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"ആപ്പ് അറിയിപ്പുകൾ"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"പീക്കിംഗ് ഇല്ല"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> അനുമതികൾ നൽകി</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> അനുമതി നൽകി</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> / <xliff:g id="COUNT_3">%d</xliff:g> അനുമതികൾ നൽകി</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> / <xliff:g id="COUNT_1">%d</xliff:g> അനുമതി നൽകി</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> അധിക അനുമതികൾ</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> അധിക അനുമതി</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"അനുമതികളൊന്നും അനുവദിച്ചില്ല"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"അനുമതികളൊന്നും അഭ്യർത്ഥിച്ചില്ല"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"സ്ഥിരമായ ചിലവ സജ്ജീകരിച്ചു"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"പിന്തുണയ്‌ക്കുന്ന ലിങ്കുകൾ തുറക്കരുത്"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g> തുറക്കുക"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> ഉം അനുബന്ധ URL-കളും തുറക്കൂ"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ആപ്പ്‌സിന് അവയുടെ പിന്തുണയ്‌ക്കുന്ന ലിങ്കുകൾ തുറക്കാനാകും</item>
-      <item quantity="one">ഒരു ആപ്പിന് അതിന്റെ പിന്തുണയ്‌ക്കുന്ന ലിങ്കുകൾ തുറക്കാനാകും</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"ഈ ആപ്പിൽ തുറക്കുക"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"എപ്പോഴും ചോദിക്കുക"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"ഈ ആപ്പിൽ തുറക്കരുത്"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"ബാറ്ററി ഉപയോഗം ഓപ്റ്റിമൈസ് ചെയ്യുന്നു"</string>
     <string name="high_power_system" msgid="7362862974428225301">"ബാറ്ററി ഓപ്റ്റിമൈസേഷൻ ലഭ്യമല്ല"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"ബാറ്ററി ഒപ്റ്റിമൈസേഷൻ പ്രയോഗിക്കരുത്. ഇത് ബാറ്ററിയെ വേഗത്തിൽ തീർത്തേക്കാം."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other">ബാറ്ററി ഓപ്റ്റിമൈസേഷൻ അവഗണിക്കാൻ <xliff:g id="COUNT">%d</xliff:g> ആപ്സിനെ അനുവദിച്ചു</item>
-      <item quantity="one">ബാറ്ററി ഓപ്റ്റിമൈസേഷൻ അവഗണിക്കാൻ 1 ആപ്പിനെ അനുവദിച്ചു</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"ബാറ്ററി ഒപ്റ്റിമൈസേഷനുകൾ അവഗണിക്കണോ?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"പശ്ചാത്തലത്തിൽ കണക്റ്റുചെയ്ത നിലയിൽ തുടരുന്നതിന് <xliff:g id="APP_NAME">%1$s</xliff:g> എന്നതിനെ അനുവദിക്കണോ? (കൂടുതൽ ബാറ്ററി ഉപയോഗിച്ചേക്കാം)."</string>
     <string name="battery_summary" msgid="101415762036784289">"അവസാനമായി പൂർണ്ണ ചാർജ് ആയതിനുശേഷം <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% ഉപയോഗം"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"ശരാശരി ഉപയോഗിച്ചത് (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"ശേഷിക്കുന്നത്"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"ആപ്പ്‌സ് ഉപയോഗിച്ച മെമ്മറി"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other">കഴിഞ്ഞ <xliff:g id="DURATION_1">%2$s</xliff:g> സമയത്തിനുള്ളിൽ <xliff:g id="COUNT">%1$d</xliff:g> ആപ്പുകൾ മെമ്മറി ഉപയോഗിച്ചു</item>
-      <item quantity="one">കഴിഞ്ഞ <xliff:g id="DURATION_0">%2$s</xliff:g> സമയത്തിനുള്ളിൽ ഒരു ആപ്പ് മെമ്മറി ഉപയോഗിച്ചു</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"ആവൃത്തി"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"പരമാവധി ഉപയോഗം"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"ഡാറ്റയൊന്നും ഉപയോഗിച്ചില്ല"</string>

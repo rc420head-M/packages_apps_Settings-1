@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"بستن"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"تغییر حالت"</string>
     <string name="device_info_default" msgid="7847265875578739287">"ناشناس"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="one">اکنون <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> قدم با برنامه‌نویس شدن فاصله دارید.</item>
-      <item quantity="other">اکنون <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> قدم با برنامه‌نویس شدن فاصله دارید.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"شما در حال حاضر، <xliff:g id="STEP_COUNT">%1$d</xliff:g> قدم تا برنامه‌نویس شدن فاصله دارید."</item>
+    <item quantity="other" msgid="6722953419953594148">"شما در حال حاضر، <xliff:g id="STEP_COUNT">%1$d</xliff:g> قدم تا برنامه‌نویس شدن فاصله دارید."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"شما اکنون یک برنامه‌نویس هستید!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"نیازی نیست، شما در حال حاضر یک برنامه‌نویس هستید."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"بی‌سیم و شبکه‌ها"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"استفاده از اثر انگشت برای"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"افزودن اثر انگشت"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"قفل صفحه"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> تنظیم اثر انگشت</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> تنظیم اثر انگشت</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"تنظیم اثر انگشت"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"برای استفاده از اثر انگشت شما جهت باز کردن قفل صفحه‌نمایش یا تأیید خریدها، نیاز داریم:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"گذرواژه باید حداقل دارای یک حرف باشد."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"گذرواژه باید دارای حداقل یک رقم باشد."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"گذرواژه باید دارای حداقل یک نماد باشد."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="one">‏گذرواژه باید دارای حداقل %d حرف باشد.</item>
-      <item quantity="other">‏گذرواژه باید دارای حداقل %d حرف باشد.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="one">‏ گذرواژه باید دارای حداقل %d حرف کوچک باشد.</item>
-      <item quantity="other">‏ گذرواژه باید دارای حداقل %d حرف کوچک باشد.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="one">‏گذرواژه باید دارای حداقل %d حرف بزرگ باشد.</item>
-      <item quantity="other">‏گذرواژه باید دارای حداقل %d حرف بزرگ باشد.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="one">‏گذرواژه باید دارای حداقل %d رقم باشد.</item>
-      <item quantity="other">‏گذرواژه باید دارای حداقل %d رقم باشد.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="one">‏گذرواژه باید دارای حداقل %d نماد ویژه باشد.</item>
-      <item quantity="other">‏گذرواژه باید دارای حداقل %d نماد ویژه باشد.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="one">‏گذرواژه باید حداقل دارای %d نویسه غیرحرفی باشد.</item>
-      <item quantity="other">‏گذرواژه باید حداقل دارای %d نویسه غیرحرفی باشد.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"گذرواژه باید دارای حداقل 1 حرف باشد."</item>
+    <item quantity="other" msgid="8186027808415585970">"‏گذرواژه باید دارای حداقل %d حرف باشد."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"گذرواژه باید دارای حداقل 1 حرف کوچک باشد."</item>
+    <item quantity="other" msgid="2693910942679679225">"‏گذروازه باید دارای حداقل %d حرف کوچک باشد."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"گذرواژه باید دارای حداقل 1 حرف بزرگ باشد."</item>
+    <item quantity="other" msgid="3030801209112209245">"‏گذرواژه باید دارای حداقل %d حرف بزرگ باشد."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"گذرواژه باید دارای حداقل 1 رقم باشد."</item>
+    <item quantity="other" msgid="4703982391407595924">"‏گذرواژه باید دارای حداقل %d رقم باشد."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"گذرواژه باید دارای حداقل 1 نماد ویژه باشد."</item>
+    <item quantity="other" msgid="1221290525051187757">"‏گذرواژه باید دارای حداقل %d نماد ویژه باشد."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"گذرواژه باید حداقل دارای 1 نویسه غیرحرفی باشد."</item>
+    <item quantity="other" msgid="3952508584649046404">"‏گذرواژه باید دارای حداقل %d نویسه غیرحرفی باشد."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"سرپرست دستگاه اجازه استفاده از گذرواژه اخیر را نمی‌دهد."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"ترتیب صعودی، نزولی یا تکراری ارقام ممنوع است"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"تأیید"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"سیم‌کارت ترجیجی به‌روز شود؟"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> تنها سیم‌کارت روی دستگاه شماست. می‌خواهید از این سیم‌کارت برای داده‌های شبکه تلفن همراه، تماس‌ها و پیامک استفاده کنید؟"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"کد پین سیم کارت اشتباه است، اکنون برای گشودن قفل دستگاهتان باید با شرکت مخابراتی تماس بگیرید."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="one">کد پین سیم‌کارت اشتباه است، <xliff:g id="NUMBER_1">%d</xliff:g> بار دیگر می‌توانید تلاش کنید.</item>
-      <item quantity="other">کد پین سیم‌کارت اشتباه است، <xliff:g id="NUMBER_1">%d</xliff:g> بار دیگر می‌توانید تلاش کنید.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"کد پین سیم کارت اشتباه است، <xliff:g id="NUMBER">%d</xliff:g> بار دیگر می‌توانید تلاش کنید و پس از آن برای گشودن قفل دستگاهتان باید با شرکت مخابراتی تماس بگیرید."</item>
+    <item quantity="other" msgid="77103619544346451">"کد پین سیم کارت اشتباه است، <xliff:g id="NUMBER">%d</xliff:g> بار دیگر می‌توانید تلاش کنید."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"عملیات پین سیم کارت ناموفق بود!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"وضعیت رایانهٔ لوحی"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"وضعیت تلفن"</string>
@@ -1278,7 +1276,7 @@
     <string name="manageapplications_settings_title" msgid="7041951105633616745">"مدیریت برنامه‌ها"</string>
     <string name="manageapplications_settings_summary" msgid="1794401500935451259">"مدیریت و حذف برنامه‌های نصب شده"</string>
     <string name="applications_settings" msgid="1721442176406964682">"برنامه‌ها"</string>
-    <string name="applications_settings_summary" msgid="6683465446264515367">"مدیریت برنامه‌ها، تنظیم میانبرهای راه‌اندازی سریع"</string>
+    <string name="applications_settings_summary" msgid="6683465446264515367">"مدیریت برنامه‌ها، تنظیم میان‌برهای راه‌اندازی سریع"</string>
     <string name="applications_settings_header" msgid="1014813055054356646">"تنظیمات برنامه"</string>
     <string name="install_applications" msgid="4872012136210802181">"منابع ناشناس"</string>
     <string name="install_applications_title" msgid="4987712352256508946">"همه منابع برنامه مجاز است"</string>
@@ -1599,7 +1597,7 @@
     <string name="accessibility_display_title" msgid="7610175687949675162">"نمایشگر"</string>
     <string name="accessibility_captioning_title" msgid="7589266662024836291">"زیرنویس‌ها"</string>
     <string name="accessibility_screen_magnification_title" msgid="7001782548715744981">"حرکات بزرگ‌نمایی"</string>
-    <string name="accessibility_screen_magnification_summary" msgid="1178289000423776584">"وقتی این قابلیت فعال است، می‌توانید با سه ضربه روی صفحه بزرگ‌نمایی یا کوچک‌نمایی کنید.\n\nهنگام بزرگ‌نمایی می‌توانید:\n"<ul><li>"حرکت کنید: دو یا چند انگشت خود را روی صفحه بکشید."</li>\n<li>"تنظیم سطح بزرگ‌نمایی: دو یا چند انگشتتان را به هم نزدیک کنید یا از هم دور کنید."</li></ul>\n\n"همچنین می‌توانید به صورت موقت آنچه را که در زیر انگشتان شما قرار دارد با سه بار ضربه روی صفحه و نگهداشتن آن بزرگ کنید. در این حالت بزرگ‌نمایی شده، می‌توانید انگشتتان را برای کاوش قسمت‌های مختلف صفحه بکشید. برای بازگشت به حالت قبلی، انگشتتان را بردارید.\n\nتوجه: همه جا به‌غیراز صفحه کلید و نوار پیمایش، سه بار ضربه برای بزرگ‌نمایی کار می‌کند."</string>
+    <string name="accessibility_screen_magnification_summary" msgid="1178289000423776584">"وقتی این قابلیت فعال است، می‌توانید با سه ضربه روی صفحه بزرگ‌نمایی یا کوچک‌نمایی کنید.\n\nهنگام بزرگ‌نمایی می‌توانید:\n"<ul><li>"حرکت کنید: دو یا چند انگشت خود را روی صفحه بکشید."</li>\n<li>"تنظیم سطح بزرگ‌نمایی: دو یا چند انگشتتان را به هم نزدیک کنید یا از هم دور کنید."</li></ul>\n\n"همچنین می‌توانید به صورت موقت آنچه را که در زیر انگشتان شما قرار دارد با سه بار ضربه روی صفحه و نگهداشتن آن بزرگ کنید. در این حالت بزرگ‌نمایی شده، می‌توانید انگشتتان را برای کاوش قسمت‌های مختلف صفحه بکشید. برای بازگشت به حالت قبلی، انگشتتان را بردارید.\n\nتوجه: همه جا به‌غیراز صفحه‌کلید و نوار پیمایش، سه بار ضربه برای بزرگ‌نمایی کار می‌کند."</string>
     <string name="accessibility_global_gesture_preference_title" msgid="6752037184140789970">"میان‌برهای دسترسی‌پذیری"</string>
     <string name="accessibility_global_gesture_preference_summary_on" msgid="6180927399052022181">"روشن"</string>
     <string name="accessibility_global_gesture_preference_summary_off" msgid="8102103337813609849">"خاموش"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"لرزش"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"دسترسی به اعلان"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"برنامه‌ها نمی‌توانند اعلان‌ها را بخوانند"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="one">‏%d برنامه می‌تواند اعلان‌ها را بخواند</item>
-      <item quantity="other">‏%d برنامه می‌تواند اعلان‌ها را بخواند</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"‏%d برنامه می‌تواند اعلان‌ها را بخواند"</item>
+    <item quantity="other" msgid="980049191810249052">"‏%d برنامه‌‌ می‌توانند اعلان‌ها را بخوانند"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"هیچ برنامه نصب‌شده‌ای دسترسی به اعلان را درخواست نکرده است."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"به دسترسی به اعلان برای <xliff:g id="SERVICE">%1$s</xliff:g> اجازه می‌دهید؟"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> می‌تواند همه اعلان‌ها از جمله اطلاعات شخصی شما مانند نام مخاطبین و نوشتار پیام‌هایی را که دریافت می‌کنید، بخواند. همچنین می‌تواند اعلان‌ها را رد کند یا دکمه‌های عملکرد موجود در آنها را به‌کار بیاندازد."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"زمان پایان"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> روز بعد"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"تغییر به «فقط هشدارها» به‌صورت نامحدود"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="one">تغییر در هشدارها تنها به مدت <xliff:g id="DURATION">%1$d</xliff:g> دقیقه (تا <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">تغییر در هشدارها تنها به مدت <xliff:g id="DURATION">%1$d</xliff:g> دقیقه (تا <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="one">تغییر در هشدارها تنها به مدت <xliff:g id="DURATION">%1$d</xliff:g> ساعت تا <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">تغییر در هشدارها تنها به مدت <xliff:g id="DURATION">%1$d</xliff:g> ساعت تا <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"تغییر به «فقط هشدارها» تا <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"تغییر در «همیشه وقفه»"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"اعلان‌های برنامه"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"بدون نمایش اجمالی"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> مجوز اعطا شده</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> مجوز اعطا شده</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one">‏<xliff:g id="COUNT_2">%d</xliff:g> از <xliff:g id="COUNT_3">%d</xliff:g> اجازه اعطا شد</item>
-      <item quantity="other">‏<xliff:g id="COUNT_2">%d</xliff:g> از <xliff:g id="COUNT_3">%d</xliff:g> اجازه اعطا شد</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> مجوز اضافی</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> مجوز اضافی</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"اجازه‌ای داده نشده"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"اجازه‌ای درخواست نشده"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"بعضی پیش‌فرض‌ها تنظیم شده‌اند"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"پیوندهای پشتیبانی شده باز نشود"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"باز کردن <xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"باز کردن <xliff:g id="DOMAIN">%s</xliff:g> و نشانی‌های وب مرتبط"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> برنامه می‌توانند پیوندهای پشتیبانی شده خود را باز کنند</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> برنامه می‌توانند پیوندهای پشتیبانی شده خود را باز کنند</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"در این برنامه باز شود"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"هر بار پرسیده شود"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"در این برنامه باز نشود"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"بهینه‌سازی مصرف باتری"</string>
     <string name="high_power_system" msgid="7362862974428225301">"بهینه‌سازی مصرف باتری در دسترس نیست"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"بهینه‌سازی مصرف باتری را اعمال نمی‌کند. ممکن است باتری شما را سریع‌تر خالی کند."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one">به <xliff:g id="COUNT">%d</xliff:g> برنامه اجازه داده شد بهینه‌سازی مصرف باتری را نادیده بگیرد</item>
-      <item quantity="other">به <xliff:g id="COUNT">%d</xliff:g> برنامه اجازه داده شد بهینه‌سازی مصرف باتری را نادیده بگیرند</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"بهینه‌سازی‌های مصرف باتری نادیده گرفته شوند؟"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"به برنامه <xliff:g id="APP_NAME">%1$s</xliff:g> اجازه داده شود در پس‌زمینه متصل بماند؟ این کار می‌تواند شارژ باتری بیشتری مصرف کند."</string>
     <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>٪ استفاده از آخرین شارژ کامل"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"مصرف متوسط (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"آزاد"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"حافظه مصرف شده توسط برنامه‌ها"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> برنامه در <xliff:g id="DURATION_1">%2$s</xliff:g> گذشته از حافظه استفاده کرده‌اند</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> برنامه در <xliff:g id="DURATION_1">%2$s</xliff:g> گذشته از حافظه استفاده کرده‌اند</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"تعداد دفعات اجرا"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"حداکثر مصرف"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"هیچ داده‌ای مصرف نشده است"</string>

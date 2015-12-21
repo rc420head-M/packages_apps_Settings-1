@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"閉じる"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"切り替え"</string>
     <string name="device_info_default" msgid="7847265875578739287">"不明"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">デベロッパーになるまであと<xliff:g id="STEP_COUNT_1">%1$d</xliff:g>ステップです。</item>
-      <item quantity="one">デベロッパーになるまであと<xliff:g id="STEP_COUNT_0">%1$d</xliff:g>ステップです。</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"デベロッパーになるまであと<xliff:g id="STEP_COUNT">%1$d</xliff:g>ステップです。"</item>
+    <item quantity="other" msgid="6722953419953594148">"デベロッパーになるまであと<xliff:g id="STEP_COUNT">%1$d</xliff:g>ステップです。"</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"これでデベロッパーになりました！"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"開発者向けオプションが既に有効です。"</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"無線とネットワーク"</string>
@@ -320,10 +320,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"指紋の用途"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"指紋を追加"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"画面ロック"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g>個の指紋を登録済み</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g>個の指紋を登録済み</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"指紋の設定"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"指紋を使って画面ロックの解除や購入の確認を行うには、次の手順を行う必要があります。"</string>
@@ -457,30 +455,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"パスワードには英字が1文字以上必要です。"</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"パスワードには数字が1つ以上必要です。"</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"パスワードには記号が1つ以上必要です。"</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">パスワードには英字が%d文字以上必要です。</item>
-      <item quantity="one">パスワードには英字が1文字以上必要です。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">パスワードには小文字の英字が%d文字以上必要です。</item>
-      <item quantity="one">パスワードには小文字の英字が1文字以上必要です。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">パスワードには大文字の英字が%d文字以上必要です。</item>
-      <item quantity="one">パスワードには大文字の英字が1文字以上必要です。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">パスワードには数字が%d個以上必要です。</item>
-      <item quantity="one">パスワードには数字が1つ以上必要です。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">パスワードには記号が%d個以上必要です。</item>
-      <item quantity="one">パスワードには記号が1つ以上必要です。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">パスワードには記号または数字が%d個以上必要です。</item>
-      <item quantity="one">パスワードには記号または数字が1つ以上必要です。</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"パスワードには英字が1文字以上必要です。"</item>
+    <item quantity="other" msgid="8186027808415585970">"パスワードには英字が%d文字以上必要です。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"パスワードには小文字の英字が1文字以上必要です。"</item>
+    <item quantity="other" msgid="2693910942679679225">"パスワードには小文字の英字が%d文字以上必要です。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"パスワードには大文字の英字が1文字以上必要です。"</item>
+    <item quantity="other" msgid="3030801209112209245">"パスワードには大文字の英字が%d文字以上必要です。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"パスワードには数字が1つ以上必要です。"</item>
+    <item quantity="other" msgid="4703982391407595924">"パスワードには数字が%d個以上必要です。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"パスワードには記号が1つ以上必要です。"</item>
+    <item quantity="other" msgid="1221290525051187757">"パスワードには記号が%d個以上必要です。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"パスワードには記号または数字が1つ以上必要です。"</item>
+    <item quantity="other" msgid="3952508584649046404">"パスワードには記号または数字が%d個以上必要です。"</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"最近使用したパスワードは使用できません。"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"一連の数字を昇順や降順にしたり、繰り返したりすることはできません"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"OK"</string>
@@ -887,10 +885,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"優先SIMカードを更新しますか？"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"端末内のSIMは<xliff:g id="NEW_SIM">%1$s</xliff:g>のみです。このSIMをモバイルデータ、通話、SMSメッセージ用に使用しますか？"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"SIM PINコードが無効です。お使いの端末をロック解除するには携帯通信会社にお問い合わせいただく必要があります。"</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">SIM PINコードが無効です。入力できるのはあと<xliff:g id="NUMBER_1">%d</xliff:g>回です。</item>
-      <item quantity="one">SIM PINコードが無効です。入力できるのはあと<xliff:g id="NUMBER_0">%d</xliff:g>回です。この回数を超えた場合は、携帯通信会社にお問い合わせください。</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"SIM PINコードが無効です。入力できるのはあと<xliff:g id="NUMBER">%d</xliff:g>回です。この回数を超えると、お使いの端末をロック解除するのに携帯通信会社にお問い合わせいただく必要があります。"</item>
+    <item quantity="other" msgid="77103619544346451">"SIM PINコードが無効です。入力できるのはあと<xliff:g id="NUMBER">%d</xliff:g>回です。"</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"SIM PIN操作に失敗しました。"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"タブレットの状態"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"端末の状態"</string>
@@ -1295,7 +1293,7 @@
     <string name="auto_launch_label" msgid="2669236885531442195">"既定で開く"</string>
     <string name="auto_launch_label_generic" msgid="3230569852551968694">"デフォルト"</string>
     <string name="screen_compatibility_label" msgid="663250687205465394">"画面の互換性"</string>
-    <string name="permissions_label" msgid="2605296874922726203">"許可"</string>
+    <string name="permissions_label" msgid="2605296874922726203">"権限"</string>
     <string name="cache_header_label" msgid="1877197634162461830">"キャッシュ"</string>
     <string name="clear_cache_btn_text" msgid="5756314834291116325">"キャッシュを消去"</string>
     <string name="cache_size_label" msgid="7505481393108282913">"キャッシュ"</string>
@@ -2566,10 +2564,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"バイブレーション"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"通知へのアクセス"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"アプリは通知を読み取ることができません"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d個のアプリが通知を読み取れます</item>
-      <item quantity="one">%d個のアプリが通知を読み取れます</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d個のアプリが通知を読み取ることができます"</item>
+    <item quantity="other" msgid="980049191810249052">"%d個のアプリが通知を読み取ることができます"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"通知へのアクセスをリクエストしたインストール済みアプリはありません。"</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g>での通知へのアクセスを許可しますか？"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>はすべての通知を読み取ることができます。通知には、連絡先名などの個人情報やユーザーに送信されたメッセージの本文も含まれます。また、通知を非表示にしたり、通知内の操作ボタンをトリガーしたりすることもできます。"</string>
@@ -2640,14 +2638,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"終了時間"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"翌日の<xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"期限なしで、アラームのみに変更します"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">（<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>まで）<xliff:g id="DURATION">%1$d</xliff:g>分間、アラームのみに変更します</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>まで1分間、アラームのみに変更します</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>まで<xliff:g id="DURATION">%1$d</xliff:g>時間、アラームのみに変更します</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>まで1時間、アラームのみに変更します</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g>までアラームのみに変更します"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"常に割り込みに変更します"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"アプリの通知"</string>
@@ -2720,18 +2714,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"重要な通知をポップアップしない"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g>/<xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g>/<xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>/<xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>件の権限を付与</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>件の権限を付与</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g>/<xliff:g id="COUNT_3">%d</xliff:g>件の権限を付与</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>/<xliff:g id="COUNT_1">%d</xliff:g>件の権限を付与</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>個の追加権限</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>個の追加権限</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"権限が付与されていません"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"リクエストされた権限はありません"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"一部デフォルトを設定"</string>
@@ -2759,10 +2747,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"対応リンクを開かない"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g> を開く"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> と関連URLを開く"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>個のアプリが対応リンクを開くことが可能</item>
-      <item quantity="one">1個のアプリが対応リンクを開くことが可能</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"このアプリで開く"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"その都度確認"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"このアプリで開かない"</string>
@@ -2803,10 +2790,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"電池の使用を最適化"</string>
     <string name="high_power_system" msgid="7362862974428225301">"電池の最適化の利用不可"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"電池の最適化を適用しません。電池の消耗が速くなる可能性があります。"</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>個のアプリに電池の最適化を無視することを許可</item>
-      <item quantity="one">1個のアプリに電池の最適化を無視することを許可</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"電池の最適化を無視"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"<xliff:g id="APP_NAME">%1$s</xliff:g>アプリがバックグラウンドで接続を維持することを許可しますか？許可すると電池消費量が増える場合があります。"</string>
     <string name="battery_summary" msgid="101415762036784289">"前回のフル充電から<xliff:g id="PERCENTAGE">%1$d</xliff:g>%%使用しています"</string>
@@ -2848,10 +2833,8 @@
     <string name="average_used" msgid="5338339266517245782">"平均使用（%）"</string>
     <string name="free_memory" msgid="4003936141603549746">"空き"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"アプリのメモリ使用状況"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other">過去<xliff:g id="DURATION_1">%2$s</xliff:g>に<xliff:g id="COUNT">%1$d</xliff:g>個のアプリがメモリを使用しました</item>
-      <item quantity="one">過去<xliff:g id="DURATION_0">%2$s</xliff:g>に1個のアプリがメモリを使用しました</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"頻度"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"最大使用量"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"データ通信の使用はありません"</string>

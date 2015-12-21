@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Loka"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Skipta"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Óþekkt"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="one">Nú ertu <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> skrefi frá því að gerast þróunaraðili.</item>
-      <item quantity="other">Nú ertu <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> skrefum frá því að gerast þróunaraðili.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Nú ertu <xliff:g id="STEP_COUNT">%1$d</xliff:g> skrefi frá því að vera þróunaraðili."</item>
+    <item quantity="other" msgid="6722953419953594148">"Nú ertu <xliff:g id="STEP_COUNT">%1$d</xliff:g> skrefum frá því að vera þróunaraðili."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Nú ertu orðin(n) þróunaraðili!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Þetta er óþarfi; þú ert nú þegar þróunaraðili."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Þráðlaus net og símkerfi"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Nota fingrafar fyrir"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Bæta fingrafari við"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"skjálás"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> fingrafar sett upp</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> fingraför sett upp</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Uppsetning fingrafara"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Til að þú getir notað fingrafarið þitt til að taka skjáinn úr lás eða staðfesta kaup þurfum við að:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Aðgangsorðið verður að innihalda minnst einn bókstaf."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Aðgangsorðið verður að innihalda minnst einn tölustaf."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Aðgangsorðið verður að innihalda minnst eitt tákn."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d bókstaf.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d bókstafi.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d lágstaf.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d lágstafi.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d hástaf.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d hástafi.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d tölustaf.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d tölustafi.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d sérstaf.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d sérstafi.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="one">Aðgangsorðið verður að innihalda minnst %d tákn sem ekki er bókstafur.</item>
-      <item quantity="other">Aðgangsorðið verður að innihalda minnst %d tákn sem ekki eru bókstafir.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Aðgangsorð verða að innihalda að lágmarki einn bókstaf."</item>
+    <item quantity="other" msgid="8186027808415585970">"Aðgangsorð verða að innihalda að lágmarki %d bókstafi."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Aðgangsorðið verður að innihalda minnst einn lágstaf."</item>
+    <item quantity="other" msgid="2693910942679679225">"Aðgangsorðið verður að innihalda minnst %d lágstafi."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Aðgangsorðið verður að innihalda minnst einn hástaf."</item>
+    <item quantity="other" msgid="3030801209112209245">"Aðgangsorðið verður að innihalda minnst %d hástafi."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Aðgangsorð verða að innihalda að lágmarki einn tölustaf."</item>
+    <item quantity="other" msgid="4703982391407595924">"Aðgangsorðið verður að innihalda minnst %d tölustafi."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Aðgangsorðið verður að innihalda minnst einn sérstaf."</item>
+    <item quantity="other" msgid="1221290525051187757">"Aðgangsorðið verður að innihalda minnst %d sérstafi."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Aðgangsorðið verður að innihalda minnst eitt staftákn sem ekki er bókstafur."</item>
+    <item quantity="other" msgid="3952508584649046404">"Aðgangsorðið verður að innihalda minnst %d staftákn sem ekki eru bókstafir."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Stjórnandi tækis leyfir ekki notkun nýlegs aðgangsorðs."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Hækkandi, lækkandi eða endurtekin röð tölustafa er óheimil"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"Í lagi"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Uppfæra valið SIM-kort?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> er eina SIM-kortið í tækinu. Viltu nota þetta SIM-kort fyrir farsímagögn, símtöl og SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"Rangt PIN-númer SIM-korts. Nú þarftu að hafa samband við símafyrirtækið til að opna fyrir tækið."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="one">Rangt PIN-númer SIM-korts. Þú átt <xliff:g id="NUMBER_1">%d</xliff:g> tilraun eftir.</item>
-      <item quantity="other">Rangt PIN-númer SIM-korts. Þú átt <xliff:g id="NUMBER_1">%d</xliff:g> tilraunir eftir.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"Rangt PIN-númer SIM-korts. Þú átt <xliff:g id="NUMBER">%d</xliff:g> tilraun eftir áður en þú þarft að hafa samband við símafyrirtækið þitt til að taka tækið úr lás."</item>
+    <item quantity="other" msgid="77103619544346451">"Rangt PIN-númer SIM-korts. Þú átt <xliff:g id="NUMBER">%d</xliff:g> tilraunir eftir."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"PIN-aðgerð SIM-korts mistókst!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Staða spjaldtölvu"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Staða síma"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Titringur"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Tilkynningaaðgangur"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Forrit geta ekki lesið tilkynningar"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="one">%d forrit getur lesið tilkynningar</item>
-      <item quantity="other">%d forrit geta lesið tilkynningar</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d forrit getur lesið tilkynningar"</item>
+    <item quantity="other" msgid="980049191810249052">"%d forrit geta lesið tilkynningar"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Engin uppsett forrit hafa óskað eftir tilkynningaaðgangi."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Veita <xliff:g id="SERVICE">%1$s</xliff:g> aðgang að tilkynningum?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> mun geta lesið allar tilkynningar, þar á meðal persónuupplýsingar á borð við nöfn tengiliða og texta skilaboða sem þú færð. Það mun einnig geta hunsað tilkynningar eða valið aðgerðahnappa innan þeirra."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Lokatími"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> daginn eftir"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Breyta í vekjara eingöngu til frambúðar"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="one">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> mínútu (til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> mínútur (til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="one">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> klukkustund til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Breyta í vekjara eingöngu í <xliff:g id="DURATION">%1$d</xliff:g> klukkustundir til <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Breyta í vekjara eingöngu til <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Breyta í truflanir alltaf"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Forritatilkynningar"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Ekki hægt að gægjast"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> heimild veitt</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> heimildir veittar</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one"><xliff:g id="COUNT_2">%d</xliff:g> heimild af <xliff:g id="COUNT_3">%d</xliff:g> veitt</item>
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> heimildir af <xliff:g id="COUNT_3">%d</xliff:g> veittar</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> viðbótarheimild</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> viðbótarheimildir</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Engar heimildir veittar"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Engar heimildarbeiðnir"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Einhver sjálfgildi valin"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Ekki opna studda tengla"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Opna „<xliff:g id="DOMAIN">%s</xliff:g>“"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Opna „<xliff:g id="DOMAIN">%s</xliff:g>“ og tengdar vefslóðir"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> forrit getur opnað studda tengla</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> forrit geta opnað studda tengla</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Opna í þessu forriti"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Spyrja í hvert skipti"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Ekki opna í þessu forriti"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Sparar rafhlöðunotkun"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Rafhlöðusparnaður er ekki í boði"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Ekki nota rafhlöðusparnað. Getur gengið hraðar á hleðslu rafhlöðunnar."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> forriti leyft að hunsa rafhlöðusparnað</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> forritum leyft að hunsa rafhlöðusparnað</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Hunsa rafhlöðusparnað?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Viltu leyfa forritinu <xliff:g id="APP_NAME">%1$s</xliff:g> að vera tengt í bakgrunni? Þetta getur gengið hraðar á rafhlöðuna."</string>
     <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>%% notkun frá síðustu fullu hleðslu"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Meðalnotkun (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Laust"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Minni sem forrit nota"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> forrit notaði minni undanfarnar <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> forrit notuðu minni undanfarnar <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Tíðni"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Hámarksnotkun"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Engin gögn notuð"</string>

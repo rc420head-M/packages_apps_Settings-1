@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"మూసివేయి"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"మార్చు"</string>
     <string name="device_info_default" msgid="7847265875578739287">"తెలియదు"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">మీరు ఇప్పుడు డెవలపర్ కావడానికి <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> అడుగుల దూరంలో ఉన్నారు.</item>
-      <item quantity="one">మీరు ఇప్పుడు డెవలపర్ కావడానికి <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> అడుగు దూరంలో ఉన్నారు.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"మీరు ఇప్పుడు డెవలపర్ కావడానికి <xliff:g id="STEP_COUNT">%1$d</xliff:g> అడుగు దూరంలో ఉన్నారు."</item>
+    <item quantity="other" msgid="6722953419953594148">"మీరు ఇప్పుడు డెవలపర్ కావడానికి <xliff:g id="STEP_COUNT">%1$d</xliff:g> అడుగుల దూరంలో ఉన్నారు."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"మీరు ఇప్పుడు డెవలపర్!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"అవసరం లేదు, మీరు ఇప్పటికే డెవలపర్‌గా ఉన్నారు."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"వైర్‌లెస్ &amp; నెట్‌వర్క్‌లు"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"దీనికి వేలిముద్రను ఉప."</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"వేలిముద్రను జోడించండి"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"స్క్రీన్ లాక్"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> వేలిముద్రలు సెటప్ చేయబడ్డాయి</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> వేలిముద్ర సెటప్ చేయబడింది</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"వేలిముద్ర సెటప్"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"మీ స్క్రీన్ అన్‌లాక్ చేసేందుకు లేదా కొనుగోళ్లను నిర్ధారించేందుకు మీ వేలిముద్రను ఉపయోగించడానికి, మేము వీటిని చేయాల్సి ఉంటుంది:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం ఒక అక్షరాన్ని కలిగి ఉండాలి."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం ఒక అంకెను కలిగి ఉండాలి."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం ఒక చిహ్నాన్ని కలిగి ఉండాలి."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d అక్షరాలు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 అక్షరం ఉండాలి.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d లోయర్‌కేస్ అక్షరాలు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 లోయర్‌కేస్ అక్షరం ఉండాలి.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d అప్పర్‌కేస్ అక్షరాలు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 అప్పర్‌కేస్ అక్షరం ఉండాలి.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d సంఖ్యాత్మక అంకెలు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకె ఉండాలి.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d ప్రత్యేక చిహ్నాలు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 ప్రత్యేక చిహ్నం ఉండాలి.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం %d అక్షరేతర గుర్తులు ఉండాలి.</item>
-      <item quantity="one">పాస్‌వర్డ్‌లో తప్పనిసరిగా కనీసం 1 అక్షరేతర గుర్తు ఉండాలి.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అక్షరాన్ని కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="8186027808415585970">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరాలను కలిగి ఉండాలి."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 లోయర్‌కేస్ అక్షరాన్ని కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="2693910942679679225">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d లోయర్‌కేస్ అక్షరాలను కలిగి ఉండాలి."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అప్పర్‌కేస్ అక్షరాన్ని కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="3030801209112209245">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అప్పర్‌కేస్ అక్షరాలను కలిగి ఉండాలి."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకెను కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="4703982391407595924">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకెలను కలిగి ఉండాలి."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 ప్రత్యేక చిహ్నాన్ని కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="1221290525051187757">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d ప్రత్యేక చిహ్నాలను కలిగి ఉండాలి."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అక్షరేతర గుర్తును కలిగి ఉండాలి."</item>
+    <item quantity="other" msgid="3952508584649046404">"పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరేతర గుర్తులను కలిగి ఉండాలి."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"పరికర నిర్వాహికి ఇటీవలి పాస్‌వర్డ్‌ను ఉపయోగించడానికి అనుమతించదు."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"అంకెల ఆరోహణ, అవరోహణ లేదా పునరావృత క్రమం నిషిద్ధం"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"సరే"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"ప్రాధాన్య SIM కార్డ్ నవీకరిం.?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"మీ పరికరంలో <xliff:g id="NEW_SIM">%1$s</xliff:g> SIM మాత్రమే ఉంది. మీరు సెల్యులార్ డేటా, కాల్‌లు మరియు SMS సందేశాల కోసం ఈ SIMను ఉపయోగించాలనుకుంటున్నారా?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"సిమ్ పిన్ కోడ్ చెల్లదు మీరు తప్పనిసరిగా మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ క్యారియర్‌ను ఇప్పుడు సంప్రదించాలి."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">SIM PIN కోడ్ చెల్లదు, మీకు <xliff:g id="NUMBER_1">%d</xliff:g> ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
-      <item quantity="one">SIM PIN కోడ్ చెల్లదు, మీరు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి తప్పనిసరిగా మీ క్యారియర్‌ను సంప్రదించడానికి ముందు మీకు <xliff:g id="NUMBER_0">%d</xliff:g> ప్రయత్నం మిగిలి ఉంది.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"సిమ్ పిన్ కోడ్ చెల్లదు, మీరు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి తప్పనిసరిగా మీ క్యారియర్‌ను సంప్రదించడానికి ముందు మీకు <xliff:g id="NUMBER">%d</xliff:g> ప్రయత్నం మిగిలి ఉంది."</item>
+    <item quantity="other" msgid="77103619544346451">"సిమ్ పిన్ కోడ్ చెల్లదు, మీకు <xliff:g id="NUMBER">%d</xliff:g> ప్రయత్నాలు మిగిలి ఉన్నాయి."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"సిమ్ పిన్ చర్య విఫలమైంది!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"టాబ్లెట్ స్థితి"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"ఫోన్ స్థితి"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"వైబ్రేట్"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"నోటిఫికేషన్ ప్రాప్యత"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"అనువర్తనాలు నోటిఫికేషన్‌లను చదవలేవు"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d అనువర్తనాలు నోటిఫికేషన్‌లను చదవగలవు</item>
-      <item quantity="one">%d అనువర్తనం నోటిఫికేషన్‌లను చదవగలదు</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d అనువర్తనం నోటిఫికేషన్‌లను చదవగలదు"</item>
+    <item quantity="other" msgid="980049191810249052">"%d అనువర్తనాలు నోటిఫికేషన్‌లను చదవగలవు"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"ఇన్‌స్టాల్ చేసిన అనువర్తనాలేవీ నోటిఫికేషన్ ప్రాప్యతను అభ్యర్థించలేదు."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g> కోసం నోటిఫికేషన్ ప్రాప్యతను అనుమతించాలా?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> పరిచయ పేర్లు మరియు మీరు స్వీకరించే వచన సందేశాల వంటి వ్యక్తిగత సమాచారంతో సహా అన్ని నోటిఫికేషన్‌లను చదవగలదు. ఇది నోటిఫికేషన్‌లను తీసివేయగలదు లేదా అవి కలిగి ఉండే చర్య బటన్‌లను సక్రియం చేయగలదు."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"ముగింపు సమయం"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"తదుపరి రోజు <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"నిరవధికంగా అలారాలు మాత్రమే ఎంపికకు మార్చుతుంది"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g> నిమిషాల పాటు అనగా (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> వరకు) అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
-      <item quantity="one">ఒక నిమిషం పాటు అనగా <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g> గంటల పాటు అనగా <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
-      <item quantity="one">ఒక గంట పాటు అనగా <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> వరకు అలారాలు మాత్రమే ఎంపికకు మారుతుంది</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g> వరకు అలారాలు మాత్రమే ఎంపికకు మార్చుతుంది"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"ఎల్లప్పుడూ అంతరాయం కలిగించు ఎంపికకు మార్చుతుంది"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"అనువర్తన నోటిఫికేషన్‌లు"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"త్వరిత వీక్షణ సదుపాయం లేదు"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> అనుమతులు మంజూరయ్యాయి</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> అనుమతి మంజూరైంది</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_3">%d</xliff:g>లో <xliff:g id="COUNT_2">%d</xliff:g> అనుమతులు మంజూరు చేయబడ్డాయి</item>
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>లో <xliff:g id="COUNT_0">%d</xliff:g> అనుమతి మంజూరు చేయబడింది</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> అదనపు అనుమతులు</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> అదనపు అనుమతి</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"అనుమతులు మంజూరు కాలేదు"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"అనుమతులను అభ్యర్థించలేదు"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"కొన్ని డిఫాల్ట్‌లు సెట్ చేయబడ్డాయి"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"మద్దతిచ్చే లింక్‌లను తెరవదు"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g>ని తెరిచేది(వి)"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> మరియు సంబంధిత URLలను తెరిచేది(వి)"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> అనువర్తనాలు అవి మద్దతిచ్చే లింక్‌లను తెరవగలవు</item>
-      <item quantity="one">ఒక అనువర్తనం అది మద్దతిచ్చే లింక్‌లను తెరవగలదు</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"ఈ అనువర్తనంలో తెరుస్తుంది"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"ప్రతిసారి అడుగుతుంది"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"ఈ అనువర్తనంలో తెరవదు"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"బ్యాటరీ వినియోగాన్ని అనుకూలీకరిస్తోంది"</string>
     <string name="high_power_system" msgid="7362862974428225301">"బ్యాటరీ అనుకూలీకరణ అందుబాటులో లేదు"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"బ్యాటరీ అనుకూలీకరణను వర్తింపజేయదు. మీ బ్యాటరీ మరింత శీఘ్రంగా వినియోగించబడవచ్చు."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other">బ్యాటరీ అనుకూలీకరణను విస్మరించడానికి <xliff:g id="COUNT">%d</xliff:g> అనువర్తనాలు అనుమతించబడ్డాయి</item>
-      <item quantity="one">బ్యాటరీ అనుకూలీకరణను విస్మరించడానికి 1 అనువర్తనం అనుమతించబడింది</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"బ్యాటరీ శక్తి అనుకూలీకరణలను విస్మరించాలా?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"<xliff:g id="APP_NAME">%1$s</xliff:g> అనువర్తనాన్ని నేపథ్యంలో కనెక్ట్ చేసి ఉంచాలా? దీని వలన ఎక్కువ బ్యాటరీ శక్తి వినియోగం కావచ్చు."</string>
     <string name="battery_summary" msgid="101415762036784289">"చివరిగా పూర్తి ఛార్జింగ్ చేసినప్పటి నుండి <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% వినియోగించబడింది"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"సగటుగా ఉపయోగించినది (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"ఖాళీ"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"అనువర్తనాల ద్వారా ఉపయోగించబడిన మెమరీ"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other">గత <xliff:g id="DURATION_1">%2$s</xliff:g>లో <xliff:g id="COUNT">%1$d</xliff:g> అనువర్తనాలు మెమరీని ఉపయోగించాయి</item>
-      <item quantity="one">గత <xliff:g id="DURATION_0">%2$s</xliff:g>లో 1 అనువర్తనం మెమరీని ఉపయోగించింది</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"తరచుదనం"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"గరిష్ట వినియోగం"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"డేటా ఏదీ వినియోగించలేదు"</string>

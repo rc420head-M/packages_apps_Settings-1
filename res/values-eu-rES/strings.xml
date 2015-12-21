@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Itxi"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Aldatu"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Ezezaguna"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other"><xliff:g id="STEP_COUNT_1">%1$d</xliff:g> urrats falta zaizkizu garatzaile izateko.</item>
-      <item quantity="one"><xliff:g id="STEP_COUNT_0">%1$d</xliff:g> urrats falta zaizu garatzaile izateko.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"<xliff:g id="STEP_COUNT">%1$d</xliff:g> urrats falta zaizu garatzaile izateko."</item>
+    <item quantity="other" msgid="6722953419953594148">"<xliff:g id="STEP_COUNT">%1$d</xliff:g> urrats falta zaizkizu garatzaile izateko."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Garatzailea zara!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Ez dago zertan, dagoeneko garatzailea zara."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Hari gabekoak eta sareak"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Hatz-marken erabilera"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Gehitu hatz-marka"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"pantailaren blokeoa"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> hatz-markaren konfigurazioa</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> hatz-markaren konfigurazioa</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Konfigurazioa"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Pantaila desblokeatzeko edo erosketak berresteko hatz-marka erabili nahi baduzu, hau egin behar duzu:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Pasahitzak letra bat eduki behar du gutxienez."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Pasahitzak digitu bat eduki behar du gutxienez."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Pasahitzak ikur bat eduki behar du gutxienez."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">Pasahitzak %d hizki izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak hizki bat izan behar du gutxienez.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">Pasahitzak %d hizki minuskula izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak hizki minuskula bat izan behar du gutxienez.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">Pasahitzak %d hizki maiuskula izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak hizki maiuskula bat izan behar du gutxienez.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">Pasahitzak %d zenbakizko karaktere izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak zenbakizko karaktere bat izan behar du gutxienez.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">Pasahitzak %d ikur berezi izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak ikur berezi bat izan behar du gutxienez.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">Pasahitzak hizkiak ez diren %d karaktere izan behar ditu gutxienez.</item>
-      <item quantity="one">Pasahitzak hizkia ez den karaktere bat izan behar du gutxienez.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Pasahitzak letra bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="8186027808415585970">"Pasahitzak %d letra eduki behar ditu gutxienez."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Pasahitzak letra minuskula bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="2693910942679679225">"Pasahitzak %d letra minuskula eduki behar ditu gutxienez."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Pasahitzak letra maiuskula bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="3030801209112209245">"Pasahitzak %d letra maiuskula eduki behar ditu gutxienez."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Pasahitzak zenbaki-karaktere bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="4703982391407595924">"Pasahitzak %d zenbaki izan behar ditu gutxienez."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Pasahitzak ikur berezi bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="1221290525051187757">"Pasahitzak %d ikur berezi eduki behar ditu gutxienez."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Pasahitzak letra ez den karaktere bat eduki behar du gutxienez."</item>
+    <item quantity="other" msgid="3952508584649046404">"Pasahitzak letrak ez diren %d karaktere eduki behar ditu gutxienez."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Gailuaren administratzaileak ez du pasahitz berri bat erabiltzeko baimenik eman."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Ezin da goranzko, beheranzko edo errepikatutako digitu-sekuentziarik erabili"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"Ados"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"SIM txartel hobetsia eguneratu?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> da gailuan daukazun SIM bakarra. SIM hori erabili nahi duzu dei, testu-mezu zein datu-trafikorako?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"SIMaren PIN kodea okerra da. Gailua desblokeatzeko, operadorearekin harremanetan jarri beharko duzu."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">SIM txartelaren PIN kodea okerra da. <xliff:g id="NUMBER_1">%d</xliff:g> saiakera geratzen zaizkizu gailua desblokeatzeko.</item>
-      <item quantity="one">SIM txartelaren PIN kodea okerra da. <xliff:g id="NUMBER_0">%d</xliff:g> saiakera geratzen zaizu gailua desblokeatzeko.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"SIMaren PIN kodea okerra da. <xliff:g id="NUMBER">%d</xliff:g> saiakera geratzen zaizkizu gailua desblokeatzeko operadorearekin harremanetan jarri behar izan aurretik."</item>
+    <item quantity="other" msgid="77103619544346451">"SIMaren PIN kodea okerra da, <xliff:g id="NUMBER">%d</xliff:g> saiakera geratzen zaizkizu."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"SIMaren PIN kodearen eragiketak huts egin du!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Tabletaren egoera"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Telefonoaren egoera"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Dar-dar"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Jakinarazpenetarako sarbidea"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Aplikazioek ezin dituzte jakinarazpenak irakurri"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d aplikaziok jakinarazpenak irakur ditzakete</item>
-      <item quantity="one">%d aplikaziok jakinarazpenak irakur ditzake</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d aplikaziok irakur ditzake jakinarazpenak"</item>
+    <item quantity="other" msgid="980049191810249052">"%d aplikaziok irakur ditzakete jakinarazpenak"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Ez dago jakinarazpenetarako sarbidea eskatu duen aplikaziorik."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g> zerbitzuari jakinarazpenak atzitzea baimendu nahi diozu?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> eginbidea jakinarazpen guztiak irakurtzeko gai izango da, informazio pertsonala barne, adibidez, kontaktuen izenak eta jaso dituzun testu-mezuak. Gainera, jakinarazpen horiek baztertu edo horien barruko ekintza-botoiak sakatu ahal izango ditu."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Amaiera-ordua"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"Hurrengo eguneko <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Aldatu \"Alarmak soilik\" modura besterik esan arte"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> minutuz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
-      <item quantity="one">Aldatu \"Alarmak soilik\" modura minutu batez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other">Aldatu \"Alarmak soilik\" modura <xliff:g id="DURATION">%1$d</xliff:g> orduz, <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> arte</item>
-      <item quantity="one">Aldatu \"Alarmak soilik\" modura ordubetez, <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> arte</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Aldatu \"Alarmak soilik\" modura <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> arte"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Aldatu \"Eten beti\" modura"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Aplikazioen jakinarazpenak"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Ezin da agertu"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen eman dira</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen eman da</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g>/<xliff:g id="COUNT_3">%d</xliff:g> baimen eman dira</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>/<xliff:g id="COUNT_1">%d</xliff:g> baimen eman da</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> baimen gehigarri</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> baimen gehigarri</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Ez du baimenik"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Ez du baimenik eskatu"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Hobespen lehenetsi batzuk ezarrita daude"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Ez ireki onartzen diren estekak"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Ireki <xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Ireki <xliff:g id="DOMAIN">%s</xliff:g> eta erlazionatutako URLak"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok ireki ditzakete onartzen dituzten estekak</item>
-      <item quantity="one">Aplikazio batek ireki ditzake onartzen dituen estekak</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Ireki aplikazio honetan"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Galdetu beti"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Ez ireki aplikazio honetan"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Bateria-optimizazioa aplikatzen da"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Bateria-optimizazioa ez dago erabilgarri"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Ez aplikatu bateria-optimizazioa. Aukera horrekin, bizkorrago agortuko da bateria."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikaziok dute bateria-optimizazioa ez aplikatzeko baimena</item>
-      <item quantity="one">Aplikazio batek du bateria-optimizazioa ez aplikatzeko baimena</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Ez ikusi egin nahi diezu bateriaren optimizazioei?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Atzeko planoan konektatuta egotea baimendu nahi diozu <xliff:g id="APP_NAME">%1$s</xliff:g> aplikazioari? Baliteke bateria gehiago erabiltzea."</string>
     <string name="battery_summary" msgid="101415762036784289">"Bateriaren %% <xliff:g id="PERCENTAGE">%1$d</xliff:g> erabili du bateria guztiz kargatu zenetik"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Batez best. erabilera (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Erabilgarri"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Aplikazioek erabilitako memoria"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikaziok erabili du memoria (azken <xliff:g id="DURATION_1">%2$s</xliff:g>ak)</item>
-      <item quantity="one">Aplikazio batek erabili du memoria (azken <xliff:g id="DURATION_0">%2$s</xliff:g>ak)</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Maiztasuna"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Gehienezko erabilera"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Ez da erabili daturik"</string>

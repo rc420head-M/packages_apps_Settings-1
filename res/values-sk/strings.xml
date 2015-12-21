@@ -24,12 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Zavrieť"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Prepnúť"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Neznáme"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="few">Ešte <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> krok a bude z vás vývojár.</item>
-      <item quantity="many">Ešte <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> kroka a bude z vás vývojár.</item>
-      <item quantity="other">Ešte <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> krokov a bude z vás vývojár.</item>
-      <item quantity="one">Ešte <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> krok a bude z vás vývojár.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Počet krokov do získania stavu vývojára: <xliff:g id="STEP_COUNT">%1$d</xliff:g>."</item>
+    <item quantity="other" msgid="6722953419953594148">"Počet krokov do získania stavu vývojára: <xliff:g id="STEP_COUNT">%1$d</xliff:g>."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Teraz ste vývojár!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Nie je to potrebné, už ste vývojár."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Bezdrôtové pripojenia a siete"</string>
@@ -320,12 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Použiť odtlačok na"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Pridať odtlačok"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"zámka obrazovky"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="few">Nastavenie <xliff:g id="COUNT_1">%1$d</xliff:g> odtlačkov</item>
-      <item quantity="many">Nastavenie <xliff:g id="COUNT_1">%1$d</xliff:g> odtlačku</item>
-      <item quantity="other">Nastavenie <xliff:g id="COUNT_1">%1$d</xliff:g> odtlačkov</item>
-      <item quantity="one">Nastavenie <xliff:g id="COUNT_0">%1$d</xliff:g> odtlačku</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Nastavenie odtlačku"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Na to, aby ste mohli používať odtlačok prsta na odomknutie obrazovky alebo potvrdenie nákupov, musíte:"</string>
@@ -459,42 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Heslo musí obsahovať najmenej jedno písmeno."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Heslo musí obsahovať najmenej jednu číslicu."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Heslo musí obsahovať najmenej jeden symbol."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="few">Heslo musí obsahovať najmenej %d písmená</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d písmena</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d písmen</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 písmeno</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="few">Heslo musí obsahovať najmenej %d malé písmená</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d malého písmena</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d malých písmen</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 malé písmeno</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="few">Heslo musí obsahovať najmenej %d veľké písmená</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d veľkého písmena</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d veľkých písmen</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 veľké písmeno</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="few">Heslo musí obsahovať najmenej %d číslice</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d číslice</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d číslic</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 číslicu</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="few">Heslo musí obsahovať najmenej %d špeciálne symboly</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d špeciálneho symbolu</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d špeciálnych symbolov</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 špeciálny symbol</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="few">Heslo musí obsahovať najmenej %d znaky iné ako písmeno</item>
-      <item quantity="many">Heslo musí obsahovať najmenej %d znaku iného ako písmeno</item>
-      <item quantity="other">Heslo musí obsahovať najmenej %d znakov iných ako písmeno</item>
-      <item quantity="one">Heslo musí obsahovať najmenej 1 znak iný ako písmeno</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Heslo musí obsahovať najmenej jedno písmeno."</item>
+    <item quantity="other" msgid="8186027808415585970">"Heslo musí obsahovať najmenej %d písmen."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Heslo musí obsahovať najmenej jedno malé písmeno."</item>
+    <item quantity="other" msgid="2693910942679679225">"Heslo musí obsahovať najmenej %d malých písmen."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Heslo musí obsahovať najmenej jedno veľké písmeno."</item>
+    <item quantity="other" msgid="3030801209112209245">"Heslo musí obsahovať najmenej %d veľkých písmen."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Heslo musí obsahovať najmenej jednu číslicu."</item>
+    <item quantity="other" msgid="4703982391407595924">"Heslo musí obsahovať najmenej %d číslic."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Heslo musí obsahovať najmenej jeden špeciálny symbol."</item>
+    <item quantity="other" msgid="1221290525051187757">"Heslo musí obsahovať najmenej %d špeciálnych znakov."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Heslo musí obsahovať najmenej jeden znak iný ako písmeno."</item>
+    <item quantity="other" msgid="3952508584649046404">"Heslo musí obsahovať najmenej %d znakov iných ako písmená."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Správca zariadení neumožňuje používanie nedávneho hesla."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Vzostupná, zostupná alebo opakovaná sekvencia čísiel je zakázaná"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"OK"</string>
@@ -901,12 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Aktualizovať pref. SIM kartu?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> je jediná SIM karta vo vašom zariadení. Chcete použiť túto SIM kartu pre mobilné dáta, hovory a správy SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"Nesprávny kód PIN SIM karty. Teraz musíte kontaktovať svojho operátora, aby vám odomkol zariadenie."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="few">Nesprávny kód PIN SIM karty. Zostávajú vám <xliff:g id="NUMBER_1">%d</xliff:g> pokusy.</item>
-      <item quantity="many">Nesprávny kód PIN SIM karty. Zostáva vám <xliff:g id="NUMBER_1">%d</xliff:g> pokusu.</item>
-      <item quantity="other">Nesprávny kód PIN SIM karty. Zostáva vám <xliff:g id="NUMBER_1">%d</xliff:g> pokusov.</item>
-      <item quantity="one">Nesprávny kód PIN SIM karty. Zostáva vám <xliff:g id="NUMBER_0">%d</xliff:g> pokus, potom budete musieť kontaktovať svojho operátora, aby vám odomkol zariadenie.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"Nesprávny kód PIN SIM karty. Zostáva vám <xliff:g id="NUMBER">%d</xliff:g> pokus, inak budete musieť kontaktovať svojho operátora, aby vám odomkol zariadenie."</item>
+    <item quantity="other" msgid="77103619544346451">"Nesprávny kód PIN SIM karty. Počet zostávajúcich pokusov: <xliff:g id="NUMBER">%d</xliff:g>."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"Operácia kódu PIN SIM karty zlyhala!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Stav tabletu"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Stav telefónu"</string>
@@ -2578,12 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Vibrovanie"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Prístup k upozorneniam"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Aplikácie nesmú čítať upozornenia"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="few">%d aplikácie dokážu čítať upozornenia</item>
-      <item quantity="many">%d aplikácie dokáže čítať upozornenia</item>
-      <item quantity="other">%d aplikácií dokáže čítať upozornenia</item>
-      <item quantity="one">%d aplikácia dokáže čítať upozornenia</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d aplikácia dokáže čítať upozornenia"</item>
+    <item quantity="other" msgid="980049191810249052">"Aplikácie, ktoré dokážu čítať upozornenia (celkom %d)"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Prístup k upozorneniam si nevyžiadali žiadne nainštalované aplikácie"</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Povoliť prístup k upozorneniam pre službu <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> bude môcť čítať všetky upozornenia vrátane osobných informácií, ako sú mená kontaktov a texty vašich prijatých správ. Aplikácia bude tiež môcť tieto upozornenia zatvoriť alebo spustiť v nich tlačidlá akcií."</string>
@@ -2654,18 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Čas ukončenia"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> nasledujúci deň"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Zmena na možnosť Iba budíky platná natrvalo"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="few">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> minúty (do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="many">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> minúty (do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> minút (do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="one">Zmena na možnosť Iba budíky platná minútu do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="few">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> hodiny do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="many">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> hodiny do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Zmena na možnosť Iba budíky platná <xliff:g id="DURATION">%1$d</xliff:g> hodín do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">Zmena na možnosť Iba budíky platná hodinu do <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Zmena na možnosť Iba budíky platná do <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Zmena na možnosť Vždy prerušiť"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Upozornenia aplikácií"</string>
@@ -2738,24 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Žiadny náhľad"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="few">Boli udelené <xliff:g id="COUNT_1">%d</xliff:g> povolenia</item>
-      <item quantity="many">Bolo udeleného <xliff:g id="COUNT_1">%d</xliff:g> povolenia</item>
-      <item quantity="other">Bolo udelených <xliff:g id="COUNT_1">%d</xliff:g> povolení</item>
-      <item quantity="one">Bolo udelené <xliff:g id="COUNT_0">%d</xliff:g> povolenie</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="few"><xliff:g id="COUNT_2">%d</xliff:g> udelené povolenia z <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="many"><xliff:g id="COUNT_2">%d</xliff:g> udeleného povolenia z <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> udelených povolení z <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> udelené povolenie z <xliff:g id="COUNT_1">%d</xliff:g></item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> ďalšie povolenia</item>
-      <item quantity="many"><xliff:g id="COUNT_1">%d</xliff:g> ďalšieho povolenia</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ďalších povolení</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ďalšie povolenie</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Neboli udelené žiadne povolenia"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Neboli požadované žiadne povolenia"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Predvolená pre niektoré akcie"</string>
@@ -2783,12 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Neotvára podporované odkazy"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Otvárať <xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Otvárať <xliff:g id="DOMAIN">%s</xliff:g> a súvisiace adresy"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikácie môžu otvárať podporované odkazy</item>
-      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikácie môže otvárať podporované odkazy</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikácií môže otvárať podporované odkazy</item>
-      <item quantity="one">1 aplikácia môže otvárať podporované odkazy</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Otvárať v tejto aplikácii"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Vždy sa opýtať"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Neotvárať v tejto aplikácii"</string>
@@ -2829,12 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Optimalizuje používanie batérie"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Optimalizácia batérie nie je k dispozícii"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Nepoužívajte optimalizáciu batérie. Môže rýchlejšie vybiť vašu batériu."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplikácie majú povolené ignorovať optimalizáciu batérie</item>
-      <item quantity="many"><xliff:g id="COUNT">%d</xliff:g> aplikácie má povolené ignorovať optimalizáciu batérie</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplikácií má povolené ignorovať optimalizáciu batérie</item>
-      <item quantity="one">Jedna aplikácia má povolené ignorovať optimalizáciu batérie</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Ignorovať optimalizácie výdrže batérie?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Chcete povoliť, aby aplikácia <xliff:g id="APP_NAME">%1$s</xliff:g> zostala pripojená na pozadí? Môže to viesť k zvýšeniu spotreby energie z batérie."</string>
     <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g> %% využitie od posledného úplného dobitia"</string>
@@ -2876,12 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Priemerné využitie (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Voľná pamäť"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Pamäť používaná aplikáciami"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplikácie použili pamäť za obdobie: <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> aplikácie použilo pamäť za obdobie: <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplikácií použilo pamäť za obdobie: <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="one">1 aplikácia použila pamäť za obdobie: <xliff:g id="DURATION_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Frekvencia"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Maximálne využitie"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Neboli využité žiadne údaje"</string>

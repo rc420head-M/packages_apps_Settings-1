@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Tanca"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Canvia"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Desconegut"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">Ara només et queden <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> passos per convertir-te en desenvolupador.</item>
-      <item quantity="one">Ara només et queda <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> pas per convertir-te en desenvolupador.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Ara només et queda <xliff:g id="STEP_COUNT">%1$d</xliff:g> pas per convertir-te en desenvolupador"</item>
+    <item quantity="other" msgid="6722953419953594148">"Ara només et queden <xliff:g id="STEP_COUNT">%1$d</xliff:g> passos per convertir-te en desenvolupador"</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Ara ja ets un desenvolupador"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"No és necessari, ja ets un desenvolupador"</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Connexions sense fil i xarxes"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Util. empr. digit. per"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Afegeix una empremta digital"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"bloqueig de pantalla"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> empremtes digitals configurades</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> empremta digital configurada</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Conf. empremta digital"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Per fer servir la teva empremta digital per desbloquejar la pantalla o confirmar compres, ens caldrà:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"La contrasenya ha de contenir almenys una lletra."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"La contrasenya ha de contenir almenys un dígit."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"La contrasenya ha de contenir almenys un símbol."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d lletres.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 lletra.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d lletres en minúscules.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 lletra en minúscules.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d lletres en majúscules.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 lletra en majúscules.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d dígits numèrics.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 dígit numèric.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d símbols especials.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 símbol especial.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">La contrasenya ha de contenir com a mínim %d caràcters que no siguin una lletra.</item>
-      <item quantity="one">La contrasenya ha de contenir com a mínim 1 caràcter que no sigui una lletra.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"La contrasenya ha de contenir com a mínim una lletra."</item>
+    <item quantity="other" msgid="8186027808415585970">"La contrasenya ha de contenir com a mínim %d lletres."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"La contrasenya ha de contenir com a mínim una lletra en minúscules."</item>
+    <item quantity="other" msgid="2693910942679679225">"La contrasenya ha de contenir com a mínim %d lletres en minúscules."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"La contrasenya ha de contenir com a mínim 1 lletra en majúscules."</item>
+    <item quantity="other" msgid="3030801209112209245">"La contrasenya ha de contenir com a mínim %d lletres en majúscules."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"La contrasenya ha de contenir com a mínim un dígit numèric."</item>
+    <item quantity="other" msgid="4703982391407595924">"La contrasenya ha de contenir com a mínim %d dígits numèrics."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"La contrasenya ha de contenir com a mínim un símbol especial."</item>
+    <item quantity="other" msgid="1221290525051187757">"La contrasenya ha de contenir com a mínim %d símbols especials."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"La contrasenya ha de contenir com a mínim un caràcter que no sigui una lletra."</item>
+    <item quantity="other" msgid="3952508584649046404">"La contrasenya ha de contenir com a mínim %d caràcters que no siguin lletres."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"L\'administrador del dispositiu no permet l\'ús d\'una contrasenya recent."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"No es permet una seqüència de dígits ascendents, descendents ni repetits."</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"D\'acord"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Vols canviar la SIM preferida?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> és l\'única targeta SIM del dispositiu. Vols fer-la servir per a les dades mòbils, les trucades i els missatges SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"El codi PIN de la SIM no és correcte. Has de contactar amb l\'operador de telefonia mòbil per desbloquejar el dispositiu."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">El codi PIN de la SIM no és correcte. Et queden <xliff:g id="NUMBER_1">%d</xliff:g> intents.</item>
-      <item quantity="one">El codi PIN de la SIM no és correcte. Et queda <xliff:g id="NUMBER_0">%d</xliff:g> intent; si no l\'encertes, contacta amb l\'operador de telefonia mòbil per desbloquejar el dispositiu.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"El codi PIN de la SIM no és correcte. Et queda <xliff:g id="NUMBER">%d</xliff:g> intent; si no l\'encertes, contacta amb l\'operador de telefonia mòbil per desbloquejar el dispositiu."</item>
+    <item quantity="other" msgid="77103619544346451">"El codi PIN de la SIM no és correcte. Et queden <xliff:g id="NUMBER">%d</xliff:g> intents."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"Hi ha hagut un problema en l\'operació del PIN de la SIM."</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Estat de la tauleta"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Estat del telèfon"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Vibració"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Accés a les notificacions"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Les aplicacions no poden llegir notificacions"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d aplicacions poden llegir notificacions</item>
-      <item quantity="one">%d aplicació pot llegir notificacions</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d aplicació pot llegir notificacions."</item>
+    <item quantity="other" msgid="980049191810249052">"%d aplicacions poden llegir notificacions."</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Cap aplicació instal·lada ha sol·licitat accés a les notificacions."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Vols que <xliff:g id="SERVICE">%1$s</xliff:g> tingui accés a les notificacions?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> podrà llegir totes les notificacions, inclosa la informació personal, com ara els noms de contactes i el text dels missatges que reps. També podrà ignorar les notificacions o bé activar els botons d\'acció que continguin."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Hora de finalització"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"A les <xliff:g id="FORMATTED_TIME">%s</xliff:g> del dia següent"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Canvia al mode Només alarmes indefinidament"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">Canvia al mode Només alarmes durant <xliff:g id="DURATION">%1$d</xliff:g> minuts (fins a les <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="one">Canvia al mode Només alarmes durant un minut fins a les <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other">Canvia al mode Només alarmes durant <xliff:g id="DURATION">%1$d</xliff:g> hores fins a les <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">Canvia al mode Només alarmes durant una hora fins a les <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Canvia al mode Només alarmes fins a les <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Canvia al mode Interromp sempre"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Notificacions d\'aplicacions"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Sense previsualització"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> permisos concedits</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> permís concedit</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> permisos de <xliff:g id="COUNT_3">%d</xliff:g> concedits</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> permís de <xliff:g id="COUNT_1">%d</xliff:g> concedit</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> permisos addicionals</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> permís addicional</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"No s\'ha concedit cap permís"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"No s\'ha sol·licitat cap permís"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"S\'han definit alguns valors predeterminats"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"No obre els enllaços admesos"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Obre <xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Obre <xliff:g id="DOMAIN">%s</xliff:g> i els URL relacionats"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplicacions poden obrir els seus enllaços admesos</item>
-      <item quantity="one">Una aplicació pot obrir els seus enllaços admesos</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Obre en aquesta aplicació"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Demana-m\'ho cada vegada"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"No obris en aquesta aplicació"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Optimitza l\'ús de la bateria"</string>
     <string name="high_power_system" msgid="7362862974428225301">"L\'optimització de la bateria no està disponible"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"No s\'aplica l\'optimització de la bateria. És possible que es consumeixi més ràpidament."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> aplicacions amb permís per ignorar l\'optimització de la bateria</item>
-      <item quantity="one">1 aplicació amb permís per ignorar l\'optimització de la bateria</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Vols que s\'ignorin les optimitzacions de la bateria?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Vols que l\'aplicació <xliff:g id="APP_NAME">%1$s</xliff:g> continuï connectada en segon pla? És possible que així es gasti més bateria."</string>
     <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>%% d\'ús des de l\'última càrrega completa"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Mitjana utilitzada (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Memòria disponible"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Memòria utilitzada per les aplicacions"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> aplicacions han utilitzat memòria durant les últimes <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="one">1 aplicació ha utilitzat memòria durant les últimes <xliff:g id="DURATION_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Freqüència"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Ús màxim"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"No s\'han fet servir dades"</string>

@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"關閉"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"切換"</string>
     <string name="device_info_default" msgid="7847265875578739287">"未知"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">您只需完成 <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> 個步驟，即可成為開發人員。</item>
-      <item quantity="one">您只需完成 <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> 個步驟，即可成為開發人員。</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"您只需完成剩餘的 <xliff:g id="STEP_COUNT">%1$d</xliff:g> 個步驟，即可成為開發人員。"</item>
+    <item quantity="other" msgid="6722953419953594148">"您只需完成剩餘的 <xliff:g id="STEP_COUNT">%1$d</xliff:g> 個步驟，即可成為開發人員。"</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"您現已成為開發人員！"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"不需要了，您已經是開發人員。"</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"無線與網絡"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"使用指紋"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"新增指紋"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"螢幕鎖定"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other">已設定 <xliff:g id="COUNT_1">%1$d</xliff:g> 個指紋</item>
-      <item quantity="one">已設定 <xliff:g id="COUNT_0">%1$d</xliff:g> 個指紋</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"已設定指紋"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"要使用您的指紋解鎖屏幕或確認購買，我們需要："</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"密碼必須包含至少 1 個字母。"</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"密碼必須包含至少 1 個數字。"</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"密碼必須包含至少 1 個符號。"</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">密碼必須包含至少 %d 個字母。</item>
-      <item quantity="one">密碼必須包含至少 1 個字母。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">密碼必須包含至少 %d 個小寫字母。</item>
-      <item quantity="one">密碼必須包含至少 1 個小寫字母。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">密碼必須包含至少 %d 個大寫字母。</item>
-      <item quantity="one">密碼必須包含至少 1 個大寫字母。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">密碼必須包含至少 %d 個數字。</item>
-      <item quantity="one">密碼必須包含至少 1 個數字。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">密碼必須包含至少 %d 個特殊符號。</item>
-      <item quantity="one">密碼必須包含至少 1 個特殊符號。</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">密碼必須包含至少 %d 個非字母字元。</item>
-      <item quantity="one">密碼必須包含至少 1 個非字母字元。</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"密碼必須包含至少 1 個字母。"</item>
+    <item quantity="other" msgid="8186027808415585970">"密碼必須包含至少 %d 個字母。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"密碼必須包含至少 1 個小寫字母。"</item>
+    <item quantity="other" msgid="2693910942679679225">"密碼必須包含至少 %d 個小寫字母。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"密碼必須包含至少 1 個大寫字母。"</item>
+    <item quantity="other" msgid="3030801209112209245">"密碼必須包含至少 %d 個大寫字母。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"密碼必須包含至少 1 個數字。"</item>
+    <item quantity="other" msgid="4703982391407595924">"密碼必須包含至少 %d 個數字。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"密碼必須包含至少 1 個特殊符號。"</item>
+    <item quantity="other" msgid="1221290525051187757">"密碼必須包含至少 %d 個特殊符號。"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"密碼必須包含至少 1 個非字母字元。"</item>
+    <item quantity="other" msgid="3952508584649046404">"密碼必須包含至少 %d 個非字母字元。"</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"裝置管理員不允許最近用過的密碼。"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"不得使用依遞增或遞減順序排列或重複的一串數字"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"確定"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"要更新首選 SIM 卡嗎？"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> 是您裝置內唯一的 SIM 卡。您要使用這張 SIM 卡用於流動數據、通話和短訊嗎？"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"SIM PIN 碼不正確，您現在必須聯絡流動網絡供應商為您的裝置解鎖。"</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">SIM PIN 碼不正確，您還有 <xliff:g id="NUMBER_1">%d</xliff:g> 次機會輸入。</item>
-      <item quantity="one">SIM PIN 碼不正確，您還有 <xliff:g id="NUMBER_0">%d</xliff:g> 次機會輸入。如果仍然輸入錯誤，您必須聯絡流動網絡供應商為您的裝置解鎖。</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"SIM PIN 碼不正確，您剩下 <xliff:g id="NUMBER">%d</xliff:g> 次機會輸入。如果仍然輸入錯誤，您必須聯絡流動網絡供應商為您的裝置解鎖。"</item>
+    <item quantity="other" msgid="77103619544346451">"SIM PIN 碼不正確，您剩下 <xliff:g id="NUMBER">%d</xliff:g> 次機會輸入。"</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"SIM PIN 碼操作失敗！"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"平板電腦狀態"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"手機狀態"</string>
@@ -2565,10 +2563,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"震動"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"通知存取權"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"應用程式無法讀取通知"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">%d 個應用程式可讀取通知</item>
-      <item quantity="one">%d 個應用程式可讀取通知</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d 個應用程式可讀取通知"</item>
+    <item quantity="other" msgid="980049191810249052">"%d 個應用程式可讀取通知"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"沒有已安裝的應用程式要求通知存取權。"</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"授權 <xliff:g id="SERVICE">%1$s</xliff:g> 存取通知 ？"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> 將可讀取所有通知，包括聯絡人姓名和您收到的訊息文字之類的個人資訊，並可關閉這些通知或觸發其中的操作按鈕。"</string>
@@ -2639,14 +2637,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"完結時間"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"下一天 <xliff:g id="FORMATTED_TIME">%s</xliff:g>"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"變更為永遠只允許鬧鐘"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">變更為 <xliff:g id="DURATION">%1$d</xliff:g> 分鐘內只限鬧鐘（直至 <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>）</item>
-      <item quantity="one">變更為一分鐘內只限鬧鐘，直至 <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other">變更為 <xliff:g id="DURATION">%1$d</xliff:g> 小時內只限鬧鐘，直至 <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">變更為一小時內只限鬧鐘，直至 <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"響 <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>前改為只允許鬧鐘"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"變更為永遠允許干擾"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"應用程式通知"</string>
@@ -2719,18 +2713,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"沒有預覽"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other">已授予 <xliff:g id="COUNT_1">%d</xliff:g> 項權限</item>
-      <item quantity="one">已授予 <xliff:g id="COUNT_0">%d</xliff:g> 項權限</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other">已授權 <xliff:g id="COUNT_2">%d</xliff:g> 個 (共 <xliff:g id="COUNT_3">%d</xliff:g> 個) 權限</item>
-      <item quantity="one">已授權 <xliff:g id="COUNT_0">%d</xliff:g> 個 (共 <xliff:g id="COUNT_1">%d</xliff:g> 個) 權限</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> 個其他權限</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> 個其他權限</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"沒有授予權限"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"沒有要求權限"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"已設定部分預設值"</string>
@@ -2758,10 +2746,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"不要開啟支援連結"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"開啟 <xliff:g id="DOMAIN">%s</xliff:g>"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"開啟 <xliff:g id="DOMAIN">%s</xliff:g> 和相關 URL"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other">有 <xliff:g id="COUNT">%d</xliff:g> 個應用程式可以開啟支援連結</item>
-      <item quantity="one">有一個應用程式可以開啟支援連結</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"在此應用程式開啟"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"每次都詢問"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"不要在此應用程式開啟"</string>
@@ -2802,10 +2789,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"正在優化電池使用"</string>
     <string name="high_power_system" msgid="7362862974428225301">"不支援電池優化"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"不使用電池優化，可能會加速耗電。"</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> 個應用程式允許忽略電池優化</item>
-      <item quantity="one">1 個應用程式允許忽略電池優化</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"要忽略電池優化嗎？"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"要允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式在背景保持連接嗎？這可能會消耗較多電量。"</string>
     <string name="battery_summary" msgid="101415762036784289">"自上次完全充電後，已使用 <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
@@ -2814,7 +2799,7 @@
     <string name="system_ui_settings" msgid="579824306467081123">"顯示系統使用者介面調諧器"</string>
     <string name="additional_permissions" msgid="6463784193877056080">"其他權限"</string>
     <string name="additional_permissions_more" msgid="3538612272673191451">"還有 <xliff:g id="COUNT">%1$d</xliff:g> 個"</string>
-    <string name="usb_use_charging_only" msgid="167707234832117768">"正在充電"</string>
+    <string name="usb_use_charging_only" msgid="167707234832117768">"充電"</string>
     <string name="usb_use_charging_only_desc" msgid="3066256793008540627">"只為此裝置充電"</string>
     <string name="usb_use_power_only" msgid="6304554004177083963">"電源"</string>
     <string name="usb_use_power_only_desc" msgid="708134382305728112">"為其他已連接的裝置充電"</string>
@@ -2847,10 +2832,8 @@
     <string name="average_used" msgid="5338339266517245782">"平均已使用 (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"可用"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"應用程式所使用的記憶體"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other">在過去 <xliff:g id="DURATION_1">%2$s</xliff:g>，<xliff:g id="COUNT">%1$d</xliff:g> 個應用程式使用了記憶體</item>
-      <item quantity="one">在過去 <xliff:g id="DURATION_0">%2$s</xliff:g>，1 個應用程式使用了記憶體</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"頻率"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"最高用量"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"並未使用數據"</string>

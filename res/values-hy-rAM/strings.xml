@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Փակել"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Փոխարկել"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Անհայտ"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="one">Ծրագրավորող դառնալու համար ձեզ մնացել է կատարել <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> քայլ:</item>
-      <item quantity="other">Ծրագրավորող դառնալու համար ձեզ մնացել է կատարել <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> քայլ:</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Դուք այժմ ծրագրավորող դառնալուց հեռու եք <xliff:g id="STEP_COUNT">%1$d</xliff:g> քայլ:"</item>
+    <item quantity="other" msgid="6722953419953594148">"Դուք այժմ <xliff:g id="STEP_COUNT">%1$d</xliff:g> քայլ եք հեռու ծրագրավորող կոչվելուց:"</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Դուք արդեն ծրագրավորո՛ղ եք:"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Կարիք չկա, դուք արդեն իսկ ծրագրավորող եք:"</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Անլար կապ և ցանցեր"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Օգտագործման նպատակը"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Ավելացնել մատնահետք"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"էկրանի կողպում"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> մատնահետք կարգավորված է</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> մատնահետք կարգավորված է</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Մատնահետքի գրանցում"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Մատնահետքի միջոցով էկրանն ապակողպելու կամ գնումները հաստատելու համար մեզ անհրաժեշտ է՝"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Գաղտնաբառը պետք է առնվազն մեկ տառ պարունակի:"</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Գաղտնաբառը պետք է պարունակի առնվազն մեկ թվանշան:"</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Գաղտնաբառը պետք է պարունակի առնվազն մեկ նիշ:"</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d տառ:</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d փոքրատառ նիշ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d փոքրատառ նիշ:</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d մեծատառ նիշ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d մեծատառ նիշ:</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d թվային նիշ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d թվային նիշ:</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d հատուկ նիշ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d հատուկ նիշ:</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="one">Գաղտնաբառը պետք է պարունակի առնվազն %d ոչ-տառային նիշ:</item>
-      <item quantity="other">Գաղտնաբառը պետք է պարունակի առնվազն %d ոչ-տառային նիշ:</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Գաղտնաբառը պետք է պարունակի առնվազն 1 տառ:"</item>
+    <item quantity="other" msgid="8186027808415585970">"Գաղտնաբառը պետք է պարունակի առնվազն %d տառ:"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Գաղտնաբառը պետք է  առնվազն 1 փոքրատառ տառ պարունակի:"</item>
+    <item quantity="other" msgid="2693910942679679225">"Գաղտնաբառը պետք է առնվազն %d փոքրատառ տառ պարունակի:"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Գաղտնաբառը պետք է պարունակի առնվազն 1 մեծատառ տառ:"</item>
+    <item quantity="other" msgid="3030801209112209245">"Գաղտնաբառը պետք է պարունակի առնվազն %d մեծատառ տառ:"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Գաղտնաբառը պետք է պարունակի  առնվազն 1 թվային նիշ:"</item>
+    <item quantity="other" msgid="4703982391407595924">"Գաղտնաբառը պետք է պարունակի առնվազն %d թվային նշան:"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Գաղտնաբառը պետք է պարունակի առնվազն 1 հատուկ նշան:"</item>
+    <item quantity="other" msgid="1221290525051187757">"Գաղտնաբառը պետք է առնվազն %d հատուկ նշան պարունակի:"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Գաղտնաբառը պետք է պարունակի առնվազն 1 ոչ տառային նիշ:"</item>
+    <item quantity="other" msgid="3952508584649046404">"Գաղտնաբառը պետք է առնվազն %d ոչ-տառային նիշ պարունակի:"</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Սարքի վարիչը թույլ չի տալիս օգտագործել վերջին գաղտնաբառը:"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Թվերի աճող, նվազող կամ կրկնվող հաջորդականությունն արգելված է:"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"Լավ"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Փոխե՞լ նախընտրելի SIM քարտը:"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"Այս սարքի վրա միակ SIM քարտը <xliff:g id="NEW_SIM">%1$s</xliff:g> է: Ցանկանո՞ւմ եք օգտագործել այս SIM-ը բջջային տվյալների փոխանցման, զանգերի և SMS հաղորդագրությունների համար:"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"SIM PIN կոդը սխալ է: Պետք է դիմեք ձեր օպերատորին՝ սարքն արգելաբացելու համար:"</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="one">SIM PIN կոդը սխալ է: Մնաց <xliff:g id="NUMBER_1">%d</xliff:g> փորձ:</item>
-      <item quantity="other">SIM PIN կոդը սխալ է: Մնաց <xliff:g id="NUMBER_1">%d</xliff:g> փորձ:</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"SIM PIN կոդը սխալ է: Մնաց <xliff:g id="NUMBER">%d</xliff:g> փորձ, որից հետո պետք է դիմեք ձեր օպերատորին՝ սարքն արգելաբացելու համար:"</item>
+    <item quantity="other" msgid="77103619544346451">"SIM PIN կոդը սխալ է: Մնաց <xliff:g id="NUMBER">%d</xliff:g> փորձ:"</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"SIM PIN կոդի գործողությունը ձախողվեց:"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Գրասալիկի կարգավիճակը"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Հեռախոսի կարգավիճակը"</string>
@@ -1989,7 +1987,7 @@
     <string name="device_admin_warning" msgid="2026747446313628233">"Այս ադմինիստրատորին ակտիվացնելը հնարավություն կընձեռի <xliff:g id="APP_NAME">%1$s</xliff:g> հավելվածին իրականացնելու հետևյալ գործողությունները`"</string>
     <string name="device_admin_status" msgid="4252975713178851910">"Այս վարիչը ակտիվ է և թույլ է տալիս <xliff:g id="APP_NAME">%1$s</xliff:g> ծրագրին կատարել հետևյալ գործողությունները`"</string>
     <string name="profile_owner_add_title" msgid="6249331160676175009">"Ակտիվացնե՞լ պրոֆիլների կառավարիչը:"</string>
-    <string name="adding_profile_owner_warning" msgid="8081841501073689534">"Այս հաշիվը կկառավարվի ձեր ադմինիստրատորի կողմից, որը, ձեր անձնական տվյալներից բացի, կկարողանա նաև պահել այս հաշվի հետ կապակցված տվյալները:\n\nՁեր ադմինիստրատորը կարող է վերահսկել և կառավարել կարգավորումները, մուտքը, հավելվածները և այս հաշվի հետ կապակցված տվյալները՝ ներառյալ ցանցային գործունեությունը և ձեր սարքերի տեղադրության վերաբերյալ տվյալները:"</string>
+    <string name="adding_profile_owner_warning" msgid="8081841501073689534">"Այս հաշիվը կկառավարվի ձեր ադմինիստրատորի կողմից, որը, ձեր անձնական տվյալներից բացի, կկարողանա նաև պահել այս հաշվի հետ կապված տվյալները:\n\nՁեր ադմինիստրատորը կարող է վերահսկել և կառավարել կարգավորումները, մուտքը, հավելվածները և այս հաշվի հետ կապված տվյալները՝ ներառյալ ցանցային գործունեությունը և ձեր սարքերի տեղադրության վերաբերյալ տվյալները:"</string>
     <string name="untitled_apn" msgid="1230060359198685513">"Անվերնագիր"</string>
     <string name="sound_category_sound_title" msgid="1488759370067953996">"Ընդհանուր"</string>
     <string name="notification_log_title" msgid="3766148588239398464">"Ծանուցումների գրանցամատյան"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Թրթռալ"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Մուտք ծանուցումներին"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Ծրագրիը չի կարող կարդալ ծանուցումները"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="one">%d հավելված կարող է ծանուցումներ կարդալ</item>
-      <item quantity="other">%d հավելված կարող է ծանուցումներ կարդալ</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d ծրագիրը կարող է կարդալ ծանուցումները"</item>
+    <item quantity="other" msgid="980049191810249052">"%d հավելված կարող է կարդալ ծանուցումները"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Տեղադրված հավելվածներից ոչ մեկը հարցում չի ուղարկել"</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Թո՞ւյլ տալ ծանուցմանը օգտվել <xliff:g id="SERVICE">%1$s</xliff:g>-ից:"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g>-ը կկարողանա կարդալ բոլոր ծանուցումները, այդ թվում նաև՝ կոնտակտների անունները, ձեր ստացած հաղորդագրությունները և այլ անձնական տեղեկություններ: Այն կարող է նաև բաց թողնել ծանուցումները կամ սեղմել նրանցում առկա գործողության կոճակը:"</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Ավարտի ժամը"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"Հաջորդ օրը <xliff:g id="FORMATTED_TIME">%s</xliff:g>-ին"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Անորոշ ժամանակով ակտիվացնել «Միայն զարթուցիչը» ռեժիմը"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="one">Change to alarms only for <xliff:g id="DURATION">%1$d</xliff:g> minutes (until <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">Ակտիվացնել «Միայն զարթուցիչը» ռեժիմը <xliff:g id="DURATION">%1$d</xliff:g> րոպեով (մինչև <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="one">Change to alarms only for <xliff:g id="DURATION">%1$d</xliff:g> hours until <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Ակտիվացնել «Միայն զարթուցիչը» ռեժիմը <xliff:g id="DURATION">%1$d</xliff:g> ժամով մինչև <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Ակտիվացնել «Միայն զարթուցիչը» ռեժիմը մինչև <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>-ը"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Ակտիվացնել «Միշտ ընդհատել» ռեժիմը"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Ծրագրերի ծանուցումներ"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Կարճ ծանուցումներն անջատված են"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one">Տրամադրվել է <xliff:g id="COUNT_1">%d</xliff:g> թույլտվություն</item>
-      <item quantity="other">Տրամադրվել է <xliff:g id="COUNT_1">%d</xliff:g> թույլտվություն</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one"><xliff:g id="COUNT_2">%d</xliff:g> of <xliff:g id="COUNT_3">%d</xliff:g> permissions granted</item>
-      <item quantity="other">Տրվել է <xliff:g id="COUNT_3">%d</xliff:g>-ից <xliff:g id="COUNT_2">%d</xliff:g> թույլտվություն</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> լրացուցիչ թույլտվություն</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> լրացուցիչ թույլտվություն</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Թույլտվություններ չեն շնորհվել"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Թույլտվություններ չեն հայցվել"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Որոշ կանխադրված կարգավորումներ կան"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Չբացել աջակցվող հղումները"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Բացել <xliff:g id="DOMAIN">%s</xliff:g> տիրույթը"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Բացել <xliff:g id="DOMAIN">%s</xliff:g> տիրույթը և հարակից URL-ները"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> հավելված կարող է բացել իր աջակցվող հղումները</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> հավելված կարող է բացել իր աջակցվող հղումները</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Բացել այս հավելվածով"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Հարցնել ամեն անգամ"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Չբացել այս հավելվածով"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Մարտկոցի սպառման օպտիմալացում"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Մարտկոցի օպտիմալացումը հասանելի չէ"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Մի կիրառեք մարտկոցի օպտիմալացումը: Մարտկոցի լիցքը կարող է ավելի արագ սպառվել:"</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> հավելված կարող է արագ սպառել մարտկոցի լիցքը</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> հավելված կարող է արագ սպառել մարտկոցի լիցքը</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Անտեսե՞լ մարտկոցի օպտիմալացումը:"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Պահե՞լ միացրած <xliff:g id="APP_NAME">%1$s</xliff:g>-ը ետին պլանում: Այն կարող է արագացնել մարտկոցի լիցքի սպառումը:"</string>
     <string name="battery_summary" msgid="101415762036784289">"Վերջին լրիվ լիցքավորումից հետո օգտագործվել է <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Միջին օգագործում (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Ազատ է"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Հավելվածների օգտագործած հիշողություն"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> հավելված օգտագործել է հիշողությունը վերջին <xliff:g id="DURATION_1">%2$s</xliff:g>-ում</item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> հավելված օգտագործել է հիշողությունը վերջին <xliff:g id="DURATION_1">%2$s</xliff:g>-ում</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Հաճախականություն"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Առավելագույն օգտագործումը"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Առանց տվյալների օգտագործման"</string>

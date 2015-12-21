@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"ပိတ်ရန်"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Switch"</string>
     <string name="device_info_default" msgid="7847265875578739287">"အကြောင်းအရာ မသိရှိ"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">သင်သည် ယခု ဆောဖ့်ဝဲရေးသားသူထံမှ <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> အဆင့်အကွာအဝေးတွင် ရှိနေပါသည်။</item>
-      <item quantity="one">သင်သည် ယခု ဆောဖ့်ဝဲရေးသားသူထံမှ <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> အဆင့် အကွာအဝေးတွင်ရှိနေပါသည်။</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"သင်သည် အခုဆိုရင် တည်ဆောက်သူတယောက်ဖြစ်ဖို့ <xliff:g id="STEP_COUNT">%1$d</xliff:g> အဆင့် လိုသေးသည်"</item>
+    <item quantity="other" msgid="6722953419953594148">"သင်သည် အခုဆိုရင် တည်ဆောက်သူတယောက်ဖြစ်ဖို့ <xliff:g id="STEP_COUNT">%1$d</xliff:g> အဆင့် လိုသေးသည်"</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"သင်ဟာ ယခု တည်ဆောက်သူတစ်ယောက် ဖြစ်နေပါပြီ!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"မလိုတော့ပါ။ သင်သည် တည်ဆောက်သူတစ်ယောက် ဖြစ်နေပြီ ဖြစ်သည်။"</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"ကြိုးမဲ့ &amp; ကွန်ရက်များ"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"လက်ဗွေရာအား သုံးရန်"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"လက်ဗွေထည့်သွင်းမည်"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"ဖုန်းမျက်နှာပြင်အား သော့ချရန်"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> လက်ဗွေရာများ ပြင်ဆင်သတ်မှတ်ရန်</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> လက်ဗွေရာ ပြင်ဆင်သတ်မှတ်ရန်</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"လက်ဗွေရာကို တပ်ဆင်ရန်"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"သင့်ရဲ့ဖုန်းဖန်သားပြင်ကို သော့ဖွင့်ရန် သို့မဟုတ် ၀ယ်ယူမှုများကို အတည်ပြုရန် ကျွန်တော့တို့ လုပ်ဖို့လိုသည်မှာ-"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"စကားဝှက်တွင် အနည်းဆုံး စာလုံး ၁လုံး ပါရမည်။"</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"စကားဝှက်တွင် အနည်းဆုံး ဂဏန်း ၁လုံး ပါရမည်။"</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"စကားဝှက်တွင် အနည်းဆုံး သင်္ကေတအက္ခရာ ၁လုံး ပါရမည်။"</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="other">စကားဝှက်တွင် အနည်းဆုံး စာလုံး %d ပါရမည်။</item>
-      <item quantity="one">စကားဝှက်တွင် အနည်းဆုံး စာလုံး 1 လုံး ပါရမည်။</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအသေး အနည်းဆုံး %d လုံးပါရမည်။</item>
-      <item quantity="one">စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအသေး အနည်းဆုံး 1 လုံးပါရမည်။</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="other">စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအကြီး အနည်းဆုံး %d လုံးပါရမည်။</item>
-      <item quantity="one">စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအကြီး အနည်းဆုံး 1 လုံးပါရမည်။</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="other">စကားဝှက်တွင် အနည်းဆုံး ဂဏန်း %d လုံး ပါရမည်။</item>
-      <item quantity="one">စကားဝှက်တွင် အနည်းဆုံး ဂဏန်း 1 လုံး ပါရမည်။</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="other">စကားဝှက်တွင် အထူးပြုသင်္ကေတ အနည်းဆုံး %d လုံးပါရမည်။ </item>
-      <item quantity="one">စကားဝှက်တွင် အထူးပြုသင်္ကေတ အနည်းဆုံး 1 လုံးပါရမည်။ </item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="other">စကားဝှက်တွင် စာလုံးမဟုတ်သည့်အက္ခရာ အနည်းဆုံး %d လုံးပါရမည်။</item>
-      <item quantity="one">စကားဝှက်တွင် စာလုံးမဟုတ်သည့်အက္ခရာ အနည်းဆုံး 1 လုံးပါရမည်။</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"စကားဝှက်တွင် အနည်းဆုံး စာလုံး ၁လုံး ပါရမည်။"</item>
+    <item quantity="other" msgid="8186027808415585970">"စကားဝှက်တွင် အနည်းဆုံး စာလုံး %dလုံး ပါရမည်။"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအသေး အနည်းဆုံး ၁လုံးပါရမည်။"</item>
+    <item quantity="other" msgid="2693910942679679225">"စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအသေး အနည်းဆုံး %d လုံးပါရမည်။"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအကြီး အနည်းဆုံး ၁လုံးပါရမည်။"</item>
+    <item quantity="other" msgid="3030801209112209245">"စကားဝှက်တွင် အင်္ဂလိပ်စာလုံးအကြီး အနည်းဆုံး  %d လုံး ပါရမည်။"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"စကားဝှက်တွင် အနည်းဆုံး ဂဏန်း ၁လုံး ပါရမည်။"</item>
+    <item quantity="other" msgid="4703982391407595924">"စကားဝှက်တွင် ဂဏန်း အနည်းဆုံး %d  လုံးပါရမည်။"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"စကားဝှက်တွင် အထူးပြုသင်္ကေတ အနည်းဆုံး ၁ လုံးပါရမည်။"</item>
+    <item quantity="other" msgid="1221290525051187757">"စကားဝှက်တွင် အထူးပြုသင်္ကေတ အနည်းဆုံး %d  လုံးပါရမည်။"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"စကားဝှက်တွင် စာလုံးမဟုတ်သော အက္ခရာ အနည်းဆုံး ၁လုံးပါရမည်။"</item>
+    <item quantity="other" msgid="3952508584649046404">"စကားဝှက်တွင် စာလုံးမဟုတ်သော အက္ခရာ အနည်းဆုံး %d လုံးပါရမည်။"</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"စက်ပစ္စည်း အက်ဒ်မင်မှ လတ်တလောသုံးသောစကားဝှက်ကို ခွင့်မပြုပါ။"</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"၈ဏန်းမျာကို အငယ်မှအကြီးသို့၊ အကြီးမှအငယ်သို့ သို့မဟုတ် ထပ်တလဲလဲ အစီအစဉ်ကို တားမြစ်ထား"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"ကောင်းပြီ"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"ထိုSIM ကဒ် အဆင့်မြှင့်လိုသလား?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> သည် သင့်ကိရိယာတွင်းရှိ တစ်ခုတည်းသော SIM ကဒ်ဖြစ်သည်။ ဆယ်လူလာ ဒေတာ၊ ဖုန်းခေါ်ရန်နှင့် SMS စာတိုများပို့ရန်အတွက် ဤSIM ကဒ်အား သုံးလိုပါသလား?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"ဆင်းမ်ကဒ်၏ လျှို့ဝှက်နံပါတ် မှားနေပါသည်၊ သင်၏ စက်ပစ္စည်းကို သော့ဖွင့်ရန် ဖုန်းလိုင်းဌာနသို့ ဆက်သွယ်ရမည် ဖြစ်ပါတယ်"</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">ဆင်းမ်ကဒ်၏ ပင်နံပါတ် မှားနေပါသည်၊ သင့်တွင် <xliff:g id="NUMBER_1">%d</xliff:g> ခါ ကြိုးစားခွင့် ကျန်ပါသေးသည်။</item>
-      <item quantity="one">ဆင်းမ်ကဒ်၏ ပင်နံပါတ် မှားနေပါသည်၊ သင့်ကိရိယာကို ဖွင့်ရန်  မိုဘိုင်းဖုန်းဆက်သွယ်ရေးဝန်ဆောင်မှုဌာနသို့ မဆက်သွယ်မီ သင့်တွင် <xliff:g id="NUMBER_0">%d</xliff:g>  ခါ ကြိုးစားခွင့် ကျန်ပါသေးသည်။</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"ဆင်းမ်ကဒ်၏ လျှို့ဝှက်နံပါတ် မှားနေပါသည်၊ သင်၏ စက်ပစ္စည်းကို သော့ဖွင့်ရန်  ဖုန်းလိုင်းဌာနသို့ မဆက်သွယ်မီ သင့်တွင် <xliff:g id="NUMBER">%d</xliff:g> ခါ ကြိုးစားခွင့် ကျန်ပါသေးသည်။"</item>
+    <item quantity="other" msgid="77103619544346451">"ဆင်းမ်ကဒ်၏ လျှို့ဝှက်နံပါတ် မှားနေပါသည်၊ သင့်တွင် <xliff:g id="NUMBER">%d</xliff:g> ခါ ကြိုးစားခွင့် ကျန်ပါသေးသည်။"</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"ဆင်းမ်ကဒ် ပင်လုပ်ငန်းဆောင်ရွက်မှု မအောင်မြင်ပါ!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"တက်ဘလက်အခြေအနေ"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"ဖုန်းအခြေအနေ"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"တုန်ခါရန်"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"အကြောင်းကြားချက်ကို ဖွင့်သုံးခြင်း"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"အကြောင်းကြားချက်များကို အပလီကေးရှင်းများက မဖတ်နိုင်ပါ။"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="other">app %d ခုသည် သတိပေးချက်များကို ဖတ်နိုင်သည်</item>
-      <item quantity="one">app %d ခုသည် သတိပေးချက်များကို ဖတ်နိုင်သည်</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d အပလီကေးရှင်းသည် အကြောင်းကြားချက်များကို ဖတ်နိုင်သည်။"</item>
+    <item quantity="other" msgid="980049191810249052">"%d အပလီကေးရှင်းများသည် အကြောင်းကြားချက်များကို ဖတ်နိုင်သည်။"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"မည်သည့် ထည့်သွင်းထားသည့် အပ်ဖ်မှ အသိပေးချက်အသုံးပြုရန် မတောင်းဆိုထားပါ။"</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g>အတွက် အသိပေးချက်ကို အသုံးပြုခွင့်ပေးမလား?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> သည် အဆက်အသွယ် အမည်များနှင့် သင်လက်ခံရရှိသည့် စာများကဲ့သို့ ကိုယ်ရေးကိုယ်တာ အချက်အလက်များအပါအဝင် အသိပေးချက်များအားလုံး ကိုဖတ်နိုင်ပါလိမ့်မည်။ ၎င်းသည် အသိပေးချက်များကို ဖျက်ခြင်းသို့မဟုတ် ၎င်းတို့တွင်ပါဝင်သည့် လုပ်ဆောင်ချက် ခလုတ်များကို နှိပ်ခြင်းများ ပြုလုပ်နိုင်ပါမည်။"</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"ပြီးဆုံးချိန်"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> နောက်နေ့"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"နှိုးစက်သာလျှင်ကို အချိန်တိုင်းသို့ပြောင်းမည်"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">(<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>အထိ)<xliff:g id="DURATION">%1$d</xliff:g>မိနစ်မျှ နိုးစက်သာလျှင်သို့ပြောင်းမည်</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>အထိတစ်မိနစ်မျှ နိုးစက်သာလျှင်သို့ပြောင်းမည်</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other"><xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>အထိ<xliff:g id="DURATION">%1$d</xliff:g>နာရီမျှ နိုးစက်သာလျှင်သို့ပြောင်းမည်</item>
-      <item quantity="one"><xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>အထိတစ်နာရီမျှ နိုးစက်သာလျှင်သို့ပြောင်းမည်</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g> အထိနိုးစက်သာလျှင် သို့ပြောင်းမည်"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"အမြဲတမ်း ကြားဖြတ်ရန်သို့ ပြောင်းမည်"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"App အကြောင်းကြားချက်များ"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"မချောင်းကြည့်ပါနှင့်"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other">ခွင့်ပြုချက် <xliff:g id="COUNT_1">%d</xliff:g> ခုပေးထားသည်</item>
-      <item quantity="one">ခွင့်ပြုချက် <xliff:g id="COUNT_0">%d</xliff:g> ခုပေးထားသည်</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> / <xliff:g id="COUNT_3">%d</xliff:g> ခွင့်ပြုချက် ရရှိခဲ့၏</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> / <xliff:g id="COUNT_1">%d</xliff:g> ခွင့်ပြုချက် ရရှိခဲ့၏</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other">နောက်ထပ်ခွင့်ပြုချက်များ <xliff:g id="COUNT_1">%d</xliff:g> ခု</item>
-      <item quantity="one">နောက်ထပ်ခွင့်ပြုချက်များ <xliff:g id="COUNT_0">%d</xliff:g> ခု</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"ခွင့်ပြုထားသော ခွင့်ပြုချက်များ မရှိပါ"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"တောင်းခံထားသော ခွင့်ပြုချက်များ မရှိပါ"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"တချို့အားပုံမှတ်အဖြစ်သတ်မှတ်"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"ထောက်ပံ့ထားသည့်လင့်ခ်များ မဖွင့်ပါနှင့်"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g> ဖွင့်မည်"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> နှင့်ဆက်စပ်နေသော URLများကို ဖွင့်ရန်"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> အပ်ဖ်များသည် ၎င်းတို့ထောက်ပံ့ထာသည့် လင့်များကိုဖွင့်နိုင်သည်။</item>
-      <item quantity="one">အပ်ဖ်တစ်ခုသည် ၎င်းထောက်ပံ့ထားသည့် လင့်ခ်များကိုဖွင့်နိုင်သည်။</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"ဤအပ်ဖ်တွင် ဖွင့်မည်"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"အကြိမ်တိုင်းမှာ မေးရန်"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"ဤအပ်ဖ်တွင် မဖွင့်ပါနှင့်"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"ဘက်ထရီ အသုံးပြုမှု သင့်မြတ်အောင် လုပ်နေ"</string>
     <string name="high_power_system" msgid="7362862974428225301">"ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင် မရ"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်ရေးကို မလျှောက်ပါနှင့်။ ဘက်ထရီ အားကို ပိုလျင်မြန်စွာ ကုန်သွားစေနိုင်သည်။"</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> အက်ပ်အား ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်မှုကို လျစ်လျူရှုခွင့် ပြုထား</item>
-      <item quantity="one"> 1 အက်ပ်အား ဘက်ထရီအား သင့်မြတ်အောင် လုပ်ကိုင်မှုကို လျစ်လျူရှုခွင့် ပြုထား</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"ဘက်ထရီကို ဆီလျော်အောင် လုပ်မှုများကို  လျစ်လျူရှုရမလား?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"app <xliff:g id="APP_NAME">%1$s</xliff:g>ကို နောက်ခံမှာ ချိတ်ဆက်လျက် ရှိနေခွင့် ပြုမလား? အဲဒါက ဘက်ထရီ ပိုစားနိုင်တယ်။"</string>
     <string name="battery_summary" msgid="101415762036784289">"နောက်ဆုံးအကြိမ် အားအပြည့်သွင်းပြီးသည်မှ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% သုံးပြီး၏"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"ပျမ်းမျှ အသုံးပြုမှု (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"လက်ကျန်"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"App များမှ အသုံးပြုသော မှတ်ဉာဏ်"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other"> App <xliff:g id="COUNT">%1$d</xliff:g> သည် မှတ်ဉာဏ်အား လွန်ခဲ့သော <xliff:g id="DURATION_1">%2$s</xliff:g> က သုံးခဲ့၏</item>
-      <item quantity="one">လွန်ခဲ့သော <xliff:g id="DURATION_0">%2$s</xliff:g> က မှတ်ဉာဏ်အား app ၁ ခု မှ သုံးခဲ့၏</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"လှိုင်းနှုန်း"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"အများဆုံး အသုံးပြုမှု"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"မည်သည့်ဒေတာမျှ အသုံးမပြုပါ"</string>

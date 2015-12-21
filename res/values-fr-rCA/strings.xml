@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Fermer"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Changer"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Inconnu"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="one">Plus qu’<xliff:g id="STEP_COUNT_1">%1$d</xliff:g> étape pour devenir un développeur.</item>
-      <item quantity="other">Plus que <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> étapes pour devenir un développeur.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Plus que <xliff:g id="STEP_COUNT">%1$d</xliff:g> étape pour devenir un développeur."</item>
+    <item quantity="other" msgid="6722953419953594148">"Plus que <xliff:g id="STEP_COUNT">%1$d</xliff:g> étapes pour devenir un développeur."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Vous êtes désormais un développeur!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Inuti, vous êtes déjà un développeur."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Sans fil et réseaux"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Util. empr. dig. pour"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Ajouter une empreinte digitale"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"verrouillage de l\'écran"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> empreinte digitale configurée</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> empreintes digitales configurées</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Configuration d\'empreinte digitale"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Pour utiliser votre empreinte digitale afin de déverrouiller l\'écran ou de confirmer des achats, nous devons effectuer les opérations suivantes :"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Le mot de passe doit comporter au moins une lettre."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Le mot de passe doit comporter au moins un chiffre."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Le mot de passe doit comporter au moins un symbole."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="one">Le mot de passe doit contenir au moins %d lettre.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins %d lettres.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="one">Le mot de passe doit contenir au moins %d lettre minuscule.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins %d lettres minuscules.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="one">Le mot de passe doit contenir au moins %d lettre majuscule.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins %d lettres majuscules.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="one">Le mot de passe doit contenir au moins %d chiffre.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins %d chiffres.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="one">Le mot de passe doit contenir au moins un caractère spécial.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins un caractères spéciaux.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="one">Le mot de passe doit contenir au moins %d caractère qui n\'est pas une lettre.</item>
-      <item quantity="other">Le mot de passe doit contenir au moins %d caractères qui ne sont pas une lettre.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Le mot de passe doit comporter au moins une lettre."</item>
+    <item quantity="other" msgid="8186027808415585970">"Le mot de passe doit comporter au moins %d lettres."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Le mot de passe doit comporter au moins une lettre minuscule."</item>
+    <item quantity="other" msgid="2693910942679679225">"Le mot de passe doit comporter au moins %d lettres minuscules."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Le mot de passe doit comporter au moins une lettre majuscule."</item>
+    <item quantity="other" msgid="3030801209112209245">"Le mot de passe doit comporter au moins %d lettres majuscules."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Le mot de passe doit comporter au moins un chiffre."</item>
+    <item quantity="other" msgid="4703982391407595924">"Le mot de passe doit comporter au moins %dchiffres."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Le mot de passe doit comporter au moins un caractère spécial."</item>
+    <item quantity="other" msgid="1221290525051187757">"Le mot de passe doit comporter au moins %d caractères spéciaux."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Le mot de passe doit comporter au moins un caractère autre qu\'une lettre."</item>
+    <item quantity="other" msgid="3952508584649046404">"Le mot de passe doit comporter au moins %d caractères autres que des lettres."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"L\'administrateur de l\'appareil ne permet pas l\'utilisation d\'un mot de passe récent."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Les suites de chiffres croissantes, décroissantes ou répétitives ne sont pas autorisées."</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"OK"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"M. à jour la carte SIM préf.?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> est la seule carte SIM dans votre appareil. Voulez-vous utiliser cette carte SIM pour les données cellulaires, les appels et les textos?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"NIP de carte SIM incorrect. Vous devez maintenant communiquer avec votre fournisseur de services pour déverrouiller votre appareil."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="one">Le NIP de la carte SIM incorrect. Il vous reste <xliff:g id="NUMBER_1">%d</xliff:g> tentative.</item>
-      <item quantity="other">Le NIP de la carte SIM incorrect. Il vous reste <xliff:g id="NUMBER_1">%d</xliff:g> tentatives.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"NIP de carte SIM incorrect. Il vous reste <xliff:g id="NUMBER">%d</xliff:g> tentative. Après cela, vous devrez communiquer avec votre fournisseur de services pour déverrouiller votre appareil."</item>
+    <item quantity="other" msgid="77103619544346451">"NIP de carte SIM incorrect. Il vous reste <xliff:g id="NUMBER">%d</xliff:g> tentative(s)."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"Le déverrouillage par NIP de carte SIM a échoué."</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"État de la tablette"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"État du téléphone"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Vibreur"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Accès aux notifications"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Les applications ne peuvent pas lire les notifications."</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="one">%d application peut lire les notifications</item>
-      <item quantity="other">%d application peuvent lire les notifications</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d application peut lire les notifications."</item>
+    <item quantity="other" msgid="980049191810249052">"%d applications peuvent lire les notifications."</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Aucune demande d\'accès aux notifications n\'a été envoyée pour les applications installées."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Autoriser <xliff:g id="SERVICE">%1$s</xliff:g> à accéder aux notifications ?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> pourra lire toutes les notifications, y compris des données personnelles, telles que des noms de contacts et le texte de messages que vous recevez. Ce service pourra également masquer des notifications ou déclencher les boutons d\'action que celles-ci contiennent."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Heure de fin"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> le lendemain"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Ne recevoir que les alarmes sans limite de temps"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="one">Alarmes seulement pendant <xliff:g id="DURATION">%1$d</xliff:g> minute, jusqu\'à <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Alarmes seulement pendant <xliff:g id="DURATION">%1$d</xliff:g> minutes, jusqu\'à <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="one">Alarmes seulement pendant <xliff:g id="DURATION">%1$d</xliff:g> heure, jusqu\'à <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Alarmes seulement pendant <xliff:g id="DURATION">%1$d</xliff:g> heures, jusqu\'à <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Ne recevoir que les alarmes jusqu\'à <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Activer le mode Toujours interrompre"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Notif. application"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Aucun aperçu"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> autorisations accordées</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> autorisations accordées</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one"><xliff:g id="COUNT_2">%d</xliff:g> autorisation accordée sur <xliff:g id="COUNT_3">%d</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> autorisations accordées sur <xliff:g id="COUNT_3">%d</xliff:g></item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> autorisation supplémentaire</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> autorisations supplémentaires</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Aucune autorisation accordée"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Aucune autorisation demandée"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Certaines préférences par défaut définies"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Ne pas ouvrir les liens compatibles"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Ouvrir « <xliff:g id="DOMAIN">%s</xliff:g> »"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Ouvrir « <xliff:g id="DOMAIN">%s</xliff:g> » et les URL connexes"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> application peut ouvrir les liens compatibles</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> applications peuvent ouvrir les liens compatibles</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Ouvrir dans cette application"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Toujours demander"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Ne pas ouvrir dans cette application"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"L\'utilisation de la pile est optimisée"</string>
     <string name="high_power_system" msgid="7362862974428225301">"L\'optimisation de la pile n\'est pas disponible"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"N\'appliquer aucune optimisation de la pile. Cela risque de décharger la pile plus rapidement."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> application autorisée à ignorer l\'optimisation de la pile</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> applications autorisées à ignorer l\'optimisation de la pile</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Ignorer les optimisations de la pile?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Autoriser <xliff:g id="APP_NAME">%1$s</xliff:g> à rester connecté en arrière-plan? Cela peut épuiser la pile plus rapidement."</string>
     <string name="battery_summary" msgid="101415762036784289">"Usage depuis la dernière charge complète : <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Utilisation moyenne (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Libre"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Mémoire utilisée par les applications"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> application a utilisé de la mémoire au cours de la période suivante : <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> applications ont utilisé de la mémoire au cours de la période suivante : <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Fréquence"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Utilisation maximale"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Aucune donnée utilisée"</string>

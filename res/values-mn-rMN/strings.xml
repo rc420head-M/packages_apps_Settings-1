@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Хаах"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Шилжих"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Тодорхойгүй"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="other">Танд одоо хөгжүүлэгч болоход <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> алхам дутуу байна.</item>
-      <item quantity="one">Танд одоо хөгжүүлэгч болоход <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> алхам дутуу байна.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Танд одоо хөгжүүлэгч болоход <xliff:g id="STEP_COUNT">%1$d</xliff:g> алхам дутуу байна."</item>
+    <item quantity="other" msgid="6722953419953594148">"Танд одоо хөгжүүлэгч болоход <xliff:g id="STEP_COUNT">%1$d</xliff:g> алхам дутуу байна."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Та одоо хөгжүүлэгч боллоо!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Шаардлагагүй, та аль хэдийн хөгжүүлэгч болсон."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Утасгүй &amp; сүлжээ"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Хурууны хээг дараах зорилгоор ашиглах"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Хурууны хээ нэмэх"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"дэлгэцний түгжээ"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> хурууны хээг тохируулах</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> хурууны хээг тохируулах</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Хурууны хээний тохиргоо"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Таны хурууны хээг ашиглан дэлгэцийн түгжээг тайлах эсвэл худалдан авалт баталгаажуулахын тулд бид дараах зүйлийг хийх шаардлагатай:"</string>
@@ -455,20 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Нууц үгэнд дор хаяж нэг үсэг орсон байх ёстой."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Нууц үгэнд дор хаяж нэг цифр орсон байх ёстой."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Нууц үгэнд дор хаяж нэг тэмдэгт орсон байх ёстой."</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for lockpassword_password_requires_letters (5677371623980347934) -->
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="other">Password must contain at least %d lowercase letters.</item>
-      <item quantity="one">Нууц үгэнд хамгийн багадаа 1 жижиг үсэг оросон байх шаардлагатай.</item>
-    </plurals>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for lockpassword_password_requires_uppercase (2483949715040341677) -->
-    <!-- String.format failed for translation -->
-    <!-- no translation found for lockpassword_password_requires_numeric (9156410893744210033) -->
-    <!-- String.format failed for translation -->
-    <!-- no translation found for lockpassword_password_requires_symbols (5384442837439742233) -->
-    <!-- String.format failed for translation -->
-    <!-- no translation found for lockpassword_password_requires_nonletter (4175064976268466293) -->
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Нууц үгэнд дор хаяж 1 үсэг орсон байх ёстой"</item>
+    <item quantity="other" msgid="8186027808415585970">"Нууц үгэнд дор хаяж %d үсэг орсон байх ёстой"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Нууц үгэнд дор хаяж 1 жижиг үсэг орсон байх ёстой."</item>
+    <item quantity="other" msgid="2693910942679679225">"Нууц үгэнд дор хаяж %d жижиг үсэг орсон байх ёстой."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Нууц үгэнд дор хаяж 1 том үсэг орсон байх ёстой."</item>
+    <item quantity="other" msgid="3030801209112209245">"Нууц үгэнд дор хаяж %d том үсэг орсон байх ёстой."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Нууц үгэнд дор хаяж 1 цифр орсон байх ёстой"</item>
+    <item quantity="other" msgid="4703982391407595924">"Нууц үгэнд дор хаяж %d цифр орсон байх ёстой"</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Нууц үгэнд дор хаяж 1 тусгай тэмдэгт орсон байх ёстой."</item>
+    <item quantity="other" msgid="1221290525051187757">"Нууц үгэнд дор хаяж %d тусгай тэмдэгт орсон байх ёстой."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Нууц үгэнд дор хаяж 1 үсэг биш тэмдэгт орсон байх ёстой."</item>
+    <item quantity="other" msgid="3952508584649046404">"Нууц үгэнд дор хаяж %d үсэг биш тэмдэгт орсон байх ёстой."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Төхөөрөмжийн администратор саяхны нууц үгийг ашиглахыг зөвшөөрөхгүй."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Цифрийн өссөн, уруудсан, давтагдсан дарааллыг хориглоно"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"Тийм"</string>
@@ -875,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Өөрийн сонгосон SIM картаа шинэчлэх үү?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> нь таны төхөөрөмжинд байгаа цорын ганц SIM болно. Та энэ  SIM-ийг гар утасны мэдээлэл, дуудлага, мессеж зэрэгт ашиглахыг хүсч байна уу?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"СИМ ПИН код буруу, та төхөөрөмжийн түгжээх тайлахын тулд өөрийн оператор компанитай холбоо барина уу."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="other">СИМ-ны ПИН код буруу байна. Та <xliff:g id="NUMBER_1">%d</xliff:g> удаа оролдлого хийх боломжтой байна.</item>
-      <item quantity="one">СИМ-ны ПИН код буруу байна. Танд мобайл оператортойгоо холбогдохгүйгээр төхөөрөмжийн түгжээг тайлахад <xliff:g id="NUMBER_0">%d</xliff:g> оролдлого хийх боломж үлдсэн байна.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"СИМ ПИН код буруу байна, танд мобайл оператор компанитай холбогдохгүйгээр төхөөрөмжийн түгжээг тайлахад <xliff:g id="NUMBER">%d</xliff:g> оролдлого хийх боломж үлдсэн байна."</item>
+    <item quantity="other" msgid="77103619544346451">"СИМ ПИН код буруу байна, танд <xliff:g id="NUMBER">%d</xliff:g> оролдлого хийх боломж үлдлээ."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"СИМ ПИН ажиллуулах амжилтгүй боллоо!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Таблетын статус"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Утасны статус"</string>
@@ -2550,8 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Чичиргээ"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Мэдэгдлийн хандалт"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Апп-ууд мэдэгдлийг уншиж чадахгүй"</string>
-    <!-- String.format failed for translation -->
-    <!-- no translation found for manage_notification_access_summary_nonzero (7930130030691218387) -->
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d апп мэдэгдлийг уншиж чадна"</item>
+    <item quantity="other" msgid="980049191810249052">"%d апп-ууд мэдэгдлийг уншиж чадна"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Суулгасан апп-аас мэдэгдлийн хандалт хүссэн апп байхгүй байна."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g>-д мэдэгдлийн хандалтыг зөвшөөрөх үү?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> нь харилцагчийн нэрс, таны хүлээн авсан мессеж гэх мэт хувийн мэдээллийг багтаасан бүх мэдэгдлийг унших боломжтой бөгөөд мөн мэдэгдлийг болиулах буюу тэдгээрийн доторх үйлдлийн товчлуурт хүрэх боломжтой."</string>
@@ -2622,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Дуусах цаг"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> дараагийн өдөр"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Тодорхой бус хугацаатай анхааруулах горимд шилжих"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="other">\"Анхааруул\" горимд (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> хүртэл) зөвхөн <xliff:g id="DURATION">%1$d</xliff:g> минутын турш шилжих</item>
-      <item quantity="one">\"Анхааруул\" горимд <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> хүртэл зөвхөн нэг минутын турш шилжих</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="other">\"Анхааруул\" горимд <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> хүртэл зөвхөн <xliff:g id="DURATION">%1$d</xliff:g> цагийн турш шилжих</item>
-      <item quantity="one">\"Анхааруул\" горимд <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> хүртэл зөвхөн нэг цагийн турш шилжих</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g> хүртэл анхааруулах горимд шилжих"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Үргэлж саад бол горимд шилжих"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Aпп мэдэгдлүүд"</string>
@@ -2702,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Харах боломжгүй"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> зөвшөөрөл олгогдсон </item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> зөвшөөрөл олгогдсон </item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="other"><xliff:g id="COUNT_3">%d</xliff:g>-аас <xliff:g id="COUNT_2">%d</xliff:g> зөвшөөрөл олгогдсон</item>
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>-аас <xliff:g id="COUNT_0">%d</xliff:g> зөвшөөрөл олгогдсон байна</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> нэмэлт зөвшөөрөл</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> нэмэлт зөвшөөрөл</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Зөвшөөрөл олгоогүй байна"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Зөвшөөрөл шаардлаггүй"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Зарим үндсэн тохиргоонуудыг суулгасан"</string>
@@ -2741,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Дэмждэг холбоосыг бүү нээ"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g> нээх"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> болон холбоотой URL-ийг нээх"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апп нь өөрийн дэмждэг холбоосыг нээж болно</item>
-      <item quantity="one">Нэг апп нь өөрийн дэмждэг холбоосыг нээж болно</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Энэ апп-д нээх"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Тухай бүрт асуух"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Энэ апп-д нээхгүй"</string>
@@ -2785,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Тэжээлийн хэрэглээг оновчилж байна"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Тэжээлийн оновчлолыг ашиглах боломжгүй байна"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Тэжээлийн оновчлол ашиглах шаардлагагүй. Учир нь тэжээлийг илүү түргэн дуусгаж болох юм."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> апп тэжээлийн оновчлолыг хэрэгсэхгүй байж болно</item>
-      <item quantity="one">1 aпп тэжээлийн оновчлолыг хэрэгсэхгүй байж болно</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Тэжээл оновчлолыг алгасах уу?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"<xliff:g id="APP_NAME">%1$s</xliff:g> апп-д арын дэвсгэрт ажиллаж байхыг зөвшөөрөх үү? Энэ нь илүү тэжээл ашиглаж магадгүй."</string>
     <string name="battery_summary" msgid="101415762036784289">"Сүүлд бүрэн цэнэглэснээс хойш <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%-ыг ашигласан"</string>
@@ -2830,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"Ашигласан дундаж (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Чөлөөтэй"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Апп-ны хэрэглэсэн санах ой"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> апп сүүлийн <xliff:g id="DURATION_1">%2$s</xliff:g> хугацаанд санах ой ашигласан байна</item>
-      <item quantity="one">1 апп сүүлийн <xliff:g id="DURATION_0">%2$s</xliff:g> хугацаанд санах ой ашигласан байна</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Давтамж"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Хамгийн их хэрэглээ"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Ашигласан өгөгдөл байхгүй"</string>

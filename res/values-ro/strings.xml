@@ -24,11 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"Închideți"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"Comutați"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Necunoscut"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="few">Mai aveți <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> pași pentru a deveni dezvoltator.</item>
-      <item quantity="other">Mai aveți <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> de pași pentru a deveni dezvoltator.</item>
-      <item quantity="one">Mai aveți <xliff:g id="STEP_COUNT_0">%1$d</xliff:g> pas pentru a deveni dezvoltator.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"Mai aveți de parcurs <xliff:g id="STEP_COUNT">%1$d</xliff:g> pas pentru a deveni dezvoltator."</item>
+    <item quantity="other" msgid="6722953419953594148">"Mai aveți de parcurs <xliff:g id="STEP_COUNT">%1$d</xliff:g> pași pentru a deveni dezvoltator."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"Aţi devenit dezvoltator!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"Nu mai este nevoie, sunteți deja dezvoltator."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"Reţele wireless"</string>
@@ -254,7 +253,7 @@
     <string name="settings_shortcut" msgid="3936651951364030415">"Comandă rapidă pentru setări"</string>
     <string name="airplane_mode" msgid="8837269988154128601">"Mod Avion"</string>
     <string name="radio_controls_title" msgid="3447085191369779032">"Mai multe"</string>
-    <string name="wireless_networks_settings_title" msgid="3643009077742794212">"Wireless și reţele"</string>
+    <string name="wireless_networks_settings_title" msgid="3643009077742794212">"Wireless și rețele"</string>
     <string name="radio_controls_summary" msgid="2837395036275123133">"Gestionați Wi-Fi, funcția Bluetooth, modul Avion, rețelele mobile și VPN"</string>
     <string name="cellular_data_title" msgid="2525947635539415202">"Date mobile"</string>
     <string name="calls_title" msgid="3544471959217176768">"Apeluri"</string>
@@ -319,11 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"Folosiți amprenta la"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"Adăugați amprenta"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"blocarea ecranului"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="few"><xliff:g id="COUNT_1">%1$d</xliff:g> amprente configurate</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> de amprente configurate</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> amprentă configurată</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Configurarea amprentei"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"Pentru a debloca ecranul sau a confirma achiziții folosind amprenta, va trebui să:"</string>
@@ -393,8 +389,8 @@
     <string name="crypt_keeper_warn_wipe" msgid="2738374897337991667">"Avertisment: datele de pe dispozitiv vor fi șterse după încă <xliff:g id="COUNT">^1</xliff:g> încercări nereușite de deblocare!"</string>
     <string name="crypt_keeper_enter_password" msgid="2223340178473871064">"Introduceţi parola"</string>
     <string name="crypt_keeper_failed_title" msgid="7133499413023075961">"Criptare nereușită"</string>
-    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe tableta dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea tabletei, trebuie să efectuați o resetare la valorile din fabrică. Când configuraţi tableta după resetare, veţi putea restabili toate datele pentru care aţi creat copii de rezervă în Contul Google."</string>
-    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe telefonul dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea telefonului, trebuie să efectuați o resetare la valorile din fabrică. Când configuraţi telefonul după resetare, veţi putea restabili toate datele pentru care aţi creat copii de rezervă în Contul Google."</string>
+    <string name="crypt_keeper_failed_summary" product="tablet" msgid="8219375738445017266">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe tableta dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea tabletei, trebuie să efectuați o resetare la valorile din fabrică. Când configuraţi tableta după resetare, veți putea restabili toate datele pentru care aţi creat copii de rezervă în Contul Google."</string>
+    <string name="crypt_keeper_failed_summary" product="default" msgid="3270131542549577953">"Criptarea a fost întreruptă și nu se poate finaliza. Prin urmare, datele de pe telefonul dvs. nu mai sunt accesibile. \n\nPentru a relua utilizarea telefonului, trebuie să efectuați o resetare la valorile din fabrică. Când configuraţi telefonul după resetare, veți putea restabili toate datele pentru care aţi creat copii de rezervă în Contul Google."</string>
     <string name="crypt_keeper_data_corrupt_title" msgid="8759119849089795751">"Decriptarea nu a reușit"</string>
     <string name="crypt_keeper_data_corrupt_summary" product="tablet" msgid="840107296925798402">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea tabletei, trebuie să reveniți la setările din fabrică. Când vă configurați tableta după resetare, veți putea să restabiliți toate datele care au backup în Contul Google."</string>
     <string name="crypt_keeper_data_corrupt_summary" product="default" msgid="8843311420059663824">"Parola pe care ați introdus-o este corectă, dar, din păcate, datele sunt deteriorate. \n\nPentru a relua utilizarea telefonului, trebuie să reveniți la setările din fabrică. Când vă configurați telefonul după resetare, veți putea să restabiliți toate datele care au backup în Contul Google."</string>
@@ -457,36 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"Parola trebuie să conţină cel puţin o literă."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"Parola trebuie să conţină minimum o cifră."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"Parola trebuie să conţină cel puţin un simbol."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d litere.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de litere.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin o literă.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d minuscule.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de minuscule.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin o minusculă.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d majuscule.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de majuscule.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin o majusculă.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d cifre.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de cifre.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin o cifră.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d simboluri speciale.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de simboluri speciale.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin un simbol special.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="few">Parola trebuie să conțină cel puțin %d caractere care să nu fie litere.</item>
-      <item quantity="other">Parola trebuie să conțină cel puțin %d de caractere care să nu fie litere.</item>
-      <item quantity="one">Parola trebuie să conțină cel puțin un caracter care să nu fie o literă.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"Parola trebuie să conţină cel puţin 1 literă."</item>
+    <item quantity="other" msgid="8186027808415585970">"Parola trebuie să conţină cel puţin %d litere."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"Parola trebuie să conţină cel puţin 1 minusculă."</item>
+    <item quantity="other" msgid="2693910942679679225">"Parola trebuie să conţină cel puţin %d minuscule."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"Parola trebuie să conţină cel puţin 1 majusculă."</item>
+    <item quantity="other" msgid="3030801209112209245">"Parola trebuie să conţină cel puţin %d majuscule."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"Parola trebuie să conţină cel puţin 1 cifră."</item>
+    <item quantity="other" msgid="4703982391407595924">"Parola trebuie să conţină cel puţin %d cifre."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"Parola trebuie să conţină cel puţin 1 simbol special."</item>
+    <item quantity="other" msgid="1221290525051187757">"Parola trebuie să conţină cel puţin %d simboluri speciale."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"Parola trebuie să conţină cel puţin 1 caracter care să nu fie o literă."</item>
+    <item quantity="other" msgid="3952508584649046404">"Parola trebuie să conţină cel puţin %d caractere care să nu fie litere."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"Administrator dispozitiv nu permite parolă recentă."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"Șirurile de cifre ascendente, descendente sau repetate sunt interzise"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"OK"</string>
@@ -591,7 +581,7 @@
     <string name="android_beam_disabled_summary" msgid="1737782116894793393">"Indisponibilă, deoarece NFC este oprit"</string>
     <string name="android_beam_label" msgid="6257036050366775040">"Android Beam"</string>
     <string name="android_beam_explained" msgid="6981652347448777459">"După activarea acestei funcții, puteţi transmite conținutul aplicațiilor către un alt dispozitiv compatibil NFC, ținând cele două dispozitive apropiate unul de celălalt. De exemplu, puteți să transmiteți pagini din browser, videoclipuri YouTube, persoane din agendă și multe altele.\n\nNu trebuie decât să apropiați cele două dispozitive (de obicei, așezându-le unul în spatele celuilalt) și să atingeți ecranul. Aplicația determină apoi ce poate fi transmis."</string>
-    <string name="nsd_quick_toggle_title" msgid="3125572815278848258">"Descoperire serviciu de reţea"</string>
+    <string name="nsd_quick_toggle_title" msgid="3125572815278848258">"Descoperire serviciu de rețea"</string>
     <string name="nsd_quick_toggle_summary" msgid="155692215972781276">"Permite aplicațiilor de pe alte dispozitive să descopere aplicații pe acest dispozitiv"</string>
     <string name="wifi_quick_toggle_title" msgid="8850161330437693895">"Wi-Fi"</string>
     <string name="wifi_quick_toggle_summary" msgid="2696547080481267642">"Activați conexiunea Wi-Fi"</string>
@@ -609,7 +599,7 @@
     <string name="wifi_notify_open_networks" msgid="3755768188029653293">"Notificare de rețea"</string>
     <string name="wifi_notify_open_networks_summary" msgid="3716818008370391253">"Notifică-mă când este disponibilă o rețea publică"</string>
     <string name="wifi_poor_network_detection" msgid="4925789238170207169">"Evitați conexiunile slabe"</string>
-    <string name="wifi_poor_network_detection_summary" msgid="2784135142239546291">"Nu utilizați o reţea Wi-Fi, cu excepția cazului în care aceasta are o conexiune la internet adecvată"</string>
+    <string name="wifi_poor_network_detection_summary" msgid="2784135142239546291">"Nu utilizați o rețea Wi-Fi, cu excepția cazului în care aceasta are o conexiune la internet adecvată"</string>
     <string name="wifi_avoid_poor_network_detection_summary" msgid="4674423884870027498">"Utilizați numai rețelele care au conexiune bună la internet"</string>
     <string name="wifi_automatically_connect_title" msgid="7950640291510621742">"Folosiți automat rețelele Wi‑Fi deschise"</string>
     <string name="wifi_automatically_connect_summary" msgid="6722194413023965902">"Permiteți ca un asistent Wi‑Fi să conecteze automat dispozitivul la rețele de calitate deschise"</string>
@@ -649,7 +639,7 @@
     <string name="wifi_wps_setup_msg" msgid="315174329121275092">"Se porneşte WPS…"</string>
     <string name="wifi_wps_onstart_pbc" msgid="817003360936932340">"Apăsați pe butonul Configurare protejată Wi‑Fi de pe router. Se poate numi „WPS” sau poate fi marcat cu acest simbol:"</string>
     <string name="wifi_wps_onstart_pin" msgid="223344506445335358">"Introduceți codul PIN <xliff:g id="NUMBER">%1$s</xliff:g> pe routerul Wi-Fi. Finalizarea configurării poate dura până la două minute."</string>
-    <string name="wifi_wps_complete" msgid="2388138550456729134">"WPS finalizată. Se conectează la reţea…"</string>
+    <string name="wifi_wps_complete" msgid="2388138550456729134">"WPS finalizată. Se conectează la rețea…"</string>
     <string name="wifi_wps_connected" msgid="7153432445748931183">"Conectat la rețeaua Wi-Fi <xliff:g id="NETWORK_NAME">%s</xliff:g>"</string>
     <string name="wifi_wps_in_progress" msgid="3372311348221357944">"WPS este deja în desfăşurare. Finalizarea poate dura până la două minute."</string>
     <string name="wifi_wps_failed_generic" msgid="5668775022238832527">"WPS eşuată. Încercați din nou peste câteva minute."</string>
@@ -694,7 +684,7 @@
     <string name="no_internet_access_text" msgid="7133561752896706392">"Această rețea nu are acces la internet. Se păstrează conectarea?"</string>
     <string name="no_internet_access_remember" msgid="4697314331614625075">"Nu mai întreba pentru această rețea"</string>
     <string name="wifi_connect" msgid="1076622875777072845">"Conectați-vă"</string>
-    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nu s-a putut stabili conexiunea la reţea"</string>
+    <string name="wifi_failed_connect_message" msgid="8491902558970292871">"Nu s-a putut stabili conexiunea la rețea"</string>
     <string name="wifi_forget" msgid="8168174695608386644">"Eliminați"</string>
     <string name="wifi_failed_forget_message" msgid="1348172929201654986">"Nu s-a putut elimina reţeaua"</string>
     <string name="wifi_save" msgid="3331121567988522826">"Salvați"</string>
@@ -725,7 +715,7 @@
     <string name="wifi_ip_settings_invalid_ip_address" msgid="2513142355364274970">"Introduceţi o adresă IP validă."</string>
     <string name="wifi_ip_settings_invalid_gateway" msgid="8164264988361096450">"Introduceţi o adresă gateway validă."</string>
     <string name="wifi_ip_settings_invalid_dns" msgid="8744583948328391047">"Introduceţi o adresă DNS validă."</string>
-    <string name="wifi_ip_settings_invalid_network_prefix_length" msgid="40470058023181052">"Introduceţi prefix reţea din 0 – 32 caractere."</string>
+    <string name="wifi_ip_settings_invalid_network_prefix_length" msgid="40470058023181052">"Introduceţi prefix rețea din 0 – 32 caractere."</string>
     <string name="wifi_dns1" msgid="7344118050720080045">"DNS 1"</string>
     <string name="wifi_dns2" msgid="1368601006824882659">"DNS 2"</string>
     <string name="wifi_gateway" msgid="163914742461092086">"Gateway"</string>
@@ -893,11 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"Actualizați card SIM preferat?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> este singurul card SIM de pe dispozitiv. Doriți să folosiți acest card SIM pentru date mobile, pentru apeluri și pentru mesaje SMS?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"Codul PIN pentru cardul SIM este incorect. Contactați operatorul pentru a vă debloca dispozitivul."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="few">Codul PIN pentru cardul SIM este incorect. V-au mai rămas <xliff:g id="NUMBER_1">%d</xliff:g> încercări.</item>
-      <item quantity="other">Codul PIN pentru cardul SIM este incorect. V-au mai rămas <xliff:g id="NUMBER_1">%d</xliff:g> de încercări.</item>
-      <item quantity="one">Cod PIN incorect pt. card SIM. <xliff:g id="NUMBER_0">%d</xliff:g> încercare rămasă, apoi deblocați dispozitivul contactând operatorul.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"Codul PIN pentru cardul SIM este incorect. V-a mai rămas <xliff:g id="NUMBER">%d</xliff:g> încercare, după care va trebui să contactați operatorul pentru a vă debloca dispozitivul."</item>
+    <item quantity="other" msgid="77103619544346451">"Codul PIN pentru cardul SIM este incorect. V-au mai rămas <xliff:g id="NUMBER">%d</xliff:g> încercări."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"Deblocarea cu ajutorul codului PIN pentru cardul SIM nu a reușit!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"Stare tabletă"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"Stare telefon"</string>
@@ -1451,7 +1440,7 @@
     <string name="process_service_in_use_description" msgid="8993335064403217080">"Serviciul <xliff:g id="COMP_NAME">%1$s</xliff:g> se află în utilizare."</string>
     <string name="process_provider_in_use_description" msgid="5586603325677678940">"Furnizorul <xliff:g id="COMP_NAME">%1$s</xliff:g> se află în utilizare."</string>
     <string name="runningservicedetails_stop_dlg_title" msgid="4253292537154337233">"Opriți serviciul de sistem?"</string>
-    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"Dacă opriţi acest serviciu, este posibil ca unele funcţii ale tabletei să nu mai funcţioneze corect decât după ce o veţi închide și redeschide."</string>
+    <string name="runningservicedetails_stop_dlg_text" product="tablet" msgid="3371302398335665793">"Dacă opriţi acest serviciu, este posibil ca unele funcţii ale tabletei să nu mai funcţioneze corect decât după ce o veți închide și redeschide."</string>
     <string name="runningservicedetails_stop_dlg_text" product="default" msgid="3920243762189484756">"Dacă opriți acest serviciu, este posibil ca unele funcții ale telefonului să nu mai funcționeze corect decât după ce îl veți închide și redeschide."</string>
     <string name="language_settings" msgid="5292716747264442359">"Limbă și introducere de text"</string>
     <string name="language_keyboard_settings_title" msgid="243220021717425813">"Limbă și introducere de text"</string>
@@ -1892,7 +1881,7 @@
     <string name="tts_engine_error_config" msgid="5820525416624637313">"Configurați"</string>
     <string name="tts_engine_error_reselect" msgid="2415399149293842112">"Alegeți alt motor"</string>
     <string name="tts_engine_security_warning" msgid="8786238102020223650">"Acest motor de sintetizare a vorbirii poate culege în întregime textul vorbit, inclusiv datele personale cum ar fi parolele și numerele cărților de credit. Metoda provine de la motorul <xliff:g id="TTS_PLUGIN_ENGINE_NAME">%s</xliff:g>. Permiteți utilizarea acestui motor de sintetizare a vorbirii?"</string>
-    <string name="tts_engine_network_required" msgid="1190837151485314743">"Pentru rezultatul transformării textului în vorbire pentru această limbă este necesară o conexiune de reţea care să funcţioneze."</string>
+    <string name="tts_engine_network_required" msgid="1190837151485314743">"Pentru rezultatul transformării textului în vorbire pentru această limbă este necesară o conexiune de rețea care să funcţioneze."</string>
     <string name="tts_default_sample_string" msgid="4040835213373086322">"Acesta este un exemplu de sintetizare a vorbirii"</string>
     <string name="tts_status_title" msgid="7268566550242584413">"Starea limbii prestabilite"</string>
     <string name="tts_status_ok" msgid="1309762510278029765">"<xliff:g id="LOCALE">%1$s</xliff:g> este acceptată integral"</string>
@@ -2011,7 +2000,7 @@
     <string name="wifi_setup_title_connected_network" msgid="1608788657122010919">"Conectat la rețeaua Wi-Fi <xliff:g id="NETWORK_NAME">%s</xliff:g>"</string>
     <string name="wifi_setup_title_add_network" msgid="6932651000151032301">"Adăugați o rețea"</string>
     <string name="wifi_setup_not_connected" msgid="6997432604664057052">"Neconectat"</string>
-    <string name="wifi_setup_add_network" msgid="5939624680150051807">"Adăugați reţea"</string>
+    <string name="wifi_setup_add_network" msgid="5939624680150051807">"Adăugați rețea"</string>
     <string name="wifi_setup_refresh_list" msgid="3411615711486911064">"Actualizați lista"</string>
     <string name="wifi_setup_skip" msgid="6661541841684895522">"Omiteți"</string>
     <string name="wifi_setup_next" msgid="3388694784447820477">"Înainte"</string>
@@ -2024,7 +2013,7 @@
     <string name="wifi_setup_status_scanning" msgid="5317003416385428036">"Se scanează reţelele..."</string>
     <string name="wifi_setup_status_select_network" msgid="7519563569903137003">"Atingeți o rețea pentru a vă conecta la aceasta"</string>
     <string name="wifi_setup_status_existing_network" msgid="6394925174802598186">"Conectați-vă la rețeaua existentă"</string>
-    <string name="wifi_setup_status_unsecured_network" msgid="8143046977328718252">"Conectați-vă la reţea nesecurizată"</string>
+    <string name="wifi_setup_status_unsecured_network" msgid="8143046977328718252">"Conectați-vă la rețea nesecurizată"</string>
     <string name="wifi_setup_status_edit_network" msgid="4765340816724760717">"Introduceți configurația rețelei"</string>
     <string name="wifi_setup_status_new_network" msgid="7468952850452301083">"Conectați-vă la o rețea nouă"</string>
     <string name="wifi_setup_status_connecting" msgid="4971421484401530740">"Se conectează..."</string>
@@ -2214,7 +2203,7 @@
     <string name="data_usage_auto_sync_on_dialog" product="tablet" msgid="8581983093524041669">"Modificările conturilor dvs. pe web vor fi copiate automat pe tabletă.\n\nDe asemenea, unele conturi pot să copieze automat pe web toate modificările pe care le efectuați pe tabletă. Așa funcționează un Cont Google."</string>
     <string name="data_usage_auto_sync_on_dialog" product="default" msgid="8651376294887142858">"Ceea ce modificați în conturi pe web se va reflecta automat și pe telefon.\n\nUnele conturi pot să copieze automat pe web toate modificările de pe telefon. Așa funcționează un Cont Google."</string>
     <string name="data_usage_auto_sync_off_dialog_title" msgid="9013139130490125793">"Opriți sincronizarea automată?"</string>
-    <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Această acţiune va economisi date și durata bateriei, dar va trebui să sincronizați fiecare cont manual pentru a culege informaţiile recente. În plus, nu veţi primi notificări atunci când apar actualizări."</string>
+    <string name="data_usage_auto_sync_off_dialog" msgid="4025938250775413864">"Această acţiune va economisi date și durata bateriei, dar va trebui să sincronizați fiecare cont manual pentru a culege informaţiile recente. În plus, nu veți primi notificări atunci când apar actualizări."</string>
     <string name="data_usage_cycle_editor_title" msgid="1373797281540188533">"Data de resetare a ciclului de utilizare"</string>
     <string name="data_usage_cycle_editor_subtitle" msgid="5512903797979928416">"Data din fiecare lună:"</string>
     <string name="data_usage_cycle_editor_positive" msgid="8821760330497941117">"Setați"</string>
@@ -2278,10 +2267,10 @@
     <string name="vpn_menu_edit" msgid="408275284159243490">"Editaţi profilul"</string>
     <string name="vpn_menu_delete" msgid="8098021690546891414">"Ștergeți profilul"</string>
     <string name="vpn_menu_lockdown" msgid="7863024538064268139">"Reţea VPN activată permanent"</string>
-    <string name="vpn_lockdown_summary" msgid="2200032066376720339">"Selectaţi un profil VPN pentru a rămâne conectat întotdeauna la reţea. Traficul de reţea va fi permis numai atunci când sunteți conectat(ă) la această reţea VPN."</string>
+    <string name="vpn_lockdown_summary" msgid="2200032066376720339">"Selectaţi un profil VPN pentru a rămâne conectat întotdeauna la rețea. Traficul de rețea va fi permis numai atunci când sunteți conectat(ă) la această rețea VPN."</string>
     <string name="vpn_lockdown_none" msgid="9214462857336483711">"Niciuna"</string>
     <string name="vpn_lockdown_config_error" msgid="3898576754914217248">"Activarea permanentă a reţelei VPN necesită o adresă IP, atât pentru server, cât și pentru DNS."</string>
-    <string name="vpn_no_network" msgid="3050233675132726155">"Nu există nicio conexiune la reţea. Încercați din nou mai târziu."</string>
+    <string name="vpn_no_network" msgid="3050233675132726155">"Nu există nicio conexiune la rețea. Încercați din nou mai târziu."</string>
     <string name="vpn_missing_cert" msgid="7972907102570411501">"Lipseşte un certificat. Editaţi profilul."</string>
     <string name="trusted_credentials_system_tab" msgid="3984284264816924534">"Sistem"</string>
     <string name="trusted_credentials_user_tab" msgid="2244732111398939475">"Utilizator"</string>
@@ -2570,11 +2559,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"Vibrează"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"Acces la notificări"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"Aplicațiile nu pot citi notificările"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="few">%d aplicații pot citi notificările</item>
-      <item quantity="other">%d de aplicații pot citi notificările</item>
-      <item quantity="one">%d aplicație poate citi notificările</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d aplicație poate citi notificările"</item>
+    <item quantity="other" msgid="980049191810249052">"%d aplicații pot citi notificările"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"Nicio aplicație instalată nu a solicitat accesul la notificări."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"Permiteți accesul la notificări pentru <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"<xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> va putea să citească toate notificările, inclusiv informații personale, cum ar fi numele persoanelor de contact și textul mesajelor pe care le primiți. De asemenea, va putea să închidă aceste notificări sau să declanșeze butoanele pentru acțiuni din cadrul acestora."</string>
@@ -2645,16 +2633,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"Ora de încheiere"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"La <xliff:g id="FORMATTED_TIME">%s</xliff:g> a doua zi"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"Schimbați la „Numai alarme” pe o perioadă nedefinită"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="few">Schimbați la „Numai alarme” pentru <xliff:g id="DURATION">%1$d</xliff:g> minute (până la <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="other">Schimbați la „Numai alarme” pentru <xliff:g id="DURATION">%1$d</xliff:g> de minute (până la <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
-      <item quantity="one">Schimbați la „Numai alarme” pentru un minut, până la <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="few">Schimbați la „Numai alarme” pentru <xliff:g id="DURATION">%1$d</xliff:g> ore, până la <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="other">Schimbați la „Numai alarme” pentru <xliff:g id="DURATION">%1$d</xliff:g> de ore, până la <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g></item>
-      <item quantity="one">Schimbați la „Numai alarme” pentru o oră, până la <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"Schimbați la „Numai alarme” până la <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"Schimbați la „Întrerupe întotdeauna”"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"Notificări aplicații"</string>
@@ -2727,21 +2709,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"Fără afișare de scurtă durată"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g>/<xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g>/<xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>/<xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> permisiuni acordate</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> de permisiuni acordate</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> permisiune acordată</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="few"><xliff:g id="COUNT_2">%d</xliff:g> din <xliff:g id="COUNT_3">%d</xliff:g> permisiuni acordate</item>
-      <item quantity="other"><xliff:g id="COUNT_2">%d</xliff:g> din <xliff:g id="COUNT_3">%d</xliff:g> de permisiuni acordate</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> din <xliff:g id="COUNT_1">%d</xliff:g> permisiune acordată</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> permisiuni suplimentare</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> de permisiuni suplimentare</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> permisiune suplimentară</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"Nicio permisiune acordată"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"Nicio permisiunea solicitată"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"Unele valori prestabilite sunt configurate"</string>
@@ -2769,11 +2742,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"Nu deschide linkurile acceptate"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"Deschid „<xliff:g id="DOMAIN">%s</xliff:g>”"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"Deschide „<xliff:g id="DOMAIN">%s</xliff:g>” și adrese URL similare"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplicații pot deschide linkurile acceptate</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> de aplicații pot deschide linkurile acceptate</item>
-      <item quantity="one">O aplicație poate deschide linkurile acceptate</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"Deschide în această aplicație"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"Întreabă de fiecare dată"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"Nu deschide în această aplicație"</string>
@@ -2814,11 +2785,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"Se optimizează utilizarea bateriei"</string>
     <string name="high_power_system" msgid="7362862974428225301">"Optimizarea bateriei nu este disponibilă"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"Nu aplicați optimizarea bateriei. Bateria se poate descărca mai rapid."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> aplicații au permisiunea să ignore optimizarea bateriei</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> de aplicații au permisiunea să ignore optimizarea bateriei</item>
-      <item quantity="one">O aplicație are permisiunea să ignore optimizarea bateriei</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"Ignorați optimizările pentru baterie?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"Permiteți aplicației <xliff:g id="APP_NAME">%1$s</xliff:g> să rămână conectată în fundal? Astfel, bateria se poate consuma mai rapid."</string>
     <string name="battery_summary" msgid="101415762036784289">"S-a folosit <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% de la ultima încărcare completă"</string>
@@ -2860,11 +2828,8 @@
     <string name="average_used" msgid="5338339266517245782">"Utilizare medie (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"Disponibilă"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"Memorie utilizată de aplicații"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> aplicații au folosit memoria în ultimele <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> de aplicații au folosit memoria în ultimele <xliff:g id="DURATION_1">%2$s</xliff:g></item>
-      <item quantity="one">O aplicație a folosit memoria în ultimele <xliff:g id="DURATION_0">%2$s</xliff:g></item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"Frecvență"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"Utilizare maximă"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"Nu s-au folosit date"</string>

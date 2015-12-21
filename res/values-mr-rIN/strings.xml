@@ -24,10 +24,10 @@
     <string name="dlg_close" msgid="7471087791340790015">"बंद करा"</string>
     <string name="dlg_switch" msgid="6243971420240639064">"स्विच"</string>
     <string name="device_info_default" msgid="7847265875578739287">"अज्ञात"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="7201398282729229649">
-      <item quantity="one">आपण आता विकासक बनण्यापासून <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> चरण दूर आहात.</item>
-      <item quantity="other">आपण आता विकासक बनण्यापासून <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> चरणे दूर आहात.</item>
-    </plurals>
+  <plurals name="show_dev_countdown">
+    <item quantity="one" msgid="5295687242294085452">"आपण आता एक विकासक बनण्यापासून <xliff:g id="STEP_COUNT">%1$d</xliff:g> चरण दूर आहात."</item>
+    <item quantity="other" msgid="6722953419953594148">"आपण आता एक विकासक बनण्यापासून <xliff:g id="STEP_COUNT">%1$d</xliff:g> चरण दूर आहात."</item>
+  </plurals>
     <string name="show_dev_on" msgid="1110711554982716293">"आता आपण एक विकासक आहात!"</string>
     <string name="show_dev_already" msgid="2151632240145446227">"आवश्यकता नाही, आपण आधीपासून एक विकासक आहात."</string>
     <string name="header_category_wireless_networks" msgid="5110914332313954940">"वायरलेस आणि नेटवर्क"</string>
@@ -318,10 +318,8 @@
     <string name="fingerprint_usage_category_title" msgid="8438526918999536619">"फिंगरप्रिंट यासाठी वापरा"</string>
     <string name="fingerprint_add_title" msgid="1926752654454033904">"फिंगरप्रिंट जोडा"</string>
     <string name="fingerprint_enable_keyguard_toggle_title" msgid="5078060939636911795">"स्क्रीन लॉक"</string>
-    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
-      <item quantity="one"><xliff:g id="COUNT_1">%1$d</xliff:g> फिंगरप्रिंट सेटअप</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> फिंगरप्रिंट सेटअप</item>
-    </plurals>
+    <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
+    <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"फिंगरप्रिंट सेटअप करा"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"आपली स्क्रीन अनलॉक किंवा खरेदीची पुष्टी करण्याकरिता आपले फिंगरप्रिंट वापरण्यासाठी, आम्हाला याची आवश्यकता असेल:"</string>
@@ -455,30 +453,30 @@
     <string name="lockpassword_password_requires_alpha" msgid="5203836082520634764">"संकेतशब्दामध्ये कमीतकमी एक अक्षर असावे."</string>
     <string name="lockpassword_password_requires_digit" msgid="3958033271435659825">"संकेतशब्दामध्ये कमीतकमी एक अंक असावा."</string>
     <string name="lockpassword_password_requires_symbol" msgid="7226621405629726899">"संकेतशब्दामध्ये कमीतकमी एक चिन्ह असावे."</string>
-    <plurals name="lockpassword_password_requires_letters" formatted="false" msgid="5677371623980347934">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d अक्षर असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d अक्षरे असणे आवश्यक आहे.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_lowercase" formatted="false" msgid="5396846200894553640">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d लोअरकेस अक्षर असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d लोअरकेस अक्षरे असणे आवश्यक आहे.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_uppercase" formatted="false" msgid="2483949715040341677">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d अप्परकेस अक्षर असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d अप्परकेस अक्षरे असणे आवश्यक आहे.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_numeric" formatted="false" msgid="9156410893744210033">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d संख्यात्मक अंक असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d संख्यात्मक अंक असणे आवश्यक आहे.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_symbols" formatted="false" msgid="5384442837439742233">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d विशिष्ट चिन्ह असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d विशिष्ट चिन्हे असणे आवश्यक आहे.</item>
-    </plurals>
-    <plurals name="lockpassword_password_requires_nonletter" formatted="false" msgid="4175064976268466293">
-      <item quantity="one">संकेतशब्दामध्ये कमीत कमी %d अक्षर-नसलेला वर्ण असणे आवश्यक आहे.</item>
-      <item quantity="other">संकेतशब्दामध्ये कमीत कमी %d अक्षर-नसलेले वर्ण असणे आवश्यक आहे.</item>
-    </plurals>
+  <plurals name="lockpassword_password_requires_letters">
+    <item quantity="one" msgid="3063853802158131458">"संकेतशब्दामध्ये कमीतकमी 1 अक्षर असावे."</item>
+    <item quantity="other" msgid="8186027808415585970">"संकेतशब्दामध्ये कमीतकमी %d अक्षर असावीत."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_lowercase">
+    <item quantity="one" msgid="5583986519662091001">"संकेतशब्दामध्ये कमीतकमी 1 लोअरकेस अक्षर असावे."</item>
+    <item quantity="other" msgid="2693910942679679225">"संकेतशब्दामध्ये कमीतकमी %d लोअरकेस अक्षरे असावीत."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_uppercase">
+    <item quantity="one" msgid="2611909966725502768">"संकेतशब्दामध्ये कमीतकमी 1 अप्परकेस अक्षर असावे."</item>
+    <item quantity="other" msgid="3030801209112209245">"संकेतशब्दामध्ये कमीतकमी %d अप्परकेस अक्षरे असावीत."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_numeric">
+    <item quantity="one" msgid="3820355568839621231">"संकेतशब्दामध्ये कमीतकमी 1 संख्यात्मक अंक असावा."</item>
+    <item quantity="other" msgid="4703982391407595924">"संकेतशब्दामध्ये कमीतकमी %d संख्यात्मक अंक असावेत."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_symbols">
+    <item quantity="one" msgid="8456579939292408631">"संकेतशब्दामध्ये कमीतकमी 1 विशिष्ट चिन्ह असावे."</item>
+    <item quantity="other" msgid="1221290525051187757">"संकेतशब्दामध्ये कमीतकमी %d विशिष्ट चिन्ह असावीत."</item>
+  </plurals>
+  <plurals name="lockpassword_password_requires_nonletter">
+    <item quantity="one" msgid="4594051152085925921">"संकेतशब्दामध्ये कमीतकमी 1 अक्षर नसलेला वर्ण असावा."</item>
+    <item quantity="other" msgid="3952508584649046404">"संकेतशब्दामध्ये कमीतकमी %d अक्षर नसलेले वर्ण असावेत."</item>
+  </plurals>
     <string name="lockpassword_password_recently_used" msgid="4687102591995446860">"डिव्हाइस प्रशासक अलीकडील संकेतशब्द वापरण्याची अनुमती देत नाही."</string>
     <string name="lockpassword_pin_no_sequential_digits" msgid="6830610582179569631">"चढत्या, उतरत्या किंवा अंकांचा पुनरावृत्ती क्रम निषिद्ध आहे"</string>
     <string name="lockpassword_ok_label" msgid="313822574062553672">"ठीक"</string>
@@ -885,10 +883,10 @@
     <string name="sim_preferred_title" msgid="5567909634636045268">"प्राधान्यीकृत सिम कार्ड अद्यतनित करायचे?"</string>
     <string name="sim_preferred_message" msgid="301251431163650167">"आपल्‍या डिव्‍हाइस मधील <xliff:g id="NEW_SIM">%1$s</xliff:g> हे एकमेव सिम आहे. आपण सेल्‍युलर डेटा, कॉल आणि SMS संदेशांसाठी हे सिम वापरू इच्छिता?"</string>
     <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"सिम पिन कोड चुकीचा आहे आपण आता आपले डिव्‍हाइस अनलॉक करण्‍यासाठी आपल्‍या वाहकाशी संपर्क साधावा."</string>
-    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
-      <item quantity="one">सिम पिन चुकीचा आहे, आपल्याकडे <xliff:g id="NUMBER_1">%d</xliff:g> प्रयत्न उर्वरित आहे.</item>
-      <item quantity="other">सिम पिन चुकीचा आहे, आपल्याकडे <xliff:g id="NUMBER_1">%d</xliff:g> प्रयत्न उर्वरित आहेत.</item>
-    </plurals>
+  <plurals name="wrong_pin_code">
+    <item quantity="one" msgid="4840607930166101114">"सिम पिन कोड चुकीचा आहे, आपण आपले डिव्‍हाइस अनलॉक करण्‍यासाठी आपल्‍या वाहकाशी संपर्क साधण्‍यापूर्वी आपल्‍याकडे उर्वरित <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न आहेत."</item>
+    <item quantity="other" msgid="77103619544346451">"सिम पिन कोड चुकीचा आहे, आपल्‍याकडे उर्वरित <xliff:g id="NUMBER">%d</xliff:g> प्रयत्न आहेत."</item>
+  </plurals>
     <string name="pin_failed" msgid="1848423634948587645">"सिम पिन ऑपरेशन अयशस्वी!"</string>
     <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"टॅब्लेट स्थिती"</string>
     <string name="device_info_settings" product="default" msgid="475872867864762157">"फोन स्थिती"</string>
@@ -2560,10 +2558,10 @@
     <string name="emergency_tone_vibrate" msgid="8281126443204950847">"कंपन करा"</string>
     <string name="manage_notification_access_title" msgid="7510080164564944891">"सूचना प्रवेश"</string>
     <string name="manage_notification_access_summary_zero" msgid="2409912785614953348">"अॅप्स सूचनांचे वाचन करु शकत नाहीत"</string>
-    <plurals name="manage_notification_access_summary_nonzero" formatted="false" msgid="7930130030691218387">
-      <item quantity="one">%d अॅप्स सूचना वाचू शकतात</item>
-      <item quantity="other">%d अॅप्स सूचना वाचू शकतात</item>
-    </plurals>
+  <plurals name="manage_notification_access_summary_nonzero">
+    <item quantity="one" msgid="8344183614159211585">"%d अॅप सूचना वाचू शकतो"</item>
+    <item quantity="other" msgid="980049191810249052">"%d अॅप सूचना वाचू शकतात"</item>
+  </plurals>
     <string name="no_notification_listeners" msgid="3487091564454192821">"स्थापित केलेल्या कोणत्याही अ‍ॅप्सने सूचना प्रवेशाची विनंती केली नाही."</string>
     <string name="notification_listener_security_warning_title" msgid="5522924135145843279">"<xliff:g id="SERVICE">%1$s</xliff:g> साठी सूचना प्रवेशास अनुमती द्यायची?"</string>
     <string name="notification_listener_security_warning_summary" msgid="548925084229440829">"संपर्क नावे आणि आपल्याला प्राप्त होतात त्या संदेशांचा मजकूर यासारख्‍या वैयक्तिक माहितीसह सर्व सूचना वाचण्‍यात <xliff:g id="NOTIFICATION_LISTENER_NAME">%1$s</xliff:g> सक्षम असेल. तो सूचना डिसमिस करण्‍यात किंवा त्यामध्‍ये असणार्‍या क्रिया बटणांना ट्रिगर करण्‍यात देखील सक्षम असेल."</string>
@@ -2634,14 +2632,10 @@
     <string name="zen_mode_end_time" msgid="8774327885892705505">"समाप्ती वेळ"</string>
     <string name="zen_mode_end_time_next_day_summary_format" msgid="4201521691238728701">"<xliff:g id="FORMATTED_TIME">%s</xliff:g> पुढील दिवशी"</string>
     <string name="zen_mode_summary_alarms_only_indefinite" msgid="2061973221027570123">"अनिश्चितपणे केवळ अलार्म वर बदला"</string>
-    <plurals name="zen_mode_summary_alarms_only_by_minute" formatted="false" msgid="6122003583875424601">
-      <item quantity="one"> <xliff:g id="DURATION">%1$d</xliff:g> मिनिटासाठी (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> पर्यंत) अलार्म वर बदला</item>
-      <item quantity="other"> <xliff:g id="DURATION">%1$d</xliff:g> मिनिटांसाठी (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> पर्यंत) अलार्म वर बदला</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour" formatted="false" msgid="2407703455581767748">
-      <item quantity="one"> <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> पर्यंत <xliff:g id="DURATION">%1$d</xliff:g> तासासाठी अलार्म वर बदला</item>
-      <item quantity="other"> <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> पर्यंत <xliff:g id="DURATION">%1$d</xliff:g> तासांसाठी अलार्म वर बदला</item>
-    </plurals>
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:one (7637345086134422840) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_minute:other (3231045708181787946) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:one (7728928296163762824) -->
+    <!-- no translation found for zen_mode_summary_alarms_only_by_hour:other (62849759610374288) -->
     <string name="zen_mode_summary_alarms_only_by_time" msgid="7465525754879341907">"केवळ <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> पर्यंत अलार्मवर बदला"</string>
     <string name="zen_mode_summary_always" msgid="6172985102689237703">"नेहमी व्‍यत्यय आणा वर बदला"</string>
     <string name="notification_settings_apps_title" msgid="1125354590652967250">"अॅप सूचना"</string>
@@ -2714,18 +2708,12 @@
     <string name="notifications_no_peeking" msgid="999951669023262823">"डोकावून पाहणे नाही"</string>
     <string name="notifications_two_items" msgid="4619842959192163127">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g>"</string>
     <string name="notifications_three_items" msgid="7536490263864218246">"<xliff:g id="NOTIF_STATE_0">%1$s</xliff:g> / <xliff:g id="NOTIF_STATE_1">%2$s</xliff:g> / <xliff:g id="NOTIF_STATE_2">%3$s</xliff:g>"</string>
-    <plurals name="permissions_summary" formatted="false" msgid="6402730318075959117">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> परवानगीस मंजूरी दिली</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> परवानग्यांना मंजूरी दिली</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary" formatted="false" msgid="1564663886246010959">
-      <item quantity="one"><xliff:g id="COUNT_3">%d</xliff:g> पैकी <xliff:g id="COUNT_2">%d</xliff:g> परवानग्यांना मंजूरी दिली</item>
-      <item quantity="other"><xliff:g id="COUNT_3">%d</xliff:g> पैकी <xliff:g id="COUNT_2">%d</xliff:g> परवानग्यांना मंजूरी दिली</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count" formatted="false" msgid="931276038884210752">
-      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> अतिरिक्त परवानगी</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> अतिरिक्त परवानग्या</item>
-    </plurals>
+    <!-- no translation found for permissions_summary:one (8618792699609550212) -->
+    <!-- no translation found for permissions_summary:other (6487677179440801688) -->
+    <!-- no translation found for runtime_permissions_summary:one (6296879360146479098) -->
+    <!-- no translation found for runtime_permissions_summary:other (6735954612369504933) -->
+    <!-- no translation found for runtime_permissions_additional_count:one (5455056435802297617) -->
+    <!-- no translation found for runtime_permissions_additional_count:other (5117679348171182189) -->
     <string name="runtime_permissions_summary_no_permissions_granted" msgid="1679758182657005375">"कोणत्याही परवानग्यांना मंजूरी दिली नाही"</string>
     <string name="runtime_permissions_summary_no_permissions_requested" msgid="7655100570513818534">"कोणत्याही परवानग्यांची विनंती केली नाही"</string>
     <string name="launch_defaults_some" msgid="313159469856372621">"काही डीफॉल्‍ट सेट केले"</string>
@@ -2753,10 +2741,9 @@
     <string name="domain_urls_summary_none" msgid="2639588015479657864">"समर्थित दुवे उघडू नका"</string>
     <string name="domain_urls_summary_one" msgid="3704934031930978405">"<xliff:g id="DOMAIN">%s</xliff:g> उघडा"</string>
     <string name="domain_urls_summary_some" msgid="812936714383016364">"<xliff:g id="DOMAIN">%s</xliff:g> आणि संबंधित URL उघडा"</string>
-    <plurals name="domain_urls_apps_summary" formatted="false" msgid="4322996467951692661">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> अॅप त्याचे समर्थित दुवे उघडू शकतो</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> अॅप्स त्याचे समर्थित दुवे उघडू शकतात</item>
-    </plurals>
+    <!-- no translation found for domain_urls_apps_summary:zero (8787096896623593893) -->
+    <!-- no translation found for domain_urls_apps_summary:one (2575169961912135843) -->
+    <!-- no translation found for domain_urls_apps_summary:other (6800707767245420124) -->
     <string name="app_link_open_always" msgid="2474058700623948148">"हा अ‍ॅप उघडा"</string>
     <string name="app_link_open_ask" msgid="7800878430190575991">"प्रत्येक वेळी विचारा"</string>
     <string name="app_link_open_never" msgid="3407647600352398543">"हा अ‍ॅप उघडू नका"</string>
@@ -2797,10 +2784,8 @@
     <string name="high_power_off" msgid="3393904131961263278">"बॅटरी वापर ऑप्टिमाइझ करीत आहे"</string>
     <string name="high_power_system" msgid="7362862974428225301">"बॅटरी ऑप्टिमायझेशन उपलब्ध नाही"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"बॅटरी ऑप्टिमायझेशन वापरू नका. आपली बॅटरी अधिक द्रुतपणे संपवू शकते."</string>
-    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
-      <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> अॅपने बॅटरी ऑप्टिमायझेशन दुर्लक्षित करण्याची अनुमती दिली</item>
-      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> अॅप्सने बॅटरी ऑप्टिमायझेशन दुर्लक्षित करण्याची अनुमती दिली</item>
-    </plurals>
+    <!-- no translation found for high_power_count:one (1864648918201115180) -->
+    <!-- no translation found for high_power_count:other (3123216926216036637) -->
     <string name="high_power_prompt_title" msgid="4257734526819699048">"बॅटरी ऑप्टिमायझेशनकडे दुर्लक्ष करायचे?"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"<xliff:g id="APP_NAME">%1$s</xliff:g> अॅपला पार्श्वभूमीमध्ये कनेक्ट केलेले राहू द्यायचे? हा अधिक बॅटरी वापरू शकतो."</string>
     <string name="battery_summary" msgid="101415762036784289">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>पूर्ण चार्ज झाल्यानंतरचा वापर %%"</string>
@@ -2842,10 +2827,8 @@
     <string name="average_used" msgid="5338339266517245782">"सरासरी वापरली (%)"</string>
     <string name="free_memory" msgid="4003936141603549746">"उपलब्ध"</string>
     <string name="memory_usage_apps" msgid="5650192998273294098">"अ‍ॅप्सद्वारे वापरलेली मेमरी"</string>
-    <plurals name="memory_usage_apps_summary" formatted="false" msgid="6089210945574265774">
-      <item quantity="one">गेल्या <xliff:g id="DURATION_1">%2$s</xliff:g> मध्‍ये <xliff:g id="COUNT">%1$d</xliff:g> अ‍ॅपने मेमरी वापरली</item>
-      <item quantity="other">गेल्या <xliff:g id="DURATION_1">%2$s</xliff:g> मध्‍ये <xliff:g id="COUNT">%1$d</xliff:g> अ‍ॅप्सने मेमरी वापरली</item>
-    </plurals>
+    <!-- no translation found for memory_usage_apps_summary:one (7989920838123042628) -->
+    <!-- no translation found for memory_usage_apps_summary:other (5256621466504068666) -->
     <string name="running_frequency" msgid="6622624669948277693">"वारंवारता"</string>
     <string name="memory_maximum_usage" msgid="6513785462055278341">"कमाल वापर"</string>
     <string name="no_data_usage" msgid="9131454024293628063">"कोणताही डेटा वापरला नाही"</string>

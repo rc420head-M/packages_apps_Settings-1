@@ -13,18 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<!-- Device Info Settings -->
-    <!-- Candy version -->
-    <string name="candy_version_title">Candy version</string>
-    <string name="candy_version_default">Unknown</string>
-    <!-- Build date -->
-    <string name="build_date">Build date</string>
-    <string name="build_date_default">2014-01-01-0000</string>
-    <!-- Model Name -->
-    <string name="model_name">Model name</string>
-
-<!-- Display Settings -->
-    <!-- Font size sample text -->
-    <string name="font_size_sample">Font Size</string>
+<resources>
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="min" format="float" />
+        <attr name="max" format="float" />
+        <attr name="defaultValue" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
 </resources>

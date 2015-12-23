@@ -56,7 +56,9 @@
     <dimen name="appwidget_min_width">280dip</dimen>
     <dimen name="appwidget_min_height">40dip</dimen>
 
-    <dimen name="pager_tabs_padding">0dp</dimen>
+    <dimen name="pager_tabs_padding">0dp</dimen>  
+
+    <dimen name="circle_avatar_size">40dp</dimen>
 
     <dimen name="circle_avatar_size">40dp</dimen>
 

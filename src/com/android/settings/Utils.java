@@ -89,8 +89,8 @@ import android.widget.TabWidget;
 import com.android.internal.util.UserIcons;
 import com.android.settings.UserAdapter.UserDetails;
 import com.android.settings.dashboard.DashboardTile;
+import com.android.settings.drawable.CircleFramedDrawable;
 import com.android.settingslib.applications.ApplicationsState;
-import com.android.settingslib.drawable.CircleFramedDrawable;
 
 import java.io.IOException;
 import java.io.InputStream;

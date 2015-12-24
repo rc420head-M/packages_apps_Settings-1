@@ -321,6 +321,10 @@
     <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
     <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
+    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> fingerprints set up</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> fingerprint set up</item>
+    </plurals>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"Fingerprint setup"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"To use your fingerprint to unlock your screen or confirm purchases, we\'ll need to:"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message_1" msgid="2799884038398627882">"Set up your backup screen lock method"</string>

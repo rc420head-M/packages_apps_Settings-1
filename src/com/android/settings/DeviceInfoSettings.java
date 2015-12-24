@@ -191,7 +191,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
 
         // Remove regulatory information if none present.
         final Intent intent = new Intent(Settings.ACTION_SHOW_REGULATORY_INFO);
-        if (getPackageManager().queryIntentActivities(intent, 0).isEmpty()) {
+        if (getPackageManager().queryIntentActivities(intent, 0).isEmpty()
+                || !getResources().getBoolean(R.bool.config_show_regulatory_info)) {
             Preference pref = findPreference(KEY_REGULATORY_INFO);
             if (pref != null) {
                 getPreferenceScreen().removePreference(pref);

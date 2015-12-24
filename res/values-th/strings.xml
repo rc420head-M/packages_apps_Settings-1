@@ -2784,8 +2784,10 @@
     <string name="high_power_off" msgid="3393904131961263278">"เพิ่มประสิทธิภาพการใช้แบตเตอรี"</string>
     <string name="high_power_system" msgid="7362862974428225301">"การเพิ่มประสิทธิภาพแบตเตอรี่ไม่พร้อมใช้งาน"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"ไม่ใช้การเพิ่มประสิทธิภาพแบตเตอรี่ อาจทำให้แบตเตอรี่หมดเร็วยิ่งขึ้น"</string>
-    <!-- no translation found for high_power_count:one (1864648918201115180) -->
-    <!-- no translation found for high_power_count:other (3123216926216036637) -->
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> แอปได้รับอนุญาตให้ละเว้นการเพิ่มประสิทธิภาพแบตเตอรี่</item>
+      <item quantity="one">1 แอปได้รับอนุญาตให้ละเว้นการเพิ่มประสิทธิภาพแบตเตอรี่</item>
+    </plurals>
     <string name="high_power_prompt_title" msgid="4257734526819699048">"ไม่สนใจการเพิ่มประสิทธิภาพแบตเตอรี่ใช่ไหม"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"ให้แอป <xliff:g id="APP_NAME">%1$s</xliff:g> เชื่อมต่อในพื้นหลังต่อไปไหม การดำเนินการนี้อาจใช้แบตเตอรีมากขึ้น"</string>
     <string name="battery_summary" msgid="101415762036784289">"ใช้ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% ตั้งแต่การชาร์จเต็มครั้งล่าสุด"</string>

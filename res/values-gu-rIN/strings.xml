@@ -1502,234 +1502,126 @@
     <string name="night_mode_no" msgid="7682792841791457238">"પ્રકાશ"</string>
     <string name="night_mode_yes" msgid="4847655033618591567">"ઘાટું"</string>
     <string name="night_mode_auto" msgid="7508348175804304327">"સ્વચલિત"</string>
-    <!-- no translation found for screen_timeout (4351334843529712571) -->
-    <skip />
-    <!-- no translation found for screen_timeout_title (5130038655092628247) -->
-    <skip />
-    <!-- no translation found for screen_timeout_summary (327761329263064327) -->
-    <skip />
-    <!-- no translation found for wallpaper_settings_title (5449180116365824625) -->
-    <skip />
-    <!-- no translation found for wallpaper_settings_fragment_title (519078346877860129) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_title (3349790120327233241) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_summary_either_long (2458481525925378465) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_summary_either_short (6140527286137331478) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_summary_sleep (9086186698140423493) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_summary_dock (2072657401664633283) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_summary_off (2481581696365146473) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_disabled_prompt (3857507943322777651) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_when_to_dream (8352267826043957746) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_dream_start (4998187847985120168) -->
-    <skip />
-    <!-- no translation found for screensaver_settings_button (7292214707625717013) -->
-    <skip />
-    <!-- no translation found for automatic_brightness (5014143533884135461) -->
-    <skip />
-    <!-- no translation found for lift_to_wake_title (4555378006856277635) -->
-    <skip />
-    <!-- no translation found for doze_title (2259176504273878294) -->
-    <skip />
-    <!-- no translation found for doze_summary (7128970177894383698) -->
-    <skip />
-    <!-- no translation found for title_font_size (4405544325522105222) -->
-    <skip />
-    <!-- no translation found for dialog_title_font_size (2231507851258955038) -->
-    <skip />
-    <!-- no translation found for sim_lock_settings (3392331196873564292) -->
-    <skip />
-    <!-- no translation found for sim_lock_settings_category (5136244267576697004) -->
-    <skip />
-    <!-- no translation found for sim_lock_settings_title (9018585580955414596) -->
-    <skip />
-    <!-- no translation found for sim_pin_toggle (1742123478029451888) -->
-    <skip />
-    <!-- no translation found for sim_lock_on (5058355081270397764) -->
-    <skip />
-    <!-- no translation found for sim_lock_on (2503536505568814324) -->
-    <skip />
-    <!-- no translation found for sim_lock_off (2813800553917012356) -->
-    <skip />
-    <!-- no translation found for sim_lock_off (258981978215428916) -->
-    <skip />
-    <!-- no translation found for sim_pin_change (6311414184279932368) -->
-    <skip />
-    <!-- no translation found for sim_enter_pin (6608715137008508432) -->
-    <skip />
-    <!-- no translation found for sim_enable_sim_lock (4517742794997166918) -->
-    <skip />
-    <!-- no translation found for sim_disable_sim_lock (7664729528754784824) -->
-    <skip />
-    <!-- no translation found for sim_enter_old (6074196344494634348) -->
-    <skip />
-    <!-- no translation found for sim_enter_new (8742727032729243562) -->
-    <skip />
-    <!-- no translation found for sim_reenter_new (6523819386793546888) -->
-    <skip />
-    <!-- no translation found for sim_change_pin (7328607264898359112) -->
-    <skip />
-    <!-- no translation found for sim_bad_pin (2345230873496357977) -->
-    <skip />
-    <!-- no translation found for sim_pins_dont_match (8449681619822460312) -->
-    <skip />
-    <!-- no translation found for sim_change_failed (304964924772218382) -->
-    <skip />
-    <!-- no translation found for sim_change_succeeded (8556135413096489627) -->
-    <skip />
-    <!-- no translation found for sim_lock_failed (5651596916127873626) -->
-    <skip />
-    <!-- no translation found for sim_enter_ok (6475946836899218919) -->
-    <skip />
-    <!-- no translation found for sim_enter_cancel (6240422158517208036) -->
-    <skip />
-    <!-- no translation found for sim_multi_sims_title (9159427879911231239) -->
-    <skip />
-    <!-- no translation found for sim_multi_sims_summary (7018740080801483990) -->
-    <skip />
-    <!-- no translation found for sim_change_data_title (294357201685244532) -->
-    <skip />
-    <!-- no translation found for sim_change_data_message (1313940695939674633) -->
-    <skip />
-    <!-- no translation found for sim_preferred_title (5567909634636045268) -->
-    <skip />
-    <!-- no translation found for sim_preferred_message (301251431163650167) -->
-    <skip />
-    <!-- no translation found for wrong_pin_code_pukked (4003655226832658066) -->
-    <skip />
-    <!-- no translation found for wrong_pin_code (1582398808893048097) -->
-    <!-- no translation found for pin_failed (1848423634948587645) -->
-    <skip />
-    <!-- no translation found for device_info_settings (1119755927536987178) -->
-    <skip />
-    <!-- no translation found for device_info_settings (475872867864762157) -->
-    <skip />
-    <!-- no translation found for system_update_settings_list_item_title (3342887311059985961) -->
-    <skip />
+    <string name="screen_timeout" msgid="4351334843529712571">"નિષ્ક્રિય થાઓ"</string>
+    <string name="screen_timeout_title" msgid="5130038655092628247">"સ્ક્રીન બંધ કરે છે"</string>
+    <string name="screen_timeout_summary" msgid="327761329263064327">"નિષ્ક્રિયતાનાં <xliff:g id="TIMEOUT_DESCRIPTION">%1$s</xliff:g> પછી"</string>
+    <string name="wallpaper_settings_title" msgid="5449180116365824625">"વૉલપેપર"</string>
+    <string name="wallpaper_settings_fragment_title" msgid="519078346877860129">"આમાંથી વૉલપેપર પસંદ કરો"</string>
+    <string name="screensaver_settings_title" msgid="3349790120327233241">"ડેડ્રીમ"</string>
+    <string name="screensaver_settings_summary_either_long" msgid="2458481525925378465">"જ્યારે ડૉક કરેલ અથવા નિષ્ક્રિય હોય અને ચાર્જ થતું હોય ત્યારે"</string>
+    <string name="screensaver_settings_summary_either_short" msgid="6140527286137331478">"કદાચ"</string>
+    <string name="screensaver_settings_summary_sleep" msgid="9086186698140423493">"ચાર્જિંગ થતી વખતે"</string>
+    <string name="screensaver_settings_summary_dock" msgid="2072657401664633283">"ડૉક હોય ત્યારે"</string>
+    <string name="screensaver_settings_summary_off" msgid="2481581696365146473">"બંધ"</string>
+    <string name="screensaver_settings_disabled_prompt" msgid="3857507943322777651">"ફોન ડોક થાય અને/અથવા નિષ્ક્રિય થઈ જાય ત્યારે શું થાય તેને નિયંત્રિત કરવા માટે, ડેડ્રીમને ચાલુ કરો."</string>
+    <string name="screensaver_settings_when_to_dream" msgid="8352267826043957746">"ક્યારે ડેડ્રીમ કરવું"</string>
+    <string name="screensaver_settings_dream_start" msgid="4998187847985120168">"હવે પ્રારંભ કરો"</string>
+    <string name="screensaver_settings_button" msgid="7292214707625717013">"સેટિંગ્સ"</string>
+    <string name="automatic_brightness" msgid="5014143533884135461">"સ્વચલિત તેજ"</string>
+    <string name="lift_to_wake_title" msgid="4555378006856277635">"જાગૃત કરવા માટે લિફ્ટ કરો"</string>
+    <string name="doze_title" msgid="2259176504273878294">"વ્યાપક ડિસ્પ્લે"</string>
+    <string name="doze_summary" msgid="7128970177894383698">"તમે ઉપકરણને ઉઠાવો અથવા સૂચનાઓ પ્રાપ્ત કરો ત્યારે સ્ક્રીન જાગૃત કરો"</string>
+    <string name="title_font_size" msgid="4405544325522105222">"ફોન્ટનું કદ"</string>
+    <string name="dialog_title_font_size" msgid="2231507851258955038">"ફોન્ટનું કદ"</string>
+    <string name="sim_lock_settings" msgid="3392331196873564292">"SIM કાર્ડ લૉક સેટિંગ્સ"</string>
+    <string name="sim_lock_settings_category" msgid="5136244267576697004">"SIM કાર્ડ લૉક સેટ કરો"</string>
+    <string name="sim_lock_settings_title" msgid="9018585580955414596">"SIM કાર્ડ લૉક"</string>
+    <string name="sim_pin_toggle" msgid="1742123478029451888">"SIM કાર્ડ લૉક કરો"</string>
+    <string name="sim_lock_on" product="tablet" msgid="5058355081270397764">"ટેબ્લેટનો ઉપયોગ કરવા માટે PIN જરૂરી છે"</string>
+    <string name="sim_lock_on" product="default" msgid="2503536505568814324">"ફોનનો ઉપયોગ કરવા માટે PIN ની જરૂર છે"</string>
+    <string name="sim_lock_off" product="tablet" msgid="2813800553917012356">"ટેબ્લેટનો ઉપયોગ કરવા માટે PIN જરૂરી છે"</string>
+    <string name="sim_lock_off" product="default" msgid="258981978215428916">"ફોનનો ઉપયોગ કરવા માટે PIN ની જરૂર છે"</string>
+    <string name="sim_pin_change" msgid="6311414184279932368">"SIM PIN બદલો"</string>
+    <string name="sim_enter_pin" msgid="6608715137008508432">"SIM PIN"</string>
+    <string name="sim_enable_sim_lock" msgid="4517742794997166918">"SIM કાર્ડ લૉક કરો"</string>
+    <string name="sim_disable_sim_lock" msgid="7664729528754784824">"SIM કાર્ડ અનલૉક કરો"</string>
+    <string name="sim_enter_old" msgid="6074196344494634348">"જૂનો SIM PIN"</string>
+    <string name="sim_enter_new" msgid="8742727032729243562">"નવો SIM PIN"</string>
+    <string name="sim_reenter_new" msgid="6523819386793546888">"નવો પિન ફરીથી લખો"</string>
+    <string name="sim_change_pin" msgid="7328607264898359112">"SIM PIN:"</string>
+    <string name="sim_bad_pin" msgid="2345230873496357977">"ખોટો PIN"</string>
+    <string name="sim_pins_dont_match" msgid="1695021563878890574">"PIN મેળ ખાતા નથી"</string>
+    <string name="sim_change_failed" msgid="3602072380172511475">"PIN બદલી શકાતો નથી.\nસંભવિત રૂપે PIN."</string>
+    <string name="sim_change_succeeded" msgid="8556135413096489627">"SIM PIN ને સફળતાપૂર્વક બદલ્યો"</string>
+    <string name="sim_lock_failed" msgid="2489611099235575984">"SIM કાર્ડ લૉક સ્થિતિ બદલી શકાતી નથી.\nસંભવિતરૂપે ખોટો PIN છે."</string>
+    <string name="sim_enter_ok" msgid="6475946836899218919">"ઑકે"</string>
+    <string name="sim_enter_cancel" msgid="6240422158517208036">"રદ કરો"</string>
+    <string name="sim_multi_sims_title" msgid="9159427879911231239">"બહુવિધ SIM મળી"</string>
+    <string name="sim_multi_sims_summary" msgid="7018740080801483990">"તમે સેલ્યુલર ડેટા માટે પસંદ કરો છો તે SIM પસંદ કરો."</string>
+    <string name="sim_change_data_title" msgid="294357201685244532">"ડેટા SIM બદલીએ?"</string>
+    <string name="sim_change_data_message" msgid="1313940695939674633">"સેલ્યુલર ડેટા માટે <xliff:g id="OLD_SIM">%2$s</xliff:g> ના બદલે <xliff:g id="NEW_SIM">%1$s</xliff:g> નો ઉપયોગ કરીએ?"</string>
+    <string name="sim_preferred_title" msgid="5567909634636045268">"મનપસંદ SIM કાર્ડ અપડેટ કરીએ?"</string>
+    <string name="sim_preferred_message" msgid="301251431163650167">"<xliff:g id="NEW_SIM">%1$s</xliff:g> એ તમારા ઉપકરણમાંનું એકમાત્ર SIM છે. શું તમે આ SIM નો ઉપયોગ સેલ્યુલર ડેટા, કૉલ્સ અને SMS સંદેશા માટે કરવા માંગો છો?"</string>
+    <string name="wrong_pin_code_pukked" msgid="4003655226832658066">"ખોટો SIM PIN કોડ, તમારે હવે તમારું ઉપકરણ અનલૉક કરવા માટે તમારા કેરીઅરનો સંપર્ક કરવો આવશ્યક છે."</string>
+    <plurals name="wrong_pin_code" formatted="false" msgid="1582398808893048097">
+      <item quantity="one">Iખોટો SIM PIN કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
+      <item quantity="other">Iખોટો SIM PIN કોડ, તમારી પાસે <xliff:g id="NUMBER_1">%d</xliff:g> પ્રયાસ બાકી છે.</item>
+    </plurals>
+    <string name="pin_failed" msgid="1848423634948587645">"SIM PIN ઑપરેશન નિષ્ફળ થયું!"</string>
+    <string name="device_info_settings" product="tablet" msgid="1119755927536987178">"ટેબ્લેટ સ્થિતિ"</string>
+    <string name="device_info_settings" product="default" msgid="475872867864762157">"ફોન સ્થિતિ"</string>
+    <string name="system_update_settings_list_item_title" msgid="3342887311059985961">"સિસ્ટમ અપડેટ્સ"</string>
     <string name="system_update_settings_list_item_summary" msgid="3853057315907710747"></string>
-    <!-- no translation found for firmware_version (4801135784886859972) -->
-    <skip />
-    <!-- no translation found for model_number (3765737700545384794) -->
-    <skip />
-    <!-- no translation found for fcc_equipment_id (149114368246356737) -->
-    <skip />
-    <!-- no translation found for baseband_version (1848990160763524801) -->
-    <skip />
-    <!-- no translation found for kernel_version (9192574954196167602) -->
-    <skip />
-    <!-- no translation found for build_number (3075795840572241758) -->
-    <skip />
-    <!-- no translation found for selinux_status (6212165375172061672) -->
-    <skip />
-    <!-- no translation found for device_info_not_available (8062521887156825182) -->
-    <skip />
-    <!-- no translation found for device_status_activity_title (1411201799384697904) -->
-    <skip />
-    <!-- no translation found for device_status (607405385799807324) -->
-    <skip />
-    <!-- no translation found for device_status_summary (3292717754497039686) -->
-    <skip />
-    <!-- no translation found for device_status_summary (2599162787451519618) -->
-    <skip />
-    <!-- no translation found for storage_settings (4211799979832404953) -->
-    <skip />
-    <!-- no translation found for storage_settings_title (8746016738388094064) -->
-    <skip />
-    <!-- no translation found for storage_settings_summary (3543813623294870759) -->
-    <skip />
-    <!-- no translation found for storage_settings_summary (9176693537325988610) -->
-    <skip />
-    <!-- no translation found for status_number (1138837891091222272) -->
-    <skip />
-    <!-- no translation found for status_number (5123197324870153205) -->
-    <skip />
-    <!-- no translation found for status_min_number (3519504522179420597) -->
-    <skip />
-    <!-- no translation found for status_msid_number (909010114445780530) -->
-    <skip />
-    <!-- no translation found for status_prl_version (1007470446618081441) -->
-    <skip />
-    <!-- no translation found for status_meid_number (1751442889111731088) -->
-    <skip />
-    <!-- no translation found for status_icc_id (943368755577172747) -->
-    <skip />
-    <!-- no translation found for status_network_type (952552009117455166) -->
-    <skip />
-    <!-- no translation found for status_latest_area_info (7222470836568238054) -->
-    <skip />
-    <!-- no translation found for status_data_state (4578972321533789767) -->
-    <skip />
-    <!-- no translation found for status_service_state (2323931627519429503) -->
-    <skip />
-    <!-- no translation found for status_signal_strength (3732655254188304547) -->
-    <skip />
-    <!-- no translation found for status_roaming (2638800467430913403) -->
-    <skip />
-    <!-- no translation found for status_operator (2274875196954742087) -->
-    <skip />
-    <!-- no translation found for status_wifi_mac_address (2202206684020765378) -->
-    <skip />
-    <!-- no translation found for status_bt_address (4195174192087439720) -->
-    <skip />
-    <!-- no translation found for status_serial_number (2257111183374628137) -->
-    <skip />
-    <!-- no translation found for status_unavailable (7862009036663793314) -->
-    <skip />
-    <!-- no translation found for status_up_time (7294859476816760399) -->
-    <skip />
-    <!-- no translation found for status_awake_time (2393949909051183652) -->
-    <skip />
-    <!-- no translation found for internal_memory (9129595691484260784) -->
-    <skip />
-    <!-- no translation found for sd_memory (2510246194083052841) -->
-    <skip />
-    <!-- no translation found for sd_memory (151871913888051515) -->
-    <skip />
-    <!-- no translation found for memory_available (5052397223077021181) -->
-    <skip />
-    <!-- no translation found for memory_available_read_only (6497534390167920206) -->
-    <skip />
-    <!-- no translation found for memory_size (6629067715017232195) -->
-    <skip />
-    <!-- no translation found for memory_calculating_size (2188358544203768588) -->
-    <skip />
-    <!-- no translation found for memory_apps_usage (5128673488173839077) -->
-    <skip />
-    <!-- no translation found for memory_media_usage (3738830697707880405) -->
-    <skip />
-    <!-- no translation found for memory_downloads_usage (3755173051677533027) -->
-    <skip />
-    <!-- no translation found for memory_dcim_usage (558887013613822577) -->
-    <skip />
-    <!-- no translation found for memory_music_usage (1363785144783011606) -->
-    <skip />
-    <!-- no translation found for memory_media_misc_usage (6094866738586451683) -->
-    <skip />
-    <!-- no translation found for memory_media_cache_usage (6704293333141177910) -->
-    <skip />
-    <!-- no translation found for sd_eject (4988563376492400073) -->
-    <skip />
-    <!-- no translation found for sd_eject (6915293408836853020) -->
-    <skip />
-    <!-- no translation found for sd_eject_summary (5009296896648072891) -->
-    <skip />
-    <!-- no translation found for sd_eject_summary (3300599435073550246) -->
-    <skip />
-    <!-- no translation found for sd_insert_summary (5264016886409577313) -->
-    <skip />
-    <!-- no translation found for sd_insert_summary (2048640010381803841) -->
-    <skip />
-    <!-- no translation found for sd_mount (8966695015677343116) -->
-    <skip />
-    <!-- no translation found for sd_mount (5940523765187704135) -->
-    <skip />
+    <string name="firmware_version" msgid="4801135784886859972">"Android સંસ્કરણ"</string>
+    <string name="security_patch" msgid="8438384045870296634">"Android સુરક્ષા પૅચ સ્તર"</string>
+    <string name="model_number" msgid="3765737700545384794">"મોડેલ નંબર"</string>
+    <string name="fcc_equipment_id" msgid="149114368246356737">"સાધન ID"</string>
+    <string name="baseband_version" msgid="1848990160763524801">"બેઝબેન્ડ સંસ્કરણ"</string>
+    <string name="kernel_version" msgid="9192574954196167602">"કર્નલ સંસ્કરણ"</string>
+    <string name="build_number" msgid="3075795840572241758">"બિલ્ડ નંબર"</string>
+    <string name="selinux_status" msgid="6212165375172061672">"SELinux સ્થિતિ"</string>
+    <string name="device_info_not_available" msgid="8062521887156825182">"ઉપલબ્ધ નથી"</string>
+    <string name="device_status_activity_title" msgid="1411201799384697904">"સ્થિતિ"</string>
+    <string name="device_status" msgid="607405385799807324">"સ્થિતિ"</string>
+    <string name="device_status_summary" product="tablet" msgid="3292717754497039686">"બૅટરી, નેટવર્કની સ્થિતિ અને અન્ય માહિતી"</string>
+    <string name="device_status_summary" product="default" msgid="2599162787451519618">"ફોન નંબર, સિગ્નલ વગેરે"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"સ્ટોરેજ"</string>
+    <string name="storage_usb_settings" msgid="642612065405691122">"સંગ્રહ અને USB"</string>
+    <string name="storage_settings_title" msgid="8746016738388094064">"સ્ટોરેજ સેટિંગ્સ"</string>
+    <string name="storage_settings_summary" product="nosdcard" msgid="3543813623294870759">"USB સંગ્રહને અનમાઉન્ટ કરો, ઉપલબ્ધ સંગ્રહ જુઓ"</string>
+    <string name="storage_settings_summary" product="default" msgid="9176693537325988610">"SD કાર્ડ અનમાઉન્ટ કરો, ઉપલબ્ધ સંગ્રહ જુઓ"</string>
+    <string name="status_number" product="tablet" msgid="1138837891091222272">"MDN"</string>
+    <string name="status_number" product="default" msgid="5123197324870153205">"મારો ફોન નંબર"</string>
+    <string name="status_min_number" msgid="3519504522179420597">"ન્યૂનતમ"</string>
+    <string name="status_msid_number" msgid="909010114445780530">"MSID"</string>
+    <string name="status_prl_version" msgid="1007470446618081441">"PRL સંસ્કરણ"</string>
+    <string name="status_meid_number" msgid="1751442889111731088">"MEID"</string>
+    <string name="status_icc_id" msgid="943368755577172747">"ICCID"</string>
+    <string name="status_network_type" msgid="952552009117455166">"સેલ્યુલર નેટવર્ક પ્રકાર"</string>
+    <string name="status_latest_area_info" msgid="7222470836568238054">"ઓપરેટર માહિતી"</string>
+    <string name="status_data_state" msgid="4578972321533789767">"સેલ્યુલર નેટવર્ક સ્થિતિ"</string>
+    <string name="status_service_state" msgid="2323931627519429503">"સેવા સ્થિતિ"</string>
+    <string name="status_signal_strength" msgid="3732655254188304547">"સિગ્નલ પ્રબળતા"</string>
+    <string name="status_roaming" msgid="2638800467430913403">"રોમિંગ"</string>
+    <string name="status_operator" msgid="2274875196954742087">"નેટવર્ક"</string>
+    <string name="status_wifi_mac_address" msgid="2202206684020765378">"Wi‑Fi MAC સરનામું"</string>
+    <string name="status_bt_address" msgid="4195174192087439720">"Bluetooth સરનામું"</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"શૃંખલા ક્રમાંક"</string>
+    <string name="status_unavailable" msgid="7862009036663793314">"અનુપલબ્ધ"</string>
+    <string name="status_up_time" msgid="7294859476816760399">"ચાલુ થયાનો સમય"</string>
+    <string name="status_awake_time" msgid="2393949909051183652">"જાગૃત સમય"</string>
+    <string name="internal_memory" msgid="9129595691484260784">"આંતરિક સંગ્રહ"</string>
+    <string name="sd_memory" product="nosdcard" msgid="2510246194083052841">"USB સંગ્રહ"</string>
+    <string name="sd_memory" product="default" msgid="151871913888051515">"SD કાર્ડ"</string>
+    <string name="memory_available" msgid="5052397223077021181">"ઉપલબ્ધ"</string>
+    <string name="memory_available_read_only" msgid="6497534390167920206">"ઉપલબ્ધ (ફક્ત વાંચવા માટે)"</string>
+    <string name="memory_size" msgid="6629067715017232195">"કુલ સ્થાન"</string>
+    <string name="memory_calculating_size" msgid="2188358544203768588">"ગણતરી કરી રહ્યું છે..."</string>
+    <string name="memory_apps_usage" msgid="5128673488173839077">"એપ્લિકેશનો અને એપ્લિકેશન ડેટા"</string>
+    <string name="memory_media_usage" msgid="3738830697707880405">"મીડિયા"</string>
+    <string name="memory_downloads_usage" msgid="3755173051677533027">"ડાઉનલોડ્સ"</string>
+    <string name="memory_dcim_usage" msgid="558887013613822577">"ચિત્રો, વિડિઓઝ"</string>
+    <string name="memory_music_usage" msgid="1363785144783011606">"ઑડિઓ (સંગીત, રિંગટોન્સ, પોડકાસ્ટ્સ વગેરે)"</string>
+    <string name="memory_media_misc_usage" msgid="6094866738586451683">"અન્ય ફાઇલો"</string>
+    <string name="memory_media_cache_usage" msgid="6704293333141177910">"કેશ્ડ ડેટા"</string>
+    <string name="sd_eject" product="nosdcard" msgid="4988563376492400073">"શેર કરેલ સ્ટોરેજ અનમાઉન્ટ કરો"</string>
+    <string name="sd_eject" product="default" msgid="6915293408836853020">"SD કાર્ડને અનમાઉન્ટ કરો"</string>
+    <string name="sd_eject_summary" product="nosdcard" msgid="5009296896648072891">"આંતરિક USB સંગ્રહને અનમાઉન્ટ કરો"</string>
+    <string name="sd_eject_summary" product="default" msgid="3300599435073550246">"SD કાર્ડને અનમાઉન્ટ કરો જેથી તમે તેને સુરક્ષિતપણે દૂર કરી શકો"</string>
+    <string name="sd_insert_summary" product="nosdcard" msgid="5264016886409577313">"માઉન્ટ કરવા માટે USB સંગ્રહ દાખલ કરો"</string>
+    <string name="sd_insert_summary" product="default" msgid="2048640010381803841">"માઉન્ટ કરવા માટે એક SD કાર્ડ શામેલ કરો"</string>
+    <string name="sd_mount" product="nosdcard" msgid="8966695015677343116">"USB સંગ્રહને માઉન્ટ કરો"</string>
+    <string name="sd_mount" product="default" msgid="5940523765187704135">"SD કાર્ડને માઉન્ટ કરો"</string>
     <string name="sd_mount_summary" product="nosdcard" msgid="4673411327373419641"></string>
     <string name="sd_mount_summary" product="default" msgid="4673411327373419641"></string>
     <!-- no translation found for sd_format (2148179271623099054) -->

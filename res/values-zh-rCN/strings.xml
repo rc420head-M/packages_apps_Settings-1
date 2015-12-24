@@ -1079,6 +1079,7 @@
     <string name="apn_type" msgid="469613123902220544">"APN 类型"</string>
     <string name="apn_protocol" msgid="3272222921649348640">"APN 协议"</string>
     <string name="apn_roaming_protocol" msgid="3386954381510788422">"APN 漫游协议"</string>
+    <string name="apn_ppp_number">"PPP 拨叫号码""</string>
     <string name="carrier_enabled" msgid="407655861175280806">"APN 启用/停用"</string>
     <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APN 已启用"</string>
     <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"未启用 APN"</string>
@@ -2784,8 +2785,10 @@
     <string name="high_power_off" msgid="3393904131961263278">"优化电池使用"</string>
     <string name="high_power_system" msgid="7362862974428225301">"没有电池优化设置"</string>
     <string name="high_power_desc" msgid="6283926163708585760">"不应用电池优化设置，但电量的消耗速度可能会更快。"</string>
-    <!-- no translation found for high_power_count:one (1864648918201115180) -->
-    <!-- no translation found for high_power_count:other (3123216926216036637) -->
+    <plurals name="high_power_count" formatted="false" msgid="2464701722383894640">
+      <item quantity="other">已允许 <xliff:g id="COUNT">%d</xliff:g> 个应用忽略电池优化</item>
+      <item quantity="one">已允许 1 个应用忽略电池优化</item>
+    </plurals>
     <string name="high_power_prompt_title" msgid="4257734526819699048">"要忽略电池优化吗？"</string>
     <string name="high_power_prompt_body" msgid="4072587909486730876">"要让应用“<xliff:g id="APP_NAME">%1$s</xliff:g>”在后台保持连接吗？这可能会消耗更多电量。"</string>
     <string name="battery_summary" msgid="101415762036784289">"自上次充满电后已使用 <xliff:g id="PERCENTAGE">%1$d</xliff:g>%% 的电量"</string>
@@ -2883,4 +2886,6 @@
   </string-array>
     <string name="picture_color_mode" msgid="4560755008730283695">"图片颜色模式"</string>
     <string name="picture_color_mode_desc" msgid="1141891467675548590">"使用 sRGB"</string>
+
+    <string name="primary_sub_select_title">默认4G/3G SIM卡</string>
 </resources>

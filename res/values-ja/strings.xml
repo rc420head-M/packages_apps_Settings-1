@@ -323,6 +323,10 @@
     <!-- no translation found for security_settings_fingerprint_preference_summary:one (1727957255399240419) -->
     <!-- no translation found for security_settings_fingerprint_preference_summary:other (3393295997497256735) -->
     <string name="security_settings_fingerprint_preference_summary_none" msgid="1507739327565151923"></string>
+    <plurals name="security_settings_fingerprint_preference_summary" formatted="false" msgid="624961700033979880">
+      <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g>個の指紋を登録済み</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g>個の指紋を登録済み</item>
+    </plurals>
     <string name="security_settings_fingerprint_enroll_onboard_title" msgid="4735546436672054254">"指紋の設定"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message" msgid="2655449737443418341">"指紋を使って画面ロックの解除や購入の確認を行うには、次の手順を行う必要があります。"</string>
     <string name="security_settings_fingerprint_enroll_onboard_message_1" msgid="2799884038398627882">"予備の画面ロック方式を設定"</string>

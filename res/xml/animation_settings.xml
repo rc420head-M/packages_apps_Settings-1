@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2014 crDroid Android
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright (C) 2014 crDroid Android
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -64,6 +58,15 @@
         android:entryValues="@array/listview_interpolator_values"
         android:defaultValue="0" />
 </PreferenceCategory>
+
+    <ListPreference
+            android:key="power_menu_animations"
+            android:title="@string/power_menu_animation_title"
+            android:dialogTitle="@string/power_menu_animation_dialog_title"
+            android:entries="@array/power_menu_animations_entries"
+            android:entryValues="@array/power_menu_animations_values"
+            android:summary="@string/power_menu_animation_summary"
+            android:persistent="false" />
 
     <PreferenceCategory
         android:key="animations_4"

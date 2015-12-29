@@ -18,7 +18,7 @@
              android:title="@string/candy_settings_title" >
 
     <!-- Button -->
-    <dashboard-tile
+    <PreferenceScreen
 	 android:id="@+id/button_settings"
 	 android:title="@string/button_pref_title"
 	 android:fragment="com.android.settings.candy.ButtonSettings"

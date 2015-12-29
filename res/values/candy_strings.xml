@@ -46,4 +46,7 @@
     <string name="Candy_title">Candy interface</string>
     <string name="interface_title">Interface</string>
 
+<!-- Status bar strings -->
+    <string name="status_bar_title">Status bar</string>
+
 </resources>

@@ -32,5 +32,11 @@
          android:fragment="com.android.settings.notification.NotificationSettings"
          />
 
+    <!-- Status bar -->
+    <PreferenceScreen
+         android:id="@+id/status_bar_settings"
+         android:title="@string/status_bar_title"
+         android:fragment="com.android.settings.candy.StatusBarSettings"
+         />
 
 </PreferenceScreen>

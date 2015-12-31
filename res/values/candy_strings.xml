@@ -111,4 +111,7 @@
     <string name="root_access_adb">ADB only</string>
     <string name="root_access_all">Apps and ADB</string>
 
+    <!-- Recents -->
+    <string name="recents_settings_title">Recents panel</string>
+
 </resources>

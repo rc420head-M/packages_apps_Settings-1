@@ -41,6 +41,7 @@
     <string name="category_general_title">General options</string>
     <string name="candy_settings_title">Candy interface</string>
     <string name="header_category_personalization">Personalization</string>
+    <string name="statusbar_settings_title">Status bar</string>
 
     <!-- Candy interface -->
     <string name="Candy_title">Candy interface</string>

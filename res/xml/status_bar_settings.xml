@@ -15,10 +15,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/statusbar_settings_title">
 
-    <PreferenceCategory
-        android:key="category_battery_options"
-        android:title="@string/battery_title" >
-
     <PreferenceScreen
         android:key="clock_styles"
         android:title="@string/clock_styles_title"

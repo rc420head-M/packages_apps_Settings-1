@@ -245,5 +245,7 @@
     <string name="qs_advanced_location_title">Advanced location settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
     <string name="quick_settings_reset_message">Reset quick settings tiles?</string>
+    <string name="qs_settings_title">Quick Settings tiles</string>
+    <string name="qs_category_title">Quick Settings</string>
 
 </resources>

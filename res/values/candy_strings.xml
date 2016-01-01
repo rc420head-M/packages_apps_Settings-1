@@ -201,7 +201,7 @@
 <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Notification panel &amp; QS</string>
     <string name="notification_panel_title">Notification panel</string>
-    <string name="qs_panel_title">Quick settings panel</string>
+    <string name="qs_panel_title">Quick Settings panel</string>
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
     <string name="quick_pulldown_summary_left">Left</string>
@@ -245,7 +245,7 @@
     <string name="qs_advanced_location_title">Advanced location settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
     <string name="quick_settings_reset_message">Reset quick settings tiles?</string>
-    <string name="qs_settings_title">Quick Settings tiles</string>
+    <string name="qs_settings_title">Tiles</string>
     <string name="qs_category_title">Quick Settings</string>
 
 </resources>

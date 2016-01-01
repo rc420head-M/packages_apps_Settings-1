@@ -208,6 +208,10 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+    
+    <!-- Double tap navbar to sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Navigation bar</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put the device to sleep</string>
 
     <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Notification panel &amp; QS</string>

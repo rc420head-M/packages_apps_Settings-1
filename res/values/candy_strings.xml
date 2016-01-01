@@ -209,7 +209,7 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-<!-- Notification drawer settings -->
+    <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Notification panel &amp; QS</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick Settings panel</string>
@@ -223,6 +223,7 @@
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on the status bar</string>
+
     <!-- QS Tile configuration -->
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
@@ -258,5 +259,13 @@
     <string name="quick_settings_reset_message">Reset quick settings tiles?</string>
     <string name="qs_settings_title">Tiles</string>
     <string name="qs_category_title">Quick Settings</string>
+    
+    <!-- Navigation bar -->
+    <string name="navigation_bar_title">Navigation bar</string>
+    <string name="navigation_bar_summary">Change and modify your system navbar</string>
+ 
+    <!-- Kill app long press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
 
 </resources>

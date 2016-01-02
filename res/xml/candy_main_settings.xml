@@ -34,9 +34,8 @@
      <PreferenceScreen
          android:key="navigation_bar"
          android:title="@string/navigation_bar_title"
-         android:summary="@string/navigation_bar_summary"
          android:fragment="com.android.settings.candy.NavigationBar" />
-         
+    <!-- android:summary="@string/navigation_bar_summary" add this one line up to add back -->
     <!-- Notification drawer -->
     <PreferenceScreen
          android:id="@+id/notification_drawer_settings"

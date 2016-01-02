@@ -198,7 +198,7 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-<!-- Notification drawer settings -->
+    <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Notification panel &amp; QS</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick Settings panel</string>
@@ -249,6 +249,11 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
+
+    <!-- Lock screen notifications -->
+    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_summary">Enable adjustment of max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
 
     <!-- Volume rocker wake -->
     <string name="wakeup_options_title">Wakeup options</string>

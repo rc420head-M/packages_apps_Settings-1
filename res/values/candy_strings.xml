@@ -213,6 +213,7 @@
     <string name="double_tap_sleep_nav_bar_title">Double-tap to sleep</string>
     <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put the device to sleep</string>
 
+<<<<<<< HEAD:res/values/candy_strings.xml
     <!-- Notification drawer settings -->
     <string name="notification_drawer_title">Notification panel &amp; QS</string>
     <string name="notification_panel_title">Notification panel</string>
@@ -265,6 +266,11 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
+
+    <!-- Lock screen notifications -->
+    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_summary">Enable adjustment of max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
 
     
     <!-- Navigation bar -->

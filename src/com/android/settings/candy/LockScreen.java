@@ -22,16 +22,45 @@ import com.android.internal.logging.MetricsLogger;
 import android.app.Activity;
 import android.app.WallpaperManager;
 import android.content.Intent;
+import android.content.ContentResolver;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
+import android.provider.Settings;
 import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LockScreen extends SettingsPreferenceFragment {
+import com.android.settings.candy.SeekBarPreference;
+
+public class LockScreen extends SettingsPreferenceFragment
+            implements OnPreferenceChangeListener  {
+				
+    private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
+
+    private SeekBarPreference mMaxKeyguardNotifConfig;
+    
+    @Override
+      public void onCreate(Bundle savedInstanceState) {
+          super.onCreate(savedInstanceState);
+          addPreferencesFromResource(R.xml.lock_screen);
+          ContentResolver resolver = getActivity().getContentResolver();
+     }
+          
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mMaxKeyguardNotifConfig) {
+            int kgconf = (Integer) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCKSCREEN_MAX_NOTIF_CONFIG, kgconf);
+            return true;
+        }
+        return false;
+    }
 
     @Override
     protected int getMetricsCategory() {

@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.content.ContentResolver;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
@@ -39,20 +40,38 @@ import com.android.settings.preference.SeekBarPreference;
 public class LockScreen extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
 				
+    private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_MAX_NOTIF_CONFIG = "lockscreen_max_notif_cofig";
 
+    ListPreference mLockClockFonts;
     private SeekBarPreference mMaxKeyguardNotifConfig;
     
     @Override
-      public void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
           super.onCreate(savedInstanceState);
+
           addPreferencesFromResource(R.xml.lock_screen);
-          ContentResolver resolver = getActivity().getContentResolver();
-     }
+
+          ContentResolver resolver = getActivity().getContentResolver();   
+ 
+          mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+          mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                  resolver, Settings.System.LOCK_CLOCK_FONTS, 0)));
+          mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+          mLockClockFonts.setOnPreferenceChangeListener(this);
+
+    }
           
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mLockClockFonts) {
+            Settings.System.putInt(resolver, Settings.System.LOCK_CLOCK_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockClockFonts.setValue(String.valueOf(newValue));
+            mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+        }
         if (preference == mMaxKeyguardNotifConfig) {
             int kgconf = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
@@ -66,4 +85,4 @@ public class LockScreen extends SettingsPreferenceFragment
     protected int getMetricsCategory() {
         return MetricsLogger.APPLICATION;
     }
-   }
+}

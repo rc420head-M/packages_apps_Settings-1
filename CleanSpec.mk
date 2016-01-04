@@ -50,3 +50,5 @@ $(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/Settings_interme
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
 # ************************************************
+
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/ETC/system_build_prop_intermediates)

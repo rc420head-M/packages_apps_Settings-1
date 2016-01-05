@@ -422,10 +422,10 @@
     <string name="pref_scrollingcache_force_disable">Force disable</string>
 
     <!-- Animation categories-->
-    <string name="animations_cat">System Animations</string>
-    <string name="toast_cat">Toast Settings</string>
-    <string name="list_cat">Listview</string>
-    <string name="perf_cat">Animation And Performance</string>
+    <string name="animations_cat">System animations</string>
+    <string name="toast_cat">Toast settings</string>
+    <string name="list_cat">Listview settings</string>
+    <string name="perf_cat">Performance settings</string>
 
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power menu animation</string>

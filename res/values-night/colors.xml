@@ -10,4 +10,7 @@
     <color name="cardlayout_bg">#ff424242</color>
     <color name="qs_settings_background">#000000</color>
 
+    <!-- Expanded desktop -->
+    <drawable name="expanded_item_bg">ff424242</drawable>
+
 </resources>

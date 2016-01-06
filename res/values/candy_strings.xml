@@ -501,4 +501,8 @@
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
     
+   <!-- 2xtap-to-sleep-statusbar -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+
 </resources>

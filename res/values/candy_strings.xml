@@ -571,5 +571,8 @@
     <string name="link_volume_option_title">Link ring and notification volumes</string>
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
-    
+
+    <!-- Lock screen -->
+    <string name="lock_screen_title">Lock screen</string>
+
 </resources>

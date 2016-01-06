@@ -55,25 +55,22 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
         mQSTiles = prefSet.findPreference(QS_ORDER);
 
         ContentResolver resolver = getActivity().getContentResolver();
+        
         mQuickPulldown = (ListPreference) prefSet.findPreference(QUICK_PULLDOWN);
-
         mQuickPulldown.setOnPreferenceChangeListener(this);
         int quickPulldownValue = Settings.System.getIntForUser(resolver,
-                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 1, UserHandle.USER_CURRENT);
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
         mQuickPulldown.setValue(String.valueOf(quickPulldownValue));
         updatePulldownSummary(quickPulldownValue);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
+       
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
+        ContentResolver resolver = getContentResolver();
         if (preference == mQuickPulldown) {
             int quickPulldownValue = Integer.valueOf((String) newValue);
+            int index = mQuickPulldown.findIndexOfValue((String) newValue);
             Settings.System.putIntForUser(resolver, Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN,
                     quickPulldownValue, UserHandle.USER_CURRENT);
             updatePulldownSummary(quickPulldownValue);
@@ -81,10 +78,10 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment
         }
         return false;
     }
-
+    
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.APPLICATION;
+        return MetricsLogger.CANDY_QS;
     }
 
     private void updatePulldownSummary(int value) {

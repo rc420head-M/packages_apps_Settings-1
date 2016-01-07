@@ -31,25 +31,25 @@
 	 android:fragment="com.android.settings.candy.ButtonSettings"
          />
 
-    <!-- Display -->
-    <PreferenceScreen
+     <!-- Display -->
+     <PreferenceScreen
          android:id="@+id/display_settings"
          android:title="@string/display_settings"
          android:fragment="com.android.settings.DisplaySettings"
          />
+
+     
+     <!-- lock screen -->
+     <PreferenceScreen
+         android:key="lock_screen"
+         android:title="@string/lock_screen_title"
+         android:fragment="com.android.settings.candy.LockScreen" />
 
      <!-- Miscellaneous -->
      <PreferenceScreen
          android:id="@+id/misc_settings"
          android:fragment="com.android.settings.candy.MiscSettings"
          android:title="@string/misc_settings_title" />
-         
-     <PreferenceScreen
-         android:key="lock_screen"
-         android:title="@string/lock_screen_title"
-         android:summary="@string/lock_screen_summary"
-         android:icon="@drawable/ic_settings_security"
-         android:fragment="com.android.settings.candy.LockScreen" />
 
     <!-- Notification drawer -->
     <PreferenceScreen

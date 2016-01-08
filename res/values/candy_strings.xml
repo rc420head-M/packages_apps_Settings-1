@@ -39,6 +39,7 @@
     <string name="candy_settings_title">Candy interface</string>
     <string name="header_category_personalization">Personalization</string>
     <string name="statusbar_settings_title">Status bar</string>
+    <string name="bitsyko_layers">Layers Manager</string>
 
     <!-- Candy interface -->
     <string name="Candy_title">Candy interface</string>

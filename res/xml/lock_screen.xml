@@ -44,12 +44,19 @@
     <com.android.settings.preference.SeekBarPreference
         android:key="lockscreen_max_notif_cofig"
         android:title="@string/lockscreen_maxnotif_config"
-        android:max="5"
-        settings:minimum="3"
+        android:max="20"
+        settings:minimum="2"
         settings:interval="1"
         settings:unitsLeft=""
         settings:unitsRight=""
         android:persistent="false"
         android:dependency="lock_screen_custom_notif" />
+
+    <PreferenceScreen
+        android:key="weather"
+        android:fragment="com.android.settings.candy.Weather"
+        android:layout="@layout/preference_weather"
+        android:title="@string/weather_category" >
+    </PreferenceScreen>
 
 </PreferenceScreen>

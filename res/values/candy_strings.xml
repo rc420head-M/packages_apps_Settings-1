@@ -506,9 +506,9 @@
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
 
      <!-- Lock screen notifications -->
-    <string name="lockscreen_maxnotif_title">Lockscreen notification count</string>
+    <string name="lockscreen_maxnotif_title">Lock screen notification count</string>
     <string name="lockscreen_maxnotif_summary">Enable adjustment of max lockscreen notifications</string>
-    <string name="lockscreen_maxnotif_config">Max lockscreen notifications</string>
+    <string name="lockscreen_maxnotif_config">Max lock screen notifications</string>
  
     <!-- Lock screen -->
     <string name="lock_screen_title">Lock screen</string>
@@ -518,7 +518,7 @@
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts_category">Shortcuts</string>
     <string name="lockscreen_shortcuts_title">Lock screen shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">Change the shortcuts on lockscreen to whatever you want</string>
+    <string name="lockscreen_shortcuts_summary">Change the shortcuts on lock screen to whatever you want</string>
     <string name="lockscreen_shorcuts_launch_type_title">Shortcut click type</string>
     <string name="lockscreen_shortcuts_single_tap">Click</string>
     <string name="lockscreen_shortcuts_double_tap">Double tap</string>
@@ -704,8 +704,8 @@
     <string name="reset_values_message">Reset values?</string>
 
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Lockscreen clock font</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_title">Lock screen clock font</string>
+    <string name="lock_clock_font_summary">Change the default font of the lock screen clock widget</string>
     <string name="lock_clock_font_stock">Normal (default)</string>
     <string name="lock_clock_font_bold">Bold</string>
     <string name="lock_clock_font_italic">Italic</string>

@@ -24,24 +24,16 @@
             android:fragment="com.android.settings.candy.BatterySettings"
             android:key="battery_style_pref"
             android:title="@string/battery_title"
-    	    android:summary="@string/battery2_summary" />
+    	       android:summary="@string/battery2_summary" />
 
     </PreferenceCategory>
-
 
     <PreferenceScreen
         android:key="clock_styles"
         android:title="@string/clock_styles_title"
         android:summary="@string/clock_styles_summary"
         android:fragment="com.android.settings.candy.ClockStyles" />
-
-     <com.android.settings.preference.SystemSettingSwitchPreference
-        android:key="show_su_indicator"
-        android:title="@string/su_indicator"
-        android:summaryOn="@string/su_indicator_summary_on"
-        android:summaryOff="@string/su_indicator_summary_off"
-        android:defaultValue="true" />
-
+        
      <PreferenceScreen
          android:title="@string/status_bar_icon_blacklist_title"
          android:summary="@string/status_bar_icon_blacklist_summary" >
@@ -49,5 +41,12 @@
                  android:targetPackage="com.android.systemui"
                  android:targetClass="com.android.systemui.tuner.TunerActivity" />
      </PreferenceScreen>
+
+     <com.android.settings.preference.SystemSettingSwitchPreference
+        android:key="show_su_indicator"
+        android:title="@string/su_indicator"
+        android:summaryOn="@string/su_indicator_summary_on"
+        android:summaryOff="@string/su_indicator_summary_off"
+        android:defaultValue="false" />
 
 </PreferenceScreen>

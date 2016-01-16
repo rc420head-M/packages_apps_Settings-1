@@ -780,4 +780,7 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
+    <!-- Kernel Adiutor -->
+    <string name="performance_settings">Kernel Adiutor</string>
+
 </resources>

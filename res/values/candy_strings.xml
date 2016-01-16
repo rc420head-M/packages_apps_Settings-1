@@ -796,4 +796,7 @@
     <string name="changelog_candy_title">Changelog</string>
     <string name="changelog_candy_error">Unable to load changelog</string>
 
+    <!-- Kernel Adiutor -->
+    <string name="performance_settings">Kernel Adiutor</string>
+
 </resources>

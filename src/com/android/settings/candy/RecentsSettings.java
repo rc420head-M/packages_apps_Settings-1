@@ -36,6 +36,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.MetricsLogger;
 
+import com.android.settings.candy.SlimRecents;
 
 public class RecentsSettings extends SettingsPreferenceFragment
             implements OnPreferenceChangeListener  {
@@ -48,12 +49,14 @@ public class RecentsSettings extends SettingsPreferenceFragment
     public static final String OMNISWITCH_PACKAGE_NAME = "org.omnirom.omniswitch";
     public static Intent INTENT_OMNISWITCH_SETTINGS = new Intent(Intent.ACTION_MAIN)
             .setClassName(OMNISWITCH_PACKAGE_NAME, OMNISWITCH_PACKAGE_NAME + ".SettingsActivity");
+    private static final String USE_SLIM_RECENTS = "use_slim_recents";	
 
     private SwitchPreference mRecentsClearAll;
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsUseOmniSwitch;
     private Preference mOmniSwitchSettings;
     private boolean mOmniSwitchInitCalled;
+    private SwitchPreference mUseSlimRecents;
 
     @Override
     protected int getMetricsCategory() {
@@ -67,6 +70,9 @@ public class RecentsSettings extends SettingsPreferenceFragment
         ContentResolver resolver = getActivity().getContentResolver();
         PreferenceScreen prefSet = getPreferenceScreen();
         
+        boolean SlimRecents = Settings.System.getInt(getActivity().getContentResolver(),
+                     Settings.System.USE_SLIM_RECENTS, 0) == 1;
+ 
         mRecentsUseOmniSwitch = (SwitchPreference)
                 prefSet.findPreference(RECENTS_USE_OMNISWITCH);
 
@@ -103,7 +109,7 @@ public class RecentsSettings extends SettingsPreferenceFragment
         if (preference == mOmniSwitchSettings){
             startActivity(INTENT_OMNISWITCH_SETTINGS);
             return true;
-        }
+	    }
           return super.onPreferenceTreeClick(preferenceScreen, preference);
       }
       

@@ -62,6 +62,18 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="recents_panel"
+        android:title="@string/recents_panel_style" >
+        
+        <!-- Slim Recents -->
+        <PreferenceScreen
+            android:key="slim_recents"
+            android:id="@+id/slim_recents"
+            android:title="@string/slim_recents_panel"
+            android:fragment="com.android.settings.candy.SlimRecents" />
+ 
+        <!-- OmniSwitch -->
         <SwitchPreference
             android:key="recents_use_omniswitch"
             android:title="@string/recents_use_omniswitch_title"
@@ -73,5 +85,6 @@
             android:title="@string/omniswitch_start_settings_title"
             android:summary="@string/omniswitch_start_settings_summary"
             android:persistent="false" />
- 
+            
+  </PreferenceCategory>
 </PreferenceScreen>

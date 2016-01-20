@@ -139,6 +139,13 @@
                     android:summary="@string/dashboard_columns_summary"
                     android:persistent="false" />
 
+               <com.android.settings.preference.SystemSettingSwitchPreference
+                    android:key="dashboard_tileview_double_lines"
+                    android:title="@string/dashboard_tileview_double_lines_title"
+                    android:summaryOn="@string/dashboard_tileview_double_lines_summary_on"
+                    android:summaryOff="@string/dashboard_tileview_double_lines_summary_off"
+                    android:defaultValue="false" />
+
                <PreferenceScreen
                     android:key="density_changer"
                     android:title="@string/lcd_density_title"

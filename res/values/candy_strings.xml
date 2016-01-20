@@ -809,6 +809,12 @@
     <string name="dashboard_columns_two">Two</string>
     <string name="dashboard_columns_three">Three</string>
 
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_category">Dashboard settings</string>
+    <string name="dashboard_tileview_double_lines_title">Tile view title</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Show dashboard tile titles in 2 lines</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Show dashboard tile titles in 1 line</string>
+
     <!-- Three finger screenshot gesture -->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>

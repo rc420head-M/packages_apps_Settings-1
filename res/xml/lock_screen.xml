@@ -64,7 +64,6 @@
     <PreferenceScreen
         android:key="weather"
         android:fragment="com.android.settings.candy.Weather"
-        android:layout="@layout/preference_weather"
         android:title="@string/weather_category" >
     </PreferenceScreen>
 

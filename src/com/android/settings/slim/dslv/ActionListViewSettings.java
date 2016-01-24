@@ -33,6 +33,7 @@ import android.content.res.TypedArray;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
+import android.graphics.drawable.VectorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -215,6 +216,8 @@ public class ActionListViewSettings extends ListFragment implements
 
         File folder = new File(Environment.getExternalStorageDirectory() + File.separator +
                 ".slim" + File.separator + "icons");
+
+        folder.mkdirs();
 
         mImageTmp = new File(folder.toString()
                 + File.separator + "shortcut.tmp");
@@ -539,20 +542,20 @@ public class ActionListViewSettings extends ListFragment implements
 
     private ArrayList<ActionConfig> getConfig() {
         switch (mActionMode) {
+            case LOCKSCREEN_SHORTCUT:
+                return ActionHelper.getLockscreenShortcutConfig(mActivity);
             case NAV_BAR:
                 return ActionHelper.getNavBarConfigWithDescription(
                     mActivity, mActionValuesKey, mActionEntriesKey);
-/* Disabled for now till all features are back. Enable it step per step!!!!!!
-            case LOCKSCREEN_SHORTCUT:
-                return ActionHelper.getLockscreenShortcutConfig(mActivity);
-            case NAV_RING:
-                return ActionHelper.getNavRingConfigWithDescription(
-                    mActivity, mActionValuesKey, mActionEntriesKey);
+/*  Disabled for now till all features are back. Enable it step per step!!!!!!           
             case PIE:
                 return ActionHelper.getPieConfigWithDescription(
                     mActivity, mActionValuesKey, mActionEntriesKey);
             case PIE_SECOND:
                 return ActionHelper.getPieSecondLayerConfigWithDescription(
+                    mActivity, mActionValuesKey, mActionEntriesKey);
+            case NAV_RING:
+                return ActionHelper.getNavRingConfigWithDescription(
                     mActivity, mActionValuesKey, mActionEntriesKey);
             case POWER_MENU_SHORTCUT:
                 return PolicyHelper.getPowerMenuConfigWithDescription(
@@ -566,21 +569,21 @@ public class ActionListViewSettings extends ListFragment implements
 
     private void setConfig(ArrayList<ActionConfig> actionConfigs, boolean reset) {
         switch (mActionMode) {
+            case LOCKSCREEN_SHORTCUT:
+                ActionHelper.setLockscreenShortcutConfig(mActivity, actionConfigs, reset);
+                break;
             case NAV_BAR:
                 ActionHelper.setNavBarConfig(mActivity, actionConfigs, reset);
                 break;
 /* Disabled for now till all features are back. Enable it step per step!!!!!!
-            case LOCKSCREEN_SHORTCUT:
-                ActionHelper.setLockscreenShortcutConfig(mActivity, actionConfigs, reset);
-                break;
-            case NAV_RING:
-                ActionHelper.setNavRingConfig(mActivity, actionConfigs, reset);
-                break;
             case PIE:
                 ActionHelper.setPieConfig(mActivity, actionConfigs, reset);
                 break;
             case PIE_SECOND:
                 ActionHelper.setPieSecondLayerConfig(mActivity, actionConfigs, reset);
+                break;
+            case NAV_RING:
+                ActionHelper.setNavRingConfig(mActivity, actionConfigs, reset);
                 break;
             case POWER_MENU_SHORTCUT:
                 PolicyHelper.setPowerMenuConfig(mActivity, actionConfigs, reset);
@@ -651,9 +654,12 @@ public class ActionListViewSettings extends ListFragment implements
             if ((iconUri.equals(ActionConstants.ICON_EMPTY) &&
                     getItem(position).getClickAction().startsWith("**")) || (iconUri != null
                     && iconUri.startsWith(ActionConstants.SYSTEM_ICON_IDENTIFIER))) {
-                if (d != null) d.setTint(getResources().getColor(R.color.dslv_icon_dark));
+                if (d != null) {
+                    d = ImageHelper.getColoredDrawable(d,
+                            getResources().getColor(R.color.dslv_icon_dark));
+                }
             }
-            holder.iconView.setImageDrawable(d);
+            holder.iconView.setImageBitmap(ImageHelper.drawableToBitmap(d));
 
             if (!mDisableIconPicker && holder.iconView.getDrawable() != null) {
                 holder.iconView.setOnClickListener(new OnClickListener() {

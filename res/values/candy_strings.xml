@@ -779,6 +779,23 @@
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+<<<<<<< HEAD
+=======
+    
+    <!-- Changelog -->
+    <string name="changelog_candy_title">Changelog</string>
+    <string name="changelog_candy_error">Unable to load changelog</string>
+    
+    <!-- OmniSwitch -->
+    <string name="omniswitch_category">OmniSwitch</string>
+    <string name="recents_use_omniswitch_title">Use OmniSwitch for recents</string>
+    <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
+    <string name="omniswitch_start_settings_title">Settings</string>
+    <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
+    <string name="omniswitch_first_time_title">Information</string>
+    <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
+    <string name="omniswitch_settings_title">OmniSwitch</string>
+>>>>>>> 7b103a8... update OmniSwitch naming
 
     <!-- Kernel Adiutor -->
     <string name="performance_settings">Kernel Adiutor</string>

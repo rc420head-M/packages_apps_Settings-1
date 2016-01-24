@@ -808,7 +808,7 @@
     
     <!-- OmniSwitch -->
     <string name="omniswitch_category">OmniSwitch</string>
-    <string name="recents_use_omniswitch_title">Use for recents</string>
+    <string name="recents_use_omniswitch_title">Use OmniSwitch for recents</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
     <string name="omniswitch_start_settings_title">Settings</string>
     <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>

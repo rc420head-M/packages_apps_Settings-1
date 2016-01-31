@@ -282,6 +282,7 @@
 
     <!-- Miscellaneous settings -->
     <string name="misc_settings_title">Miscellaneous</string>
+    <string name="gestures_title">Gestures</string>
 
     <!-- Battery Bar -->
     <string name="battery_bar_location">Battery bar location</string>
@@ -808,4 +809,7 @@
     <string name="dashboard_columns_two">Two</string>
     <string name="dashboard_columns_three">Three</string>
 
+    <!-- Three finger screenshot gesture -->
+    <string name="three_finger_gesture">Three finger gesture</string>
+    <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 </resources>

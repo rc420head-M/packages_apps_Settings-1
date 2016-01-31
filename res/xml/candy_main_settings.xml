@@ -38,7 +38,12 @@
          android:fragment="com.android.settings.DisplaySettings"
          />
 
-     
+     <!-- Gestures -->
+     <PreferenceScreen
+         android:id="@+id/gestures"
+         android:fragment="com.android.settings.candy.CandyGestures"
+         android:title="@string/gestures_title" />
+         
      <!-- lock screen -->
      <PreferenceScreen
          android:key="lock_screen"

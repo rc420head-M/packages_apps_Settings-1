@@ -102,7 +102,9 @@ public class AppOpsDetails extends InstrumentedFragment {
         Drawable icon = mPm.getApplicationIcon(pkgInfo.applicationInfo);
         InstalledAppDetails.setupAppSnippet(appSnippet, label, icon,
                 pkgInfo != null ? pkgInfo.versionName : null, null);
-    }
+        InstalledAppDetails.setupAppSnippet(appSnippet, label, icon, null,
+                pkgInfo != null ? pkgInfo.versionName : null);
+   }
 
     private String retrieveAppEntry() {
         final Bundle args = getArguments();

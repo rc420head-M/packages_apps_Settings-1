@@ -27,6 +27,7 @@ import com.android.settings.preference.SystemSettingSwitchPreference;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.List;
+import android.util.Log;
 
 import android.os.Bundle;
 import android.preference.ListPreference;

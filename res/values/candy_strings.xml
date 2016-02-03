@@ -25,6 +25,10 @@
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
 <!-- CandySiX General Settings strings -->
     <string name="attention">Attention</string>
     <string name="ok">OK</string>
@@ -58,7 +62,7 @@
     <string name="app_ops_permissions_ignored">Ignored</string>
     <string name="app_ops_permissions_always_ask">Always ask</string>
 
-<!-- Button settings -->
+    <!-- Button settings -->
     <string name="button_pref_title">Buttons</string>
     <string name="hardware_keys_home_key_title">Home button</string>
     <string name="hardware_keys_menu_key_title">Menu button</string>
@@ -74,8 +78,9 @@
     <string name="hardware_keys_action_launch_camera">Launch camera</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
 
-<!-- Status bar strings -->
+    <!-- Status bar strings -->
     <string name="status_bar_title">Status bar</string>
+
     <!-- Superuser indicator on status bar -->
     <string name="su_indicator">Superuser indicator</string>
     <string name="su_indicator_summary_on">Superuser indicator is visible when a session is active</string>
@@ -124,9 +129,11 @@
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
     <string name="recents_clear_all_dismiss_all_summary">Include the foreground task when clearing all recents</string>
+
     <!-- Membar in recent apps -->
     <string name="recents_show_membar_title">Memory bar</string>
     <string name="recents_show_membar_summary">Show a bar with the device\'s available memory</string>
+
     <!-- Show a search bar in recents -->
     <string name="recents_searchbar_title">Search bar</string>
     <string name="recents_searchbar_summary">Show a Google search bar in the recents screen</string>
@@ -254,7 +261,7 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
-    
+
     <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>
     <string name="profiles_add">Add</string>
@@ -297,6 +304,7 @@
     <!-- Qucik unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
@@ -454,7 +462,7 @@
     <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
-<!-- Developer options -->
+    <!-- Developer options -->
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
     <!-- ADB debugging notifications -->
@@ -466,7 +474,7 @@
     <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi\u2011Fi, USB networks). This setting is reset on reboot</string>
     <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
 
-   <!-- Keyboard and Input methods  -->
+    <!-- Keyboard and Input methods  -->
     <string name="title_keyboard_input">Advanced options</string>
     <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
     <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
@@ -517,12 +525,12 @@
     <string name="lockscreen_maxnotif_title">Lock screen notification count</string>
     <string name="lockscreen_maxnotif_summary">Enable adjustment of max lockscreen notifications</string>
     <string name="lockscreen_maxnotif_config">Max lock screen notifications</string>
- 
+
     <!-- Lock screen -->
     <string name="lock_screen_title">Lock screen</string>
     <string name="lockscreen_shortcuts_category">Shortcuts</string>
     <string name="lock_screen_summary">create shortcuts</string>
-    
+
     <!-- Lockscreen shortcuts -->
     <string name="lockscreen_shortcuts_category">Shortcuts</string>
     <string name="lockscreen_shortcuts_title">Lock screen shortcuts</string>
@@ -615,7 +623,7 @@
     <string name="shortcuts_icon_picker_tv">TV</string>
     <string name="shortcuts_icon_picker_twitter">Twitter</string>
     <string name="shortcuts_icon_picker_unlock">Unlock</string>
- 
+
     <string name="shortcut_action_none">None</string>
     <string name="shortcut_action_app">Custom app</string>
     <string name="shortcut_action_home">Home</string>
@@ -683,7 +691,7 @@
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
- 
+
     <!-- Wake on Plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
@@ -691,7 +699,7 @@
     <!-- LockClock Setting -->
     <string name="weather_settings_title">LockClock settings</string>
     <string name="weather_settings_summary">Configure location for weather widget and other settings</string>
-    
+
     <!-- Weather settings -->
     <string name="weather_category">Lock screen weather</string>
     <string name="weather_show_weather_title">Show weather options</string>
@@ -770,23 +778,31 @@
     <string name="custom_density_dialog_summary">Changing your default LCD density can sometimes cause certain apps to not function properly and/or the playstore to show apps being incompatible with your device"</string>
     <string name="custom_density_dialog_button_got">Got it!</string>
     <string name="custom_density_dialog_button_reboot">Reboot now</string>
-   
+
     <!-- Prevent audio ducking -->
     <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
     <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
 
     <!-- Wake options -->
     <string name="display_category_wakeup_options_title">Screen wake options</string>
+<<<<<<< HEAD
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 <<<<<<< HEAD
 =======
     
+=======
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
+>>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
     <!-- Changelog -->
     <string name="changelog_candy_title">Changelog</string>
     <string name="changelog_candy_error">Unable to load changelog</string>
-    
+
     <!-- OmniSwitch -->
     <string name="omniswitch_category">OmniSwitch</string>
     <string name="recents_use_omniswitch_title">Use OmniSwitch for recents</string>
@@ -800,6 +816,32 @@
 
     <!-- Kernel Adiutor -->
     <string name="performance_settings">Kernel Adiutor</string>
+<<<<<<< HEAD
+=======
+
+    <!-- Recent panel -->
+    <string name="recent_panel_category">Recent apps panel options</string>
+    <string name="recents_panel_style">Recent panel style</string>
+    <string name="use_slim_recents_title">Slim recents</string>
+    <string name="show_running_tasks_title">Only show running apps</string>
+    <string name="slim_recents_panel">Slim recents panel</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_show_topmost_title">Show topmost task</string>
+    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
+    <string name="recent_panel_bg_color_title">Panel background color</string>
+    <string name="recent_card_bg_color_title">Card background color</string>
+    <string name="recent_card_text_color_title">Card text color</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+>>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
 
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Dashboard Columns</string>
@@ -832,4 +874,9 @@
    <string name="lockscreen_wallpaper_clear_title">Return to default</string>
    <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper set back to default</string>
 
+    <!-- AOSP MultiWindow -->
+    <string name="multiwindow_settings_title">Multi-window</string>
+    <string name="enable_multi_window">Multi-window mode</string>
+    <string name="enable_multi_window_summary">Multiple activities on screen at the same time.</string>
+    <string name="warning_multi_window_text">WARNING: This is a highly experimental feature that allows multiple activities on-screen at the same time through the Recent apps UI. Some apps may crash or not function correctly when used with this feature.</string>
 </resources>

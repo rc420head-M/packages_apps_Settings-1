@@ -879,4 +879,22 @@
     <string name="enable_multi_window">Multi-window mode</string>
     <string name="enable_multi_window_summary">Multiple activities on screen at the same time.</string>
     <string name="warning_multi_window_text">WARNING: This is a highly experimental feature that allows multiple activities on-screen at the same time through the Recent apps UI. Some apps may crash or not function correctly when used with this feature.</string>
+
+    <!--- Heads up options -->
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_snooze">Snooze</string>
+    <string name="heads_up_timeout">Timeout</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
+    <string name="add_heads_up_whitelist_summary">Post all notification from these applications to heads up</string>
+    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
+    <string name="heads_up_dnd_title">Do not disturb</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_whitelist_title">Whitelist</string>
+    <string name="heads_up_contains_key">Already added this application to the list</string>
+    <string name="headsup_section_header">Heads up notifications</string>
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="summary_heads_up_enabled">Heads-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Heads-up notifications are disabled</string>
+
 </resources>

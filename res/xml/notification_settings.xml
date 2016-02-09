@@ -20,6 +20,11 @@
         android:key="notification_settings"
         settings:keywords="@string/keywords_sounds_and_notifications">
 
+    <PreferenceScreen
+        android:key="headsup"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.android.settings.candy.HeadsUpSettings" />
+
     <PreferenceCategory
         android:key="sound"
         android:title="@string/sound_settings" >

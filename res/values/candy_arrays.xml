@@ -706,6 +706,36 @@
 
     <!-- Density Changer -->
     <string-array name="lcd_density_entries" translatable="false">
+        <item>180</item>
+        <item>182</item>
+        <item>184</item>
+        <item>186</item>
+        <item>188</item>
+        <item>190</item>
+        <item>192</item>
+        <item>194</item>
+        <item>196</item>
+        <item>198</item>
+        <item>200</item>
+        <item>202</item>
+        <item>204</item>
+        <item>206</item>
+        <item>208</item>
+        <item>210</item>
+        <item>212</item>
+        <item>214</item>
+        <item>216</item>
+        <item>218</item>
+        <item>220</item>
+        <item>222</item>
+        <item>224</item>
+        <item>226</item>
+        <item>228</item>
+        <item>230</item>
+        <item>232</item>
+        <item>234</item>
+        <item>236</item>
+        <item>238</item>
         <item>240</item>
         <item>242</item>
         <item>244</item>

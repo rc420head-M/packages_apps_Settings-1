@@ -23,8 +23,10 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
+import android.preference.SlimSeekBarPreference;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
@@ -37,7 +39,10 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PowerMenuActions extends PreferenceFragment {
+public class PowerMenuActions extends PreferenceFragment implements
+          Preference.OnPreferenceChangeListener {
+
+    private static final String PREF_ON_THE_GO_ALPHA = "on_the_go_alpha";
 
     private SwitchPreference mRebootPref;
     private SwitchPreference mScreenshotPref;
@@ -49,6 +54,7 @@ public class PowerMenuActions extends PreferenceFragment {
     private SwitchPreference mVoicePref;
     private SwitchPreference mBugReportPref;
     private SwitchPreference mSilentPref;
+    private SlimSeekBarPreference mOnTheGoAlphaPref;
 
     Context mContext;
     private ArrayList<String> mLocalUserConfig = new ArrayList<String>();
@@ -66,6 +72,11 @@ public class PowerMenuActions extends PreferenceFragment {
                 R.array.power_menu_actions_array);
         mAllActions = PowerMenuConstants.getAllActions();
 
+        mOnTheGoAlphaPref = (SlimSeekBarPreference) findPreference(PREF_ON_THE_GO_ALPHA);
+        mOnTheGoAlphaPref.setDefault(50);
+        mOnTheGoAlphaPref.setInterval(1);
+        mOnTheGoAlphaPref.setOnPreferenceChangeListener(this);
+ 
         for (String action : mAllActions) {
             // Remove preferences not present in the overlay
             if (!isActionAllowed(action)) {
@@ -268,6 +279,18 @@ public class PowerMenuActions extends PreferenceFragment {
             }
         }
     }
+
+     @Override
+     public boolean onPreferenceChange(Preference preference, Object objValue) {
+ 
+      if (preference == mOnTheGoAlphaPref) {
+            float val = Float.parseFloat((String) objValue);
+            Settings.System.putFloat(mResolver, Settings.System.ON_THE_GO_ALPHA,
+                    val / 100);
+            return true;
+          }
+          return false;
+        }
 
     private void saveUserConfig() {
         StringBuilder s = new StringBuilder();

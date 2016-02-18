@@ -62,4 +62,38 @@
 
     </PreferenceCategory>
 
+<<<<<<< HEAD
+=======
+       <!-- Multiwindow -->
+       <PreferenceScreen
+           android:key="multitwindow"
+           android:fragment="com.android.settings.candy.fragments.MultiWindow"
+           android:title="@string/multiwindow_settings_title" />
+
+    <PreferenceCategory
+        android:key="recents_panel"
+        android:title="@string/recents_panel_style" >
+
+        <!-- Slim Recents -->
+        <PreferenceScreen
+            android:key="slim_recents"
+            android:id="@+id/slim_recents"
+            android:title="@string/slim_recents_panel"
+            android:fragment="com.android.settings.candy.SlimRecents" />
+ 
+        <!-- OmniSwitch -->
+        <SwitchPreference
+            android:key="recents_use_omniswitch"
+            android:title="@string/recents_use_omniswitch_title"
+            android:summary="@string/recents_use_omniswitch_summary"
+            android:persistent="false" />
+
+        <PreferenceScreen
+            android:key="omniswitch_start_settings"
+            android:title="@string/omniswitch_start_settings_title"
+            android:summary="@string/omniswitch_start_settings_summary"
+            android:persistent="false" />
+ 
+  </PreferenceCategory>
+>>>>>>> c97d192... move multi-window into recents menu
 </PreferenceScreen>

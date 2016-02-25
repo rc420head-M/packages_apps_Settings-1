@@ -265,6 +265,7 @@
     <string name="qs_tile_heads_up">Heads up</string>
     <string name="qs_tile_themes">Themes</string>
     <string name="qs_tile_kernel_adiutor">Kernel Adiutor</string>
+    <string name="qs_tile_pie">Pie</string>
     <string name="qs_advanced_location_title">Advanced location settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
     <string name="quick_settings_reset_message">Reset quick settings tiles?</string>

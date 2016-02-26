@@ -103,6 +103,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String SETTINGS_CATEGORY_TEXT_SIZE  = "settings_category_text_size";
 
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
+    private static final String DASHBOARD_SWITCHES = "dashboard_switches";
 
     private static final String ROTATION_LOCKSCREEN = "Lockscreen";
     private static final String ROTATION_ANGLE_0 = "0";
@@ -140,6 +141,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mDozePreference;
     private PreferenceScreen mAdvancedDozeOptions;
     private SwitchPreference mProximityCheckOnWakePreference;
+    private ListPreference mDashboardSwitches;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -210,6 +212,12 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mDashCategoryTextSize.setValue(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, 10));
         mDashCategoryTextSize.setOnPreferenceChangeListener(this);
+
+        mDashboardSwitches = (ListPreference) findPreference(DASHBOARD_SWITCHES);
+        mDashboardSwitches.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.DASHBOARD_SWITCHES, 0)));
+        mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
+        mDashboardSwitches.setOnPreferenceChangeListener(this);
 
         if (isAutomaticBrightnessAvailable(getResources())) {
             mAutoBrightnessPreference = (SwitchPreference) findPreference(KEY_AUTO_BRIGHTNESS);
@@ -632,6 +640,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             int width = ((Integer)objValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, width);
+            return true;
+        }
+        if (preference == mDashboardSwitches) {
+            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_SWITCHES,
+                    Integer.valueOf((String) objValue));
+            mDashboardSwitches.setValue(String.valueOf(objValue));
+            mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
             return true;
         }
         if (preference == mNightModePreference) {

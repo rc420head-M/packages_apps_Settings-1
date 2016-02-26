@@ -180,7 +180,7 @@ public class DashboardSummary extends InstrumentedFragment {
         Log.d(LOG_TAG, "rebuildUI took: " + delta + " ms");
     }
 
-    private void updateTileView(Context context, Resources res, DashboardTile tile,
+    public void updateTileView(Context context, Resources res, DashboardTile tile,
             ImageView tileIcon, TextView tileTextView, TextView statusTextView, Switch switchBar) {
 
         if (!TextUtils.isEmpty(tile.iconPkg)) {
@@ -222,10 +222,23 @@ public class DashboardSummary extends InstrumentedFragment {
         }
 
         if (tile.switchControl != null) {
-            switchBar.setVisibility(View.VISIBLE);
-        } else {
+        boolean isPrimary = UserHandle.getCallingUserId() == UserHandle.USER_OWNER;
+        int dashboardSwitches = isPrimary ? getDashboardSwitches(context) : 0;
+
+        if (dashboardSwitches == 0) {
             switchBar.setVisibility(View.GONE);
         }
+        if (dashboardSwitches == 1) {
+            switchBar.setVisibility(View.VISIBLE);
+            }
+        } else {
+        // beans answer your fucking hangouts
+        }
+    }
+
+    private static int getDashboardSwitches(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.DASHBOARD_SWITCHES, 0);
     }
 
     private void sendRebuildUI() {

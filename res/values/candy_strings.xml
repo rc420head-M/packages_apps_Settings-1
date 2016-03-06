@@ -24,11 +24,18 @@
 <!-- Display Settings -->
     <!-- Font size sample text -->
     <string name="font_size_sample">Font Size</string>
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
 <!-- CandySiX General Settings strings -->
     <string name="attention">Attention</string>
     <string name="ok">OK</string>
@@ -254,6 +261,10 @@
     <string name="qs_expanded_desktop_tile">Expanded desktop</string>
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_tile_screen_timeout">Screen timeout</string>
+    <string name="qs_tile_candy">Candy Interface</string>
+    <string name="qs_tile_heads_up">Heads up</string>
+    <string name="qs_tile_themes">Themes</string>
+    <string name="qs_tile_kernel_adiutor">Kernel Adiutor</string>
     <string name="qs_advanced_location_title">Advanced location settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
     <string name="quick_settings_reset_message">Reset quick settings tiles?</string>
@@ -261,6 +272,7 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
+
 
     <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>
@@ -439,14 +451,14 @@
     <string name="power_menu_animation_aosp">AOSP (default)</string>
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
-    <string name="power_menu_animation_rotate">Rotation</string>
-    <string name="power_menu_animation_xylon">Fly</string>
-    <string name="power_menu_animation_slide">Slide</string>
-    <string name="power_menu_animation_turn">Turn</string>
-    <string name="power_menu_animation_fly">Glow</string>
-    <string name="power_menu_animation_card">3D</string>
-    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
-    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    <string name="power_menu_animation_rotate">Spiral</string>
+    <string name="power_menu_animation_xylon">Gravity</string>
+    <string name="power_menu_animation_slide">Protrude</string>
+    <string name="power_menu_animation_turn">Revolve</string>
+    <string name="power_menu_animation_fly">Materialise</string>
+    <string name="power_menu_animation_card">Venetian</string>
+    <string name="power_menu_animation_translucent_top">Protrude (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Protrude (bottom)</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Expanded desktop</string>
@@ -514,7 +526,7 @@
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 
     <!-- 2xtap-to-sleep-statusbar -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_title">Status Bar</string>
     <string name="double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
 
     <!--Time Contexual Header -->
@@ -785,20 +797,11 @@
 
     <!-- Wake options -->
     <string name="display_category_wakeup_options_title">Screen wake options</string>
-<<<<<<< HEAD
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-<<<<<<< HEAD
-=======
-    
-=======
 
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 
->>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
     <!-- Changelog -->
     <string name="changelog_candy_title">Changelog</string>
     <string name="changelog_candy_error">Unable to load changelog</string>
@@ -812,12 +815,9 @@
     <string name="omniswitch_first_time_title">Information</string>
     <string name="omniswitch_first_time_message">Make sure you have enabled OmniSwitch. You can do this by using \"Settings\" below</string>
     <string name="omniswitch_settings_title">OmniSwitch</string>
->>>>>>> 7b103a8... update OmniSwitch naming
 
     <!-- Kernel Adiutor -->
     <string name="performance_settings">Kernel Adiutor</string>
-<<<<<<< HEAD
-=======
 
     <!-- Recent panel -->
     <string name="recent_panel_category">Recent apps panel options</string>
@@ -841,7 +841,23 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
     <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
->>>>>>> 2a0626e... [SQUASH] Move Multi-Window from dev settings to candy interface
+    
+    <!-- CandyRoms team -->
+    <string name="candyroms_team_title">CandyRoms team</string>
+    <string name="candy_matthew0776_title">matthew0776</string>
+    <string name="candy_mar5hal_title">mar5hal</string>
+    <string name="candy_CyberScopes_title">CyberScopes</string>
+    <string name="candy_gimmeitorilltell_title">gimmeitorilltell</string>
+    <string name="candy_rc420head_title">rc420head</string>
+    <string name="candy_flashalot_title">flashalot</string>
+    <string name="candy_venomtester_title">Venomtester</string>
+    <string name="candy_cuzz1369_title">cuzz1369</string>
+    <string name="candy_javelinanddart_title">javelinanddart</string>
+    <string name="candy_calebcabob_title">calebcabob</string>
+    <string name="candy_p70shooter_title">p70shooter</string>
+    <string name="candy_NoSpamDan_title">NoSpamDan</string>
+    <string name="candy_Yoshi_Guy_title">Yoshi_Guy</string>
+    <string name="candy_SHM_title">SHM</string>
 
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Dashboard Columns</string>
@@ -971,5 +987,16 @@
     <string name="doze_notification_color_invert_title">Ambient display notification inversion</string>
     <string name="doze_notification_color_invert_summary_off">Ambient display notifications will not be inverted. Use for dark themes.</string>
     <string name="doze_notification_color_invert_summary_on">Ambient display notifications will show as inverted. Use for light/stock theme.</string>
+
+    <!-- Device handler -->
+    <string name="screen_off_gesture_settings_title">Screen off gestures</string>
+    <string name="shortcut_action_ring_vib">Ring/Vib</string>
+    <string name="shortcut_action_ring_silent">Ring/Silent</string>
+    <string name="shortcut_action_ring_vib_silent">Ring/Vib/Silent</string>
+    <string name="shortcut_action_camera">Camera</string>
+    <string name="shortcut_action_media_next">Music - next track</string>
+    <string name="shortcut_action_media_play_pause">Music - play/pause</string>
+    <string name="shortcut_action_media_previous">Music - previous track</string>
+    <string name="shortcut_action_wake_device">Wake up device</string>
 
 </resources>

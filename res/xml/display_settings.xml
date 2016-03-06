@@ -46,6 +46,11 @@
                 settings:keywords="@string/keywords_display_wallpaper"
                 android:fragment="com.android.settings.WallpaperTypeSettings" />
 
+        <PreferenceScreen
+                android:key="display_rotation"
+                android:title="@string/display_rotation_title"
+                android:fragment="com.android.settings.candy.DisplayRotation" />
+
         <ListPreference
                 android:key="screen_timeout"
                 android:title="@string/screen_timeout"
@@ -71,43 +76,6 @@
                 android:title="@string/screensaver_settings_title"
                 android:fragment="com.android.settings.DreamSettings" />
 
-<<<<<<< HEAD
-        <SwitchPreference
-                android:key="lift_to_wake"
-                android:title="@string/lift_to_wake_title"
-                android:persistent="false" />
-
-        <SwitchPreference
-                android:key="tap_to_wake"
-                android:title="@string/tap_to_wake"
-                android:summary="@string/tap_to_wake_summary"
-                android:persistent="false" />
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a91adc0... Revert "LCD Density scaling (Squashed)"
-        <com.android.settings.FontDialogPreference
-                android:key="font_size"
-                android:title="@string/title_font_size"
-                settings:keywords="@string/keywords_display_font_size"
-                android:summary="@string/summary_font_size"
-                android:dialogTitle="@string/dialog_title_font_size" />
-
-<<<<<<< HEAD
-        <com.android.settings.DropDownPreference
-                android:key="auto_rotate"
-                android:title="@string/display_auto_rotate_title" />
-
-=======
->>>>>>> b661e17... LCD Density scaling (Squashed)
-=======
->>>>>>> a91adc0... Revert "LCD Density scaling (Squashed)"
-=======
->>>>>>> ff3930f... LCD Density Changer
-=======
->>>>>>> 84357c8... Settings: Add proximity wake option
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"

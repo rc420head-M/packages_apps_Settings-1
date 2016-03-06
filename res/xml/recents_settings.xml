@@ -62,8 +62,6 @@
 
     </PreferenceCategory>
 
-<<<<<<< HEAD
-=======
        <!-- Multiwindow -->
        <PreferenceScreen
            android:key="multitwindow"
@@ -95,5 +93,4 @@
             android:persistent="false" />
  
   </PreferenceCategory>
->>>>>>> c97d192... move multi-window into recents menu
 </PreferenceScreen>

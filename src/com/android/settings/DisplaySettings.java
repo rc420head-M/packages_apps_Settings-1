@@ -67,6 +67,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 
 import com.android.settings.candy.DisplayRotation;
+import com.android.settings.candy.SeekBarPreference;
 import com.android.settings.dashboard.DashboardContainerView;
 import com.android.settings.util.Helpers;
 
@@ -96,6 +97,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
     private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
     private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
+    private static final String SETTINGS_TITLE_TEXT_SIZE  = "settings_title_text_size";
+    private static final String SETTINGS_CATEGORY_TEXT_SIZE  = "settings_category_text_size";
 
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
 
@@ -127,6 +130,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mCameraDoubleTapPowerGesturePreference;
     private SwitchPreference mWakeWhenPluggedOrUnplugged;
     private PreferenceCategory mWakeUpOptions;
+    private SeekBarPreference mDashTitleTextSize;
+    private SeekBarPreference mDashCategoryTextSize;
+
     private ListPreference mDashboardColumns;
     private PreferenceCategory mDozeCategory;
     private SwitchPreference mDozePreference;
@@ -189,6 +195,18 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.DASHBOARD_COLUMNS, DashboardContainerView.mDashboardValue)));
         mDashboardColumns.setSummary(mDashboardColumns.getEntry());
         mDashboardColumns.setOnPreferenceChangeListener(this);
+
+        mDashTitleTextSize =
+                (SeekBarPreference) findPreference(SETTINGS_TITLE_TEXT_SIZE);
+        mDashTitleTextSize.setValue(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SETTINGS_TITLE_TEXT_SIZE, 14));
+        mDashTitleTextSize.setOnPreferenceChangeListener(this);
+
+        mDashCategoryTextSize =
+                (SeekBarPreference) findPreference(SETTINGS_CATEGORY_TEXT_SIZE);
+        mDashCategoryTextSize.setValue(Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, 10));
+        mDashCategoryTextSize.setOnPreferenceChangeListener(this);
 
         if (isAutomaticBrightnessAvailable(getResources())) {
             mAutoBrightnessPreference = (SwitchPreference) findPreference(KEY_AUTO_BRIGHTNESS);
@@ -597,6 +615,18 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) objValue));
             mDashboardColumns.setValue(String.valueOf(objValue));
             mDashboardColumns.setSummary(mDashboardColumns.getEntry());
+            return true;
+        }
+        if (preference == mDashTitleTextSize) {
+            int width = ((Integer)objValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.SETTINGS_TITLE_TEXT_SIZE, width);
+            return true;
+        }
+        if (preference == mDashCategoryTextSize) {
+            int width = ((Integer)objValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, width);
             return true;
         }
         if (preference == mNightModePreference) {

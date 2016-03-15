@@ -1107,4 +1107,8 @@
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of trigger area</string>
 
+    <!-- Dashboard text size -->
+    <string name="dash_title_text_size">Title Text Size</string>
+    <string name="dash_category_text_size">Category Text Size</string>
+
 </resources>

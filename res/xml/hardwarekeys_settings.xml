@@ -18,8 +18,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
         <PreferenceCategory
+            android:key="button_keys_volume"
+            android:title="@string/keys_volume_press_title">
+            
+        <PreferenceScreen
+                android:key="volume_rocker"
+                android:title="@string/volume_rocker_title"
+                android:fragment="com.android.settings.candy.VolumeRocker" />
+        </PreferenceCategory>
+        
+        <PreferenceCategory
                 android:key="button_keys"
                 android:title="@string/keys_bindings_title" >
+
+            <SwitchPreference
+                android:key="enable_hardware_keys"
+                android:title="@string/hardware_keys_enable_title"
+                android:summary="@string/hardware_keys_enable_summary"
+                android:defaultValue="true" />
+
+            <com.android.settings.slim.ButtonBacklightBrightness
+                android:key="button_backlight"
+                android:title="@string/hardware_keys_lights_enable_title"
+                android:persistent="false" />
 
             <SwitchPreference
                 android:key="enable_hardware_rebind"
@@ -148,13 +169,4 @@
                 android:dependency="enable_hardware_rebind" />
         </PreferenceCategory>
 
-        <PreferenceCategory
-            android:key="button_keys_volume"
-            android:title="@string/keys_volume_press_title">
-            
-        <PreferenceScreen
-                android:key="volume_rocker"
-                android:title="@string/volume_rocker_title"
-                android:fragment="com.android.settings.candy.VolumeRocker" />
-        </PreferenceCategory>
 </PreferenceScreen>

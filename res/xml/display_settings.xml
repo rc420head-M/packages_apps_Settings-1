@@ -37,7 +37,6 @@
             android:summary="@string/night_mode_summary"
             android:persistent="false"
             android:entries="@array/night_mode_entries"
-            android:visibility="gone"
             android:entryValues="@array/night_mode_values" />
 
         <PreferenceScreen

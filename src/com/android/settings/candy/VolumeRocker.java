@@ -33,7 +33,7 @@ public class VolumeRocker extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
-    public static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
+    private static final String VOLUME_ROCKER_MUSIC_CONTROLS = "volume_rocker_music_controls";
     private static final String SWAP_VOLUME_BUTTONS = "swap_volume_buttons";
     
     private SwitchPreference mVolumeRockerWake;

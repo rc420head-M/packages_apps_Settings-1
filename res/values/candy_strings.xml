@@ -300,8 +300,7 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
-    <!-- Miscellaneous settings -->
-    <string name="misc_settings_title">Miscellaneous</string>
+    <!-- Geasture settings -->
     <string name="gestures_title">Gestures</string>
 
     <!-- Battery Bar -->

@@ -1106,5 +1106,11 @@
     <string name="trigger_top_summary">Adjust the position of trigger area</string>
     <string name="trigger_bottom_title">Trigger height</string>
     <string name="trigger_bottom_summary">Adjust the height of trigger area</string>
+    
+    <!-- Keygaurd Statusbar Clock -->
+    <string name="status_bar_clock_title">Clock &amp; date style</string>
+    <string name="keyguard_status_bar_clock">Keyguard statusbar clock &amp; date</string>
+    <string name="keyguard_status_bar_clock_title">Keyguard clock &amp; date style</string>
+    <string name="keyguard_status_bar_clock_summary">Change various keyguard statusbar clock &amp; date options</string> 
 
 </resources>

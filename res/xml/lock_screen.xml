@@ -68,6 +68,12 @@
         android:persistent="false"
         android:dependency="lock_screen_custom_notif" />
 
+	<com.android.settings.preference.SystemSettingSwitchPreference
+	    android:key="lock_screen_show_current"
+	    android:title="@string/lock_screen_show_current"
+	    android:summary="@string/lock_screen_show_current_summary"
+	    android:defaultValue="false" />
+
     <PreferenceScreen
         android:key="weather"
         android:fragment="com.android.settings.candy.Weather"

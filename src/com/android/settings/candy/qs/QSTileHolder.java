@@ -114,6 +114,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_sync_on";
                 stringId = R.string.qs_tile_sync;
                 break;
+            case QSConstants.TILE_VOLUME:
+                resourceName = "ic_qs_volume_panel";
+                stringId = R.string.qs_tile_volume;
+                break;
             case QSConstants.TILE_BATTERY_SAVER:
                 resourceName = "ic_qs_battery_saver_on";
                 stringId = R.string.qs_battery_saver_tile;

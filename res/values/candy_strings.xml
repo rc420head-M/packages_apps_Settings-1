@@ -257,6 +257,7 @@
     <string name="qs_tile_hotspot">Hotspot</string>
     <string name="qs_tile_compass">Compass</string>
     <string name="qs_tile_sync">Sync</string>
+    <string name="qs_tile_volume">Volume</string>
     <string name="qs_battery_saver_tile">Battery saver</string>
     <string name="qs_brightness_tile">Brightness</string>
     <string name="qs_screen_off_tile">Screen off</string>
@@ -275,7 +276,6 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
-
 
     <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>

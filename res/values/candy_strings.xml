@@ -231,6 +231,10 @@
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on the status bar</string>
 
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+
     <!-- QS Tile configuration -->
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>

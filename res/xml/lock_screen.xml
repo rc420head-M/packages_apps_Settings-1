@@ -81,6 +81,12 @@
 	    android:defaultValue="false" />
 
     <PreferenceScreen
+        android:key="lock_screen_visualizer_settings"
+        android:title="@string/lock_screen_visualizer_settings_title"
+		android:summary="@string/lock_screen_visualizer_settings_summary"
+        android:fragment="com.android.settings.candy.LockScreenVisualizerSettings" />
+ 
+    <PreferenceScreen
         android:key="weather"
         android:fragment="com.android.settings.candy.Weather"
         android:title="@string/weather_category" >

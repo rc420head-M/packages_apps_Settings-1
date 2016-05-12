@@ -42,6 +42,12 @@
         android:summaryOff="@string/doze_notification_color_invert_summary_off"
         android:defaultValue="true" />
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.candy.KeyguardStatusBarClockStyle"
+        android:key="keyguard_clock_style_pref"
+        android:title="@string/keyguard_status_bar_clock"
+        android:summary="@string/keyguard_status_bar_clock_summary" />
+
     <ListPreference
         android:key="lock_clock_fonts"
         android:title="@string/lock_clock_font_title"

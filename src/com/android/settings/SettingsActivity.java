@@ -283,7 +283,6 @@ public class SettingsActivity extends Activity
             R.id.home_settings,
             R.id.dashboard,
             R.id.privacy_settings_candy,
-            R.id.bitsyko_layers,
             R.id.main_settings
     };
 
@@ -1305,15 +1304,6 @@ public class SettingsActivity extends Activity
                     boolean hasPrintingSupport = getPackageManager().hasSystemFeature(
                             PackageManager.FEATURE_PRINTING);
                     if (!hasPrintingSupport) {
-                        removeTile = true;
-                    }
-                } else if (id == R.id.bitsyko_layers) {
-                    boolean supported = false;
-                    try {
-                        supported = (getPackageManager().getPackageInfo("com.lovejoy777.rroandlayersmanager", 0).versionCode > 0);
-                    } catch (PackageManager.NameNotFoundException e) {
-                    }
-                    if (!supported) {
                         removeTile = true;
                     }
                 } else if (id == R.id.development_settings) {

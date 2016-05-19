@@ -50,7 +50,6 @@
     <string name="candy_settings_title">Candy interface</string>
     <string name="header_category_personalization">Personalization</string>
     <string name="statusbar_settings_title">Status bar</string>
-    <string name="bitsyko_layers">Layers Manager</string>
     <string name="reset_android_title">Android default</string>
     <string name="reset_candy_title">Candy default</string>
 

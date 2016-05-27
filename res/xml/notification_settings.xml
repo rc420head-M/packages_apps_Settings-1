@@ -25,6 +25,12 @@
         android:title="@string/heads_up_notifications"
         android:fragment="com.android.settings.candy.HeadsUpSettings" />
 
+    <!-- Battery fully charged notification -->
+    <com.android.settings.candy.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notification"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary" />
+
     <PreferenceCategory
         android:key="sound"
         android:title="@string/sound_settings" >

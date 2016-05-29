@@ -46,5 +46,11 @@
     <color name="dslv_icon_dark">#ff009688</color>
     <color name="dslv_float_background_color">#ff1b1f23</color>
     <color name="white">@android:color/white</color>
+    
+    <!-- Filter Spinner Text Color -->
+    <color name="filter_spinner_text_color">@color/text_color_white</color>
+
+    <!-- App Name Text Color -->
+    <color name="app_name_text_color">@color/text_color_white</color>
 
 </resources>

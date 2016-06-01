@@ -62,7 +62,7 @@
      <!-- Navigation -->
      <PreferenceScreen
          android:id="@+id/navigation_settings"
-         android:fragment="com.android.settings.slim.NavigationSettings"
+         android:fragment="com.android.settings.candy.NavigationSettings"
          android:title="@string/navigation_settings_title" />
 
      <!-- Notification drawer -->

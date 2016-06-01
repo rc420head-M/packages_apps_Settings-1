@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013-2015 SlimRoms
+ * Copyright (C) 2016 CandyRoms
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.slim;
+package com.android.settings.candy;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -29,22 +29,13 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class NavigationSettings extends SettingsPreferenceFragment {
 
-    private static final String KEY_HARDWARE_KEYS = "hardwarekeys_settings";
     private static final String KEY_PIE_SETTINGS = "pie_settings";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.slim_navigation_settings);
-
-        // Hide Hardware Keys menu if device doesn't have any
-        PreferenceScreen hardwareKeys = (PreferenceScreen) findPreference(KEY_HARDWARE_KEYS);
-        int deviceKeys = getResources().getInteger(
-                com.android.internal.R.integer.config_deviceHardwareKeys);
-        if (deviceKeys == 0 && hardwareKeys != null) {
-            getPreferenceScreen().removePreference(hardwareKeys);
-        }
+        addPreferencesFromResource(R.xml.navigation_settings);
     }
 
     @Override

@@ -186,4 +186,22 @@
 
     </PreferenceCategory>
 
+        <PreferenceCategory
+            android:key="screenshot_category"
+            android:title="@string/screenshot_cat_title">
+
+        <SwitchPreference
+            android:key="screenshot_crop_and_share"
+            android:title="@string/screenshot_crop_and_share_title"
+            android:summary="@string/screenshot_crop_and_share_summary"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="screenshot_crop_behavior"
+            android:title="@string/screenshot_crop_behavior_title"
+            android:summary="@string/screenshot_crop_behavior_summary"
+            android:defaultValue="false" />
+
+        </PreferenceCategory>
+
 </PreferenceScreen>

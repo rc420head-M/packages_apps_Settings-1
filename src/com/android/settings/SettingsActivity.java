@@ -71,6 +71,11 @@ import com.android.settings.accessibility.CaptionPropertiesFragment;
 import com.android.settings.accounts.AccountSettings;
 import com.android.settings.accounts.AccountSyncSettings;
 import com.android.settings.applications.DrawOverlayDetails;
+import com.android.settings.applications.ExpandedDesktopPreferenceFragment;
+import com.android.settings.dui.nav.FlingSettings;
+import com.android.settings.dui.nav.NavBarSettings;
+import com.android.settings.dui.nav.SmartBarSettings;
+import com.android.settings.dui.nav.PulseSettings;
 import com.android.settings.applications.InstalledAppDetails;
 import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ManageAssist;
@@ -362,10 +367,11 @@ public class SettingsActivity extends Activity
             DrawOverlayDetails.class.getName(),
             WriteSettingsDetails.class.getName(),
             com.android.settings.candy.PrivacySettings.class.getName(),
-	    MainSettings.class.getName(),
+	        MainSettings.class.getName(),
             NavBarSettings.class.getName(),
             FlingSettings.class.getName(),
-            SmartBarSettings.class.getName()
+            SmartBarSettings.class.getName(),
+            PulseSettings.class.getName()
     };
 
 

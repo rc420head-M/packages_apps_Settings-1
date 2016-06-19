@@ -20,6 +20,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -40,6 +42,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import com.android.settings.dui.nav.NavBarSettings;
+import android.widget.Toast;
+
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.util.slim.AppHelper;
 import com.android.internal.util.slim.ActionConstants;
@@ -49,6 +54,7 @@ import com.android.internal.util.slim.HwKeyHelper;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
+import com.android.settings.slim.BootReceiver;
 import com.android.settings.slim.ButtonBacklightBrightness;
 import com.android.settings.slim.util.FileUtil;
 import com.android.settings.slim.util.ShortcutPickerHelper;
@@ -105,11 +111,10 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     private static final String KEYS_APP_SWITCH_PRESS = "keys_app_switch_press";
     private static final String KEYS_APP_SWITCH_LONG_PRESS = "keys_app_switch_long_press";
     private static final String KEYS_APP_SWITCH_DOUBLE_TAP = "keys_app_switch_double_tap";
-    
+
     private static final String KEY_HARDWARE_KEYS = "button_settings";
     private static final String KEY_HARDWARE_KEYS_ENABLE = "enable_hardware_keys";
     private static final String KEY_BUTTON_BACKLIGHT = "button_backlight";
-//    private static final String KEY_HARDWARE_KEYS_LIGHTS_ENABLE = "enable_hardware_keys_lights";
     private static final String KEY_HARDWARE_KEYS_REBIND = "enable_hardware_rebind";
 
     private static final int DLG_SHOW_WARNING_DIALOG = 0;
@@ -128,7 +133,6 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     private static final int KEY_MASK_CAMERA     = 0x20;
 
     private SwitchPreference mEnableHardwareKeys;
-//    private SwitchPreference mEnableHardwareKeyLights;
     private SwitchPreference mEnableCustomBindings;
     private Preference mBackPressAction;
     private Preference mBackLongPressAction;
@@ -157,8 +161,10 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     private static FilteredDeviceFeaturesArray sFinalActionDialogArray;
 
     private String mKeyPath;
-    private String mKeyLightsPath;
     private boolean mUpdateKeys;
+    private boolean mKeysSupported;
+
+    Toast mHardwareKeysToast;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -222,9 +228,6 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
                 KEY_HARDWARE_KEYS_ENABLE);
         ButtonBacklightBrightness backlight = (ButtonBacklightBrightness) prefs.findPreference(
                 KEY_BUTTON_BACKLIGHT);
-
-//        mEnableHardwareKeyLights = (SwitchPreference) findPreference(
-//                KEY_HARDWARE_KEYS_LIGHTS);
 
         mEnableCustomBindings = (SwitchPreference) prefs.findPreference(
                 KEYS_ENABLE_CUSTOM);
@@ -384,12 +387,12 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
         }
 
         // Create a bool for whether to show the HwKeys Category or not...
-        boolean supportsHwKeys = hasBackKey || hasHomeKey || hasMenuKey || 
-        hasAssistKey || hasAppSwitchKey || hasCameraKey;
+        mKeysSupported = hasBackKey || hasHomeKey || hasMenuKey || hasAssistKey || hasAppSwitchKey
+              || hasCameraKey;
 
         Resources res = getResources();
 
-        if (supportsHwKeys) {
+        if (mKeysSupported) {
             boolean enableHardwareKeys = Settings.System.getInt(getContentResolver(),
                     Settings.System.HARDWARE_KEYS_ENABLED, 1) == 1;
             mEnableHardwareKeys = (SwitchPreference) findPreference(KEY_HARDWARE_KEYS_ENABLE);
@@ -409,51 +412,27 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
                 // Read the hardware keys
                 File f = null;
                 f = new File(mKeyPath);
-                Log.i(TAG, "mKeyPath: " +mKeyPath);
-                Log.i(TAG, "New file f from mKeyPath: " +f);
                 String val = null;
                 try {
                     val = FileUtil.readStringFromFile(f);
                 } catch(IOException ie) {
-                    Log.i(TAG, "Failed to read string data as int from mKeyPath:" +val);
                     ie.printStackTrace();
                 }
                 val = val.trim();
-                Log.i(TAG, "Trimmed value read from mKeyPath is " +val);
                 int i = Integer.parseInt(val);
-                Log.i(TAG, "Int value of mKeyPath is " +i);
 
                 // Toggle the hardware keys
                 if (enableHardwareKeys && i == 0) {
-                    Log.i(TAG, "Trying to write 1 to mKeyPath");
                     FileUtil.writeValue(mKeyPath, "1");
-                    Log.i(TAG, "Value stored in mKeyPath is " +i);
                     mUpdateKeys = true;
                 } else if (!enableHardwareKeys && i > 0) {
-                    Log.i(TAG, "Trying to write 0 to mKeyPath");
                     FileUtil.writeValue(mKeyPath, "0");
-                    Log.i(TAG, "Value stored in mKeyPath is " +i);
                     mUpdateKeys = true;
                 }
             } else {
                 Log.i(TAG, "mKeyPath hardware keys overlay value is null or inavalid");
             }
 
-//            boolean enableHardwareKeyLights = Settings.System.getInt(getContentResolver(),
-//                    Settings.System.HARDWARE_KEY_LIGHTS_ENABLED, 0) == 1;
-//            mEnableHardwareKeyLights = (SwitchPreference) findPreference(KEY_BUTTON_BACKLIGHT);
-//            mEnableHardwareKeyLights.setChecked(enableHardwareKeyLights);
-//            mEnableHardwareKeyLights.setOnPreferenceChangeListener(this);
-//            
-//            if (backlight.isButtonSupported()) {
-//                PowerManager pm = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
-//                Settings.System.putInt(mContext.getContentResolver(),
-//                        Settings.System.BUTTON_BACKLIGHT_BRIGHTNESS,
-//                        (Boolean) newValue ? pm.getDefaultButtonBrightness() : 0);
-//            } else {
-//                Log.i(TAG, "Unable to change the state of the HW Key Lights");
-//            }
-            
             boolean enableHardwareRebind = Settings.System.getInt(getContentResolver(),
                     Settings.System.HARDWARE_KEY_REBINDING, 0) == 1;
             mEnableCustomBindings = (SwitchPreference) findPreference(KEYS_ENABLE_CUSTOM);
@@ -500,7 +479,7 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
             hardwareKeys.removePreference(hwkeysEnable);
         }
     }
-    
+
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.APPLICATION;
@@ -610,10 +589,51 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
             return false;
         } else if (preference == mEnableHardwareKeys) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(), Settings.System.HARDWARE_KEYS_ENABLED,
-                    value ? 1 : 0);
+            // If disabling HwKeys we should check that the Navigation Bar is
+            // presently being displayed.  If Navbar is not on, make a toast
+            // telling the user it is being switched on...
+            boolean isNavBarVisible = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_VISIBLE, 0) == 1;
+            boolean areHwKeysEnabled = Settings.System.getInt(getContentResolver(),
+                    Settings.System.HARDWARE_KEYS_ENABLED, 1) == 1;
+            if (mHardwareKeysToast != null) {
+                    mHardwareKeysToast.cancel();
+            }
+
+          if (!isNavBarVisible && areHwKeysEnabled && !value) {
+                // check only while disabling the Hardware Keys
+                mHardwareKeysToast = Toast.makeText(getActivity(),
+                        "Enabling SmartBar and disabling Hardware Keys...",
+                        Toast.LENGTH_LONG);
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.NAVIGATION_BAR_VISIBLE, value ? 0 : 1);
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.HARDWARE_KEYS_ENABLED, value ? 1 : 0);
+
+            } else if (isNavBarVisible && !areHwKeysEnabled && value) {
+                // disable SmartBar when enabling the Hardware Keys
+                mHardwareKeysToast = Toast.makeText(getActivity(),
+                        "Disabling SmartBar and enabling Hardware keys...",
+                        Toast.LENGTH_LONG);
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.NAVIGATION_BAR_VISIBLE, value ? 0 : 1);
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.HARDWARE_KEYS_ENABLED, value ? 1 : 0);
+
+            } else if (isNavBarVisible && areHwKeysEnabled && !value) {
+                // if both are visible, it's OK to disable the hardware keys
+                mHardwareKeysToast = Toast.makeText(getActivity(),
+                        "Disabling Hardware Keys; SmartBar is already enabled...",
+                        Toast.LENGTH_LONG);
+                Settings.Secure.putInt(getContentResolver(),
+                        Settings.Secure.NAVIGATION_BAR_VISIBLE, value ? 0 : 1);
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.HARDWARE_KEYS_ENABLED, value ? 1 : 0);
+            }
+            mHardwareKeysToast.show();
             reloadSettings();
             return true;
+
         } else if (preference == mEnableCustomBindings) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(), Settings.System.HARDWARE_KEY_REBINDING,
@@ -653,6 +673,7 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
     @Override
     public void onResume() {
         super.onResume();
+        mHardwareKeysToast = null;
     }
 
     @Override
@@ -694,6 +715,43 @@ public class HardwareKeysSettings extends SettingsPreferenceFragment implements
         menu.add(0, MENU_RESET, 0, R.string.shortcut_action_reset)
                 .setIcon(R.drawable.ic_settings_reset) // Use the reset icon
                 .setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
+    }
+
+    public static void restore(Context context) {
+        // Get overlay path to keys file
+        String keyPath = context.getResources().getString(
+                com.android.internal.R.string.config_deviceHardwareKeysFilePath);
+
+        // Check for overlay validity
+        File varTmpDir = new File(keyPath);
+        boolean exists = varTmpDir.exists();
+
+        boolean enableHardwareKeys = Settings.System.getInt(context.getContentResolver(),
+                Settings.System.HARDWARE_KEYS_ENABLED, 1) == 1;
+
+        if (keyPath != null && exists) {
+
+            // Read the hardware keys
+            File f = null;
+            f = new File(keyPath);
+            String val = null;
+            try {
+                val = FileUtil.readStringFromFile(f);
+            } catch(IOException ie) {
+                ie.printStackTrace();
+            }
+            val = val.trim();
+            int i = Integer.parseInt(val);
+
+            // Restore the hardware keys
+            if (!enableHardwareKeys) {
+                FileUtil.writeValue(keyPath, "0");
+            } else if (enableHardwareKeys) {
+                FileUtil.writeValue(keyPath, "1");
+            }
+        } else {
+            Log.i(TAG, "Hardware keys ");
+        }
     }
 
     private void showDialogInner(int id, String settingsKey, int dialogTitle) {

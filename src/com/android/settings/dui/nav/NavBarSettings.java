@@ -19,6 +19,7 @@ package com.android.settings.dui.nav;
 import java.util.ArrayList;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
@@ -40,6 +41,9 @@ import com.android.internal.utils.du.DUActionUtils;
 import com.android.internal.utils.du.Config.ButtonConfig;
 import com.android.settings.R;
 
+import android.widget.Toast;
+import com.android.settings.slim.HardwareKeysSettings;
+
 public class NavBarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
@@ -52,12 +56,17 @@ public class NavBarSettings extends SettingsPreferenceFragment implements
     private static final String KEY_SMARTBAR_SETTINGS = "smartbar_settings";
     private static final String KEY_NAVIGATION_BAR_SIZE = "navigation_bar_size";
 
+    private static final String KEY_HARDWARE_KEYS_ENABLE = "enable_hardware_keys";
+
     private SwitchPreference mNavBarVisibility;
     private ListPreference mNavBarMode;
     private PreferenceScreen mFlingSettings;
     private PreferenceCategory mNavInterface;
     private PreferenceCategory mNavGeneral;
     private PreferenceScreen mSmartbarSettings;
+
+    private SwitchPreference mEnableHardwareKeys;
+    Toast mHardwareKeysToast;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -118,8 +127,38 @@ public class NavBarSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference.equals(mNavBarVisibility)) {
             boolean showing = ((Boolean)newValue);
-            Settings.Secure.putInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_VISIBLE,
-                    showing ? 1 : 0);
+            boolean areHwKeysEnabled = Settings.System.getInt(getContentResolver(),
+                    Settings.System.HARDWARE_KEYS_ENABLED, 1) == 1;
+            int deviceKeys = getResources().getInteger(
+                    com.android.internal.R.integer.config_deviceHardwareKeys);
+            boolean hasHwKeys = ((deviceKeys != 0) && (deviceKeys != 64));
+
+            if (hasHwKeys) {
+                if (mHardwareKeysToast != null) {
+                        mHardwareKeysToast.cancel();
+                }
+                if (!areHwKeysEnabled && !showing) {
+                    // Turn on Hardware keys and turn off SmartBar
+                    mHardwareKeysToast = Toast.makeText(getActivity(),
+                            "Enabling Hardware keys and disabling SmartBar...",
+                            Toast.LENGTH_LONG);
+                    Settings.System.putInt(getContentResolver(),
+                            Settings.System.HARDWARE_KEYS_ENABLED, showing ? 0 : 1);
+                } else if (areHwKeysEnabled && showing) {
+                    // Turn on SmartBar and turn off Hardware Keys
+                    mHardwareKeysToast = Toast.makeText(getActivity(),
+                            "Enabling SmartBar and disabling Hardware keys...",
+                            Toast.LENGTH_LONG);
+                    Settings.System.putInt(getContentResolver(),
+                            Settings.System.HARDWARE_KEYS_ENABLED, showing ? 0 : 1);
+                }
+                mHardwareKeysToast.show();
+                // Actually update the Hardware keys...
+                Context mContext = getContext();
+                HardwareKeysSettings.restore(mContext);
+            }
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.NAVIGATION_BAR_VISIBLE, showing ? 1 : 0);
             updateBarVisibleAndUpdatePrefs(showing);
             return true;
         }

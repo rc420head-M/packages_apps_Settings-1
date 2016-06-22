@@ -166,6 +166,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_screenrecord";
                 stringId = R.string.qs_tile_screenrecord;
                 break;
+            case QSConstants.TILE_MUSIC:
+                resourceName = "ic_qs_media_play";
+                stringId = R.string.qs_tile_music;
+                break;
             default:
                 return null;
         }

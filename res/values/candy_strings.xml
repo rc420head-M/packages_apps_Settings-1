@@ -1159,14 +1159,6 @@
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 
-    <!-- Screenshot Crop & Share -->
-    <string name="keywords_screenshot_crop_and_share">screenshot crop share edit</string>
-    <string name="screenshot_crop_and_share_enable_title">Screenshot crop &amp; share</string>
-    <string name="screenshot_crop_and_share_enable_summary">Show an editor window after taking a screenshot in order to do some operations like cropping, saving or sharing it</string>
-    <string name="category_screenshot">Screenshot</string>
-    <string name="pref_crop_behavior_title">Crop behavior</string>
-    <string name="pref_crop_behavior_summary">Always use the cropped image inside the cropping area, even if the apply button hasn\'t been pressed</string>
-
     <!-- navbar tint/color -->
     <string name="color_picker_label">Color Picker</string>
     <string name="navbar_tint_switch">Navigation Button Tint</string>
@@ -1226,4 +1218,5 @@
     <string name="factor3">Hyper</string>
     <string name="factor4">Insane</string>
     <string name="pulse_custom_fudge_factor">Visualizer Sanity Level</string>
+
 </resources>

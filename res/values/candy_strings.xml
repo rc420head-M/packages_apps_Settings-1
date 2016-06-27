@@ -149,6 +149,7 @@
     <string name="power_menu_title">Power menu</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenrecord_title">Screenrecord</string>
     <string name="power_menu_airplane_title">Airplane mode</string>
     <string name="power_menu_users_title">User switcher</string>
     <string name="power_menu_search_title">Search</string>
@@ -278,6 +279,7 @@
     <string name="qs_category_title">Quick Settings</string>
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
+    <string name="qs_tile_screenrecord">Screenrecord</string>
     <string name="qs_tile_music">Music</string>
 
     <!-- Profiles -->

@@ -162,6 +162,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_pie_on";
                 stringId = R.string.qs_tile_pie;
                 break;
+            case QSConstants.TILE_SCREEN_RECORD:
+                resourceName = "ic_qs_screenrecord";
+                stringId = R.string.qs_tile_screenrecord;
+                break;
             default:
                 return null;
         }

@@ -76,6 +76,8 @@ import java.util.List;
 
 import com.android.settings.candy.DisplayRotation;
 
+import org.slim.provider.SlimSettings;
+
 public class DisplaySettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, OnPreferenceClickListener, Indexable {
     private static final String TAG = "DisplaySettings";
@@ -137,6 +139,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mDozeCategory;
     private SwitchPreference mDozePreference;
     private PreferenceScreen mAdvancedDozeOptions;
+    private SwitchPreference mProximityCheckOnWakePreference;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -235,7 +238,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mTapToWakePreference.setOnPreferenceChangeListener(this);
         } else {
             removePreference(KEY_TAP_TO_WAKE);
-	}
+    	}
         if (isCameraGestureAvailable(getResources())) {
             mCameraGesturePreference = (SwitchPreference) findPreference(KEY_CAMERA_GESTURE);
             mCameraGesturePreference.setOnPreferenceChangeListener(this);
@@ -258,18 +261,19 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             final int currentNightMode = uiManager.getNightMode();
             mNightModePreference.setValue(String.valueOf(currentNightMode));
             mNightModePreference.setOnPreferenceChangeListener(this);
-
         }
-
         mWakeUpOptions = (PreferenceCategory) prefSet.findPreference(KEY_WAKEUP_CATEGORY);
         mWakeWhenPluggedOrUnplugged =
                 (SwitchPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
-                
-        boolean proximityCheckOnWait = getResources().getBoolean(
+
+        mProximityCheckOnWakePreference = (SwitchPreference) findPreference(KEY_PROXIMITY_WAKE);
+        boolean proximityCheckOnWake = getResources().getBoolean(
                 com.android.internal.R.bool.config_proximityCheckOnWake);
-        if (!proximityCheckOnWait) {
-            mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
-            Settings.System.putInt(getContentResolver(), Settings.System.PROXIMITY_ON_WAKE, 1);
+        if (!proximityCheckOnWake) {
+            if (mProximityCheckOnWakePreference != null) {
+                mWakeUpOptions.removePreference(mProximityCheckOnWakePreference);
+            }
+            SlimSettings.System.putInt(resolver, SlimSettings.System.PROXIMITY_ON_WAKE, 0);
         }
     }
 

@@ -281,6 +281,7 @@
     <string name="status_bar_show_weather_summary">Show weather in the quick settings panel header</string>
     <string name="qs_tile_screenrecord">Screenrecord</string>
     <string name="qs_tile_music">Music</string>
+    <string name="qs_tile_floating">Peek</string>
 
     <!-- Profiles -->
     <string name="profile_reset_title">Reset</string>

@@ -170,6 +170,10 @@ public class QSTileHolder {
                 resourceName = "ic_qs_media_play";
                 stringId = R.string.qs_tile_music;
                 break;
+            case QSConstants.TILE_FLOATING:
+                resourceName = "ic_qs_floating_peek";
+                stringId = R.string.qs_tile_floating;
+                break;
             default:
                 return null;
         }
